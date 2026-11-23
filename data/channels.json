@@ -11,7 +11,8 @@
   "handle": "@the_nation_breakdown",
   "country": "PK",
   "thumb": "https://yt3.ggpht.com/qUcKVPmC17PYjWDxlRgiEfL1rhJBjrQZG4cAB__JAAVL6jc_tJPXLoQAfXNOSDNq_HR7y_-7-Q=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC-SDhcL7HXAKFG3mO4ssLkQ": {
   "title": "SocioVibe",
@@ -67,7 +68,8 @@
   "handle": "@quirkyacademic",
   "country": "",
   "thumb": "https://yt3.ggpht.com/9SNc287wSL9SnHexcktzGH1nRGOBa8C8I2jVkMgrKCjE3fou0Gf7gAgjLZZ5oVMcAAWnweV1PA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC-4TkDm6t7LukmiDacBIklA": {
   "title": "HITACHI SP",
@@ -81,14 +83,16 @@
   "handle": "@tsuchinemoto",
   "country": "",
   "thumb": "https://yt3.ggpht.com/QQ0mY0U20PkOLwIU76FTDy21zt8e8wbpip8i9HvPyjCVWfMOdt83ngnI2MWKJqBS5xDdC66C9A=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC-bGN-seO1nHNWHLfrG7q8Q": {
   "title": "One Nation Domination",
   "handle": "@onenationdomination",
   "country": "",
   "thumb": "https://yt3.ggpht.com/7bReS3i8Fn8z1du5-HkdYG3yQzsnJmJEGiOxS_sh20bgHyhNuPTWPPRLxQIb_PQipjTp9-9j=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC4jt53C9v0HJrXBZTe70ztA": {
   "title": "Bu Mel | Gen Z",
@@ -116,7 +120,8 @@
   "handle": "@bookdrip01",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/6lx8tTZmSB-H8VlzQ8BUE0lIyCf9BNQ13IYp_HZXj0Lpga0QzBdMDityh0YTgfFpXHTKwotbPmg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC4qhh-bKjTad8IXRAPKtqsA": {
   "title": "【中高年の口コミ】口コミ佐藤",
@@ -137,21 +142,24 @@
   "handle": "@madelinependleton",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/dce9P2PtVy8Nl9RICHZ_0XBL30-xgZ3JZQ0PEyPv1hhQcbnqeJUHyR7U-_JYDspRN4WRWy0l=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC55XTS-1cdRm37Pwr1ZBEiQ": {
   "title": "Unknown わからないいこと by ap bank",
   "handle": "@unknown_wakaran",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/toyaAzYL58YkdQiBBNrm5wYERaEJ2ZrHbocXa_FmI-fomQZhW3V40wWnOXSIdiq1QoXaez78SoQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC1E1SVcVyU3ntWMSQEp38Yw": {
   "title": "The Prof G Pod – Scott Galloway",
   "handle": "@theprofgpod",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/YY2f8pLntAhTaMQ_xFLn5SXh4ckFxlz1xe3hDHBovdeHsNZFrTfsinnPhP23jlw4K1Yej238ekw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC00LJegvl9peGpKzRV9o1Hg": {
   "title": "30秒ドズル社【切り抜き】",
@@ -200,14 +208,16 @@
   "handle": "@firstselfietamil",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/QR8NV38da_DIa53MKOTzChwgALv9ubzwZYWgOH3AatUDxdAy7JAsC2VflIuKZsjfx60tPkyqpg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC16niRr50-MSBwiO3YDb3RA": {
   "title": "BBC News",
   "handle": "@bbcnews",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/v4JamQ9B-PUiJHjmZQs9UwTaoLQW8vijJMMpV5QvA2wHQ6iwWM8Q1s6O4jgTl0dtDigVWAi7SA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": true
  },
  "UC3Rf0XVb0sOtp5_yAyzD_8Q": {
   "title": "年金とくらしのお金ニュース",
@@ -235,14 +245,16 @@
   "handle": "@japannewstodayjp",
   "country": "",
   "thumb": "https://yt3.ggpht.com/HyMESqCQRfiHz9JQV7EPc5qGVKNnOxgxEskoNC945B9dBhVK8kxCL33ywr6bipFfLcciyv5ntu4=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC1lYIgd5HjRimI62SI2S6Og": {
   "title": "UGC NET Unacademy",
   "handle": "@ugcnetunacademy",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/KO2Sy-jNaj5_iinT-Muj2fWQMOvqb3JyiiqCn7dXqQF5lpjlZnFhnWb2GDior0ZErcQXi7pC=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC-EFVWcWD7xRQu9UD2LHsXw": {
   "title": "Inversor De Barrio",
@@ -263,7 +275,8 @@
   "handle": "@hiroyuki-desuyo.",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/e4c86TYMRaFLpkFeaLQYUbH0C1ScRapDRccOogjmYbj0NT1T3OjM372vJetBVQMZKq5wGtmf3G4=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC-mgsCBizmN_ImXY6eUHBbQ": {
   "title": "종교자유 권익연대",
@@ -291,7 +304,8 @@
   "handle": "@mediapsychandtech",
   "country": "",
   "thumb": "https://yt3.ggpht.com/UYW967D88A_LxYSEe1NqZ9LdQ_9Serna0CRSaz8JvByMpYB7aukjvNseUUCC2n8puFxUZ_DpFw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC4NL28kbpJjq42NM9XLN2Rw": {
   "title": "大愛新聞DaaiNews",
@@ -333,14 +347,16 @@
   "handle": "@limbicink",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/XEYGWgQ7G1OxC-NVZFXpQhf-mYy4vzbMb7QOZIhUScm3l1TLwYxy3G5hm5M-utPPSsBxPy9L=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC--QOefJIkXMTZGfkc5fQlA": {
   "title": "外務省女性参画推進室 Gender Mainstreaming Division, MOFA, JP",
   "handle": "@gender_mofa_jp",
   "country": "",
   "thumb": "https://yt3.ggpht.com/p4SFH7o-jXzozxqgTECwnlOl-egJR8hSNb6nA9taMVXEvo0sS8BeOWFcbEy1IUc8w5svEbwWsdU=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC1pSijadXuYprvErnrZKpHA": {
   "title": "日本のなぜ消えた",
@@ -354,7 +370,8 @@
   "handle": "@sorane40",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/mobYJ1_nzrFNHc2q6hXUTXbidEKdHyXYy3kGNusHrsqksJ4EFHM6muP_Oyl3c_MFcKVWp7POjA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCABjZyqk8Z0-6EVpY7Adb8Q": {
   "title": "私たちの政治",
@@ -375,14 +392,16 @@
   "handle": "@yururi_youtube",
   "country": "",
   "thumb": "https://yt3.ggpht.com/HELyuyBbjtmHwGrMUgaJGuxRXG7eEGETuU7spgjyxx_qM6Z5Xu1jpYSHLKTh0rmxj1gGqn23tQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC9nuSyi3izZ77pQdSkzEvWg": {
   "title": "The Centre for Social Justice",
   "handle": "@centresocialjustice",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_l8s3hvOxmg7ybqtbv-1liHUa1kdfVSpWRttH_19OGnNG8=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC6RXcELGmXcIgzC6sCTQOZQ": {
   "title": "VideoShortsLibrary",
@@ -403,7 +422,8 @@
   "handle": "@takumiotc",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_n50rk6d9g2ClDoXdvZGl-5cufF0KLbmKTN5VJZ6dnJZh4=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC9Plsw3RKcleou8T3JYFl3A": {
   "title": "Shiksha Setu",
@@ -459,7 +479,8 @@
   "handle": "@therealmtr",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_nyblkagY7VFSIkIHheLxBQLFlWFPkztmI17bj5gwi33f8=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC75WmaK3ayWwrvCJsSbIQJA": {
   "title": "TVR - Chaîne de télé bretonne",
@@ -487,7 +508,8 @@
   "handle": "@tokyoprimenews-n9j",
   "country": "",
   "thumb": "https://yt3.ggpht.com/QcCmZVAtnYqttPjIud22qDELdRfukOa-5TUHcuB-U73vJ4BVfwaQuKlDWljRPcpXfH49fUCKdw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCBaFypf5cELOjra8GvATgkg": {
   "title": "Hidden Numbers",
@@ -501,7 +523,8 @@
   "handle": "@protect-children",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/o0RRqbXyzhbKq74jswq6CMMmZTkMfDM3Ok-Js06Zj1dv2bZK_ir4__qUGhUXNJT8kRRH-Lmcqg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCBeKmEB7uf9gxJhMVIDQjVg": {
   "title": "Sheen Education Alsaif Sir ",
@@ -515,14 +538,16 @@
   "handle": "@thejimpenman",
   "country": "AU",
   "thumb": "https://yt3.ggpht.com/6NKJTL_bsCRF6o6lr_Ps9QL-viOEmmJy1rRUJfdPBkZwuk2rrM7MfGhm0auMiqksS9pUYGdYHA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCBh0uTEJJCP0CLcxBw5afaQ": {
   "title": "資本主義の密告者 - 富と格差の社会学",
   "handle": "@shihon_mikkoku",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/pPi27t5vDMTxo_MhQKGw7buH8tLz81_aSCcptGeQIR1iff6cgt_l6AIGNt6iqMdCflykBK3s=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC8ISguXkO0B7COObH4-gSwg": {
   "title": "年収UP研究所",
@@ -536,7 +561,8 @@
   "handle": "@thinkrichuniverse",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/EhkV2jPGNnXRshauwf-WSPMkBQoHhv5aTsTMZud_jCuS77-l6L2FP1DY3ADkl37lDtcKJwpLIQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCAsQhLk_anb72qgMaEhVckg": {
   "title": "Ruslan Gabbasov",
@@ -564,35 +590,40 @@
   "handle": "@マインドフルなパターン",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/9ek0fbcY1vwyqpPtStH4oGLsUJr7DkBFsGNedhbP737Dyr74TFkUGmX5noaqQrcuslXTMiVDUA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC5uDVXCTLx1RUgWItSTb57A": {
   "title": "J.R.P Television",
   "handle": "@jrptelevision",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/SQ_0yqVfvSh_OiYxjdt9c38BdowXuvF9b_bl5zV508wC3OC4JzlRq-84ijpIZQU5P1Fo8JRUWQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC7BXdXFxVgMPKmBeDgx2QrQ": {
   "title": "MacG",
   "handle": "@podcastandchillnetwork",
   "country": "ZA",
   "thumb": "https://yt3.ggpht.com/oroxzEPE5giQ8hUcYUFqsmVcxZjxlP0KOzgOf1prL025Q-jxmhynAtQCZn0U2c3W0BdcTvs3=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC9r4J8_z7oO2gTWC0Kfiy2A": {
   "title": "Sahil Adeem Explicated",
   "handle": "@sahilexplicated",
   "country": "",
   "thumb": "https://yt3.ggpht.com/mKoNJgBzgaa08sQVZ70wFuRznKkpxADGP-m3HrW2ZaeuToLhJef3nx3jq5E7ErwuXhlkElKXNA0=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCAd91M7hdRyQ1M8NyCWucbw": {
   "title": "Trailivision",
   "handle": "@trailivision",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_nS5lixP4iadRh5fR8K1Gm_XhIupztn0pnLhOxYUXpCpQA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC8S7h3XTwaT4B2HxJIrIc1A": {
   "title": "Namazer Kotha",
@@ -620,7 +651,8 @@
   "handle": "@adamminnesota",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/YthXSbOGA5xg7a9w43DUg2y7Cr7Hx8pnO__CcaPVnkcF-5uFT2VkLY4qtCAcyXfBdyb1uNWOPQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC5cn0-2MpPfQkzm7E5oCRRQ": {
   "title": "Labor Force Podcast",
@@ -655,14 +687,16 @@
   "handle": "@genderclashstories-t8l",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/brI7HCpzifPZx85dWQG5u44Vg16sDAkrZSNlzN1LD9NVhp_qKGbd5eUmyL8iH4vatyz3yqAgRGY=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC6fUIiihbmVL864sKC_tubQ": {
   "title": "数字で測る恋愛",
   "handle": "@lovebynumbers",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/yJ_A83bRaWggweXDH8iEabIVZ10JX_fJJwOb5R0RaeMQDLRoeJRWEL01mKX6B8dhRFaaUvR4cjM=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC9v-q9j77X7lRnTtFUxeuIA": {
   "title": "Railway Pointsman Ankush",
@@ -676,14 +710,16 @@
   "handle": "@roberttolppi",
   "country": "",
   "thumb": "https://yt3.ggpht.com/TTOVxqgxdR_A0dOGtJ82rdYvPGN2NuZ4cD6Ds513bYiMPMm1AV6XMaunoVwvzW2tHqZW5Gz19w=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCAyYBPzFioHUxvVZEn4rMJA": {
   "title": "Adda247 SSC Exams",
   "handle": "@sscadda247",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/ZkPHlUpenecfYGepLbKmk1Qo182PhEvNzuuYsmpgyC6bp0j4zMAhtrVghlWNqE7EcvkadUcFTA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC6T5MuPTTloDVaXEsQWWvBw": {
   "title": "DwenExplains",
@@ -704,21 +740,24 @@
   "handle": "@drtoddbottom",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/DUbygm_MWjPgtwbSaNtoLebHM6oHmdq38qk6u5NDi_B59CNQW40aYBUPjGA3pZMqWbV70BNUvQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCES4sRr_4BPuGez94NdVbBA": {
   "title": "The Kiwi Grandpa",
   "handle": "@thekiwigrandpa",
   "country": "",
   "thumb": "https://yt3.ggpht.com/6zuU69n4GyQFK_ePIn4-juxmKcxhESHt9ClBGhH6ISLAV400HM_mgfvDwYp1piGutBbdgMDc2g=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCDUt8oyrg0DCytCVJ2l3xlw": {
   "title": "Eric Bevill",
   "handle": "@ericbevill",
   "country": "",
   "thumb": "https://yt3.ggpht.com/ynsG5NoO41HC00tYzG9gHgkaGWwtIk1LIUjxMUscXMD7sQdFEOBnuiw7QRTdXgG2BZ2e_Zjt=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCGJcWDQDO9mcoiFYaFqfm1A": {
   "title": "教えて若者よ。おじさんの政治のアプデ",
@@ -851,21 +890,24 @@
   "handle": "@mullallyelaine",
   "country": "IE",
   "thumb": "https://yt3.ggpht.com/C5pRSBXxaNY7OfxY_1s3_Q1ttHAQ92DCtRKkFaug_Q3NgWU8YN7GoNvMNEQyEbxJP55XQjNXJg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCEvwHkopKHHAbrc0IxB5glg": {
   "title": "Inklist",
   "handle": "@inklist-hoag",
   "country": "AU",
   "thumb": "https://yt3.ggpht.com/yhxiTJfI9uclDgf6jmbWgCKvMazKBqAZ1rmkay4nYQrZ2OZiGUdyKV22AEekzgniHWnO__uqLQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCDJ39ZsnKWaM_XZg9HbikaA": {
   "title": "m",
   "handle": "@dfhjkdfgfgbfbfdbdf",
   "country": "",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_m2Vf0F2lr4XZ3SasUzJ8isR2xA070iqX2oKvEU-RSqkY8xVH5UiJORv-KncWkHvlzB7A=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCFu5SSOlq3d93dydk6BkjMQ": {
   "title": "Exam PREP Quizzes",
@@ -900,7 +942,8 @@
   "handle": "@scribbleshock",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/3K2N8VE4__B3PTyBJny3uKo5pZ_lB2e64CiSkxa37Grbuheqqg7wHBmFLWS6eOjrHLDDrvaYt4I=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCGlDBJ8s5WSJL_JKX36itSA": {
   "title": "Telugu Quiz Hub",
@@ -928,21 +971,24 @@
   "handle": "@diggingintochina",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/V4Z5nyNTt9TBv1KRpGg_8cur0y8YWC0bBJGMimNhqIExgtLDActZ11JkMdc5th0kRhROfIsphXE=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCFJDj3eK151T5MukTGrvXsQ": {
   "title": "セカトピ",
   "handle": "@セカトピ",
   "country": "",
   "thumb": "https://yt3.ggpht.com/rGmzJx883xM4EEGVhUI0EvqUi2Vu9OoxUme3dKiPisDUPsadvs9QEbN_D6YDg0iB7D8g3-CI=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCFdyj9XtVS52WYXHh51OOaQ": {
   "title": "Unacademy Live NTA UGC NET",
   "handle": "@unacademylive-ntaugcnet2954",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/cPVQue9Z8sl2D1oD9bFYmtNoISNlUcLtUl-7tO2lB-PvgpFXr0iWB14RN4-tokagZws-onUsKA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCEsTTsCZKHcs7yIoJulgQOg": {
   "title": "beth",
@@ -956,7 +1002,8 @@
   "handle": "@aarontweaver",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/JTeZKz52qFQM9H3XgiiKJrzEGn7N-CCZYYUUtlIHuYVPCNacT5bTk2RzOmpFjJslhYLewjCJYg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCHtrGhZrDXIS6JHLCn3wD9Q": {
   "title": "Sociology Dot net",
@@ -984,21 +1031,24 @@
   "handle": "@みぃたいむ",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/-oX8isDve7cYcx0SFcx6uJpmaauTKVdCwtcFYypUFOxAa2lj6707apoq7a9tgT0EN2tLV225-CY=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCHHA6oozBWQ-Bk2QjmFqqpg": {
   "title": "Millennial Martial Artist ",
   "handle": "@johndmartialarts",
   "country": "CA",
   "thumb": "https://yt3.ggpht.com/81OtrzQc7XZLzypIBxxYuUTDwIcugb6h47GhnDSnGXiBJmXx8rgCMaowpp_ueFP1rZStN9cT=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCGQizFvXHaIZ25QQsZ9dRAQ": {
   "title": "Voices With Vikki",
   "handle": "@voiceswithvikki",
   "country": "",
   "thumb": "https://yt3.ggpht.com/_OYplhqDRwmhTh9lWKwtu9IvDqlVAx7GekNETe3OIE68aHSScSIqQRu65HdhllB3-kEU_pWaElc=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCGqk5XwwR900wPXaA9dcwHA": {
   "title": "今過去歴史チャンネル",
@@ -1033,7 +1083,8 @@
   "handle": "@上野千鶴子アーカイブ",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_nkS7FuMIqKggvTr49fhKycQk_FIpScwdC8gkdEpKPP7g=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCENr7G8XfbnBu3Tgmnzu5LQ": {
   "title": "MTR TV",
@@ -1054,7 +1105,8 @@
   "handle": "@kapaa",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_ldP5TISpwZBfAHx6qcmZD84_p2wk0wAsb2rU48YJ0qyg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCMcPUQ32zjHF_pkfn_24LkQ": {
   "title": "ひろゆきのマインド【#ひろゆき #hiroyuki】《切り抜き》",
@@ -1068,7 +1120,8 @@
   "handle": "@unknown67_bb",
   "country": "",
   "thumb": "https://yt3.ggpht.com/hazxPl9DxNqnIhyAL_lAd9cXGdwR2o5ffnsa3dABVWuhokTUFlunYiQI9MfTDoM6gL_TJ3Bt9wU=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCM7lNziUuhuepTx7MQQMAjQ": {
   "title": "Sleepy Sociology",
@@ -1145,7 +1198,8 @@
   "handle": "@経済知識",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/emgyJ9JctgHsVykBcjcnyieIxAdgDKFlFTWU9Qm5o-rpfUMPHTHjTWBZuTjNf2Wt8dVPSjFeZA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCLXxbtm_hN8tl-kbcjisKQQ": {
   "title": "手軽に国会中継【桜子の部屋♥】",
@@ -1166,14 +1220,16 @@
   "handle": "@koyaminati",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/hQL-YC1NI4fwBP667zq00aHqpfnn7ChfEUgUwEkxapw46i9ExrHGgmZkEE4iqs31Gvc9BcnZrQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCNg2zSuc7P9TiaY3E0yBsRA": {
   "title": "Hello North Dakota",
   "handle": "@hellonorthdakota",
   "country": "",
   "thumb": "https://yt3.ggpht.com/q2PIG5M9LY3sJvVTmGmzMPX6GtZ7VPRneM6Jfu8Rd3Ex2z3MTj1fI04X8fPUA1kwijWMSJqBOFw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCLKsaKMS_5RQuM0wHLp2vVg": {
   "title": "FearNation 世界苦茶",
@@ -1201,7 +1257,8 @@
   "handle": "@australiaroosignal1",
   "country": "AU",
   "thumb": "https://yt3.ggpht.com/wll30EZLsnREyaNM5UqEEq5sL4fq7HTn23MNC7KpQvNcOIblyvZmzZSe0-ajTZLO1wfxsctEcA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCKQMRyThWSNg_F4rML-GP8w": {
   "title": "CryptDec",
@@ -1278,7 +1335,8 @@
   "handle": "@thelondonschoolofeconomics",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/jprc2k0Y4rGti6ers15E3uSIXEdgzEuwzXNXjAAr0t8ErTJmfh40UoDClkHyJbMBX9IKse13JA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCIbE3Vj7e4HPF1uYUOS2pcg": {
   "title": "Newsify Stars ",
@@ -1292,7 +1350,8 @@
   "handle": "@hidemori0783",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/VCNOZ06pzofZErXw3uGBa3Y1XL8tU_Prhz8H4lmn61jRpZmf4W4VnLi5gTaEky5MN4DmrXuDfeM=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCJ654pVMlYC9aAAmIIrIUuw": {
   "title": "突撃シローチャンネル(良星島島主)",
@@ -1313,7 +1372,8 @@
   "handle": "@adventureelliot",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_mQ2tqkIp1qwpqpzhCwb1m6XDdn1shIZuOd00zjh_5rGr8=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCLd2N69q-FRr0o8G5od0Gsw": {
   "title": "Idariya",
@@ -1341,14 +1401,16 @@
   "handle": "@ridilover1980",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/hUJbRDbq9NYp21HEvjgkxLLpMwMUlb2c6H12DgsN5BTTzvQ2xXyp9-Dp4KIVjcMimLQ0uHL9_A=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCJ2Kcq0aBOpMxaTcCXujzBQ": {
   "title": "the past 33 yrs",
   "handle": "@thepast33yrs",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/_4dIJo3s8Mxwrns9hSJ0Od6__vtWY1D_g4zrXOG07fS2ruGD6FhtgLDSFzHVxrSo3qw-y8kgQA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCM9FmgN9uI2XmD8dsRvUjdw": {
   "title": "San Antonio Regional Hospital",
@@ -1362,7 +1424,8 @@
   "handle": "@unmoved-n-unbothered",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/1ob6SbDyGXwbBH-I0a25Cj4onznIp2sa30P0BEF_wOVc5bwSo0Ta8ZxN2-VZjf98SgVwRdWOXN4=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCIjMIhAKynZMG2DafgPm6uQ": {
   "title": "NoahGlennCarter",
@@ -1383,42 +1446,48 @@
   "handle": "@ツイフェミの教科書-h1b",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/eHYZkQO1PirzsoInv80F5fdKR392oM0OTeTm0ftD7bpdwE-rARE02jpjPunlktnTaK4Rzvz8CPA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCJsy3nETXIKDauMOwv3pOUw": {
   "title": "Taylor The Fiend",
   "handle": "@taylorthefiend973",
   "country": "",
   "thumb": "https://yt3.ggpht.com/FtrhJ1CZ-7tdzLfwObYYaOGJ-hyZRxkiMrntg8hwczL6yt5YUM8zF5-utI2PqkUlx2qtHEgX=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCJDXVrYHIz8RWEWLjI6nWzA": {
   "title": "Vylotra Money",
   "handle": "@vylotramoney",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/Z5MYQsMQO1vMwPHujcuGy1uNiz9OAujfmG_Az8E8l8XGx5QtH_VQP6jLqb6vHchabApB8PTlOg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCNye-wNBqNL5ZzHSJj3l8Bg": {
   "title": "Al Jazeera English",
   "handle": "@aljazeeraenglish",
   "country": "QA",
   "thumb": "https://yt3.ggpht.com/XsTga3Nsfc1E6ZgC6HfHfzTG_3zhuZleOnsKxSK2aILMjwkkIm-0vdALFaU-yt0Lw07iLtbSifk=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": true
  },
  "UCO-Vy68zRUTNxQdKnI7Arqg": {
   "title": "SBS Japanese",
   "handle": "@sbsjapanese",
   "country": "AU",
   "thumb": "https://yt3.ggpht.com/CxQ7htLsU74LRE5QaJZYlUGBNwgwx9wSYNZNrROuZxjvwm3OM3QkBDu9dNshxCAkl-xwRFaRFP8=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCOFl0wDeBMSBbK3jNJQHHFg": {
   "title": "AI Copium",
   "handle": "@aicopium",
   "country": "CA",
   "thumb": "https://yt3.ggpht.com/7aPnn-l2O3qe0TEEu9nkFVbj0Bvs07M9faXdotPvew0bLy4v9a5Dwja2oV1iz7exWpIyS1iL=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCPzURMlw8U9EsdeELFfhbEg": {
   "title": "持たざる者の歩き方",
@@ -1439,7 +1508,8 @@
   "handle": "@ためして島",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/-3H46oy51DP6eWprk6SYaiSceC4F-To5zksKJ0t0n5Bl3cevMCO6mPifuVf_YuPJ1V8FZkVQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCR40sJkkbMzr3uje_6acj8g": {
   "title": "The Donut Man™️ - Kevin Zachary",
@@ -1453,14 +1523,16 @@
   "handle": "@世界の裏側探究録",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/dIa_oKjzYFxXpn1uTFEqF4hB9NcbGcQRnHZLkbaXVxX25TXx9_0-tBKJFEfjLfivtK8Rngt3AfM=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCQV3PGLVjsVr4-OL8dxJ7KA": {
   "title": "サンデー毎日チャンネル【公式】",
   "handle": "@サンデー毎日公式-q8h",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/a2BABzW_ytYwklLjd60CJq565WwBvgzbrh-84qBmmIAZFHy0CtkNgIFE3AUPogF0My70eGvdRQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCQzNVd1ca5jNyp4TH7YDntw": {
   "title": "世界の豆知識チャンネル",
@@ -1474,14 +1546,16 @@
   "handle": "@whatmakesjapantick",
   "country": "",
   "thumb": "https://yt3.ggpht.com/a_qlentP86EtZ__xTQUMaWekEajRudB7iL1r3PUTD-PcXw7SoKY6DsFOlNHuUWQ0N5VycE_Xp-Q=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCPRJmp4YdSapFpEtvLNCiMA": {
   "title": "ASTRENCE【アストレンス】思考の解剖学",
   "handle": "@astrence-x8o",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/nvBC39pqRC8p5lQBv6B_b3iY46NhYcol8StezC3DKVN7_t18Q1iam4fBT-SbN01SXkUfyNT6=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCSRLKfUhPy5z9dsQ4QyQaUA": {
   "title": "Sourabh Talks",
@@ -1516,7 +1590,8 @@
   "handle": "@anzeginstitute",
   "country": "EG",
   "thumb": "https://yt3.ggpht.com/l6Z_2ai0gXeWfwV1fp68aOS6WeC3scIEVAl7LzOthql_p_TzcpxojI50h1mz8a-IixXo6h8zrkE=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCPr4eT7oEHxMcF0fHdOwdAw": {
   "title": "Antwon_Kreed",
@@ -1530,28 +1605,32 @@
   "handle": "@hakennoshirai",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/Cels6ddaIld0nrYt2ITm5L6A3s1t2tQLse_6jvMYyfJXLt94ePezGby-Z9732G_9UecaRANhKxY=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCQfwfsi5VrQ8yKZ-UWmAEFg": {
   "title": "FRANCE 24 English",
   "handle": "@france24_en",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_n_QTJ5-GLGnftQFkb7Kp36W2eBH3H-7ZqTQxzFkkqGrIE=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCNr7Yj-v3bUpukJPXmkaiGQ": {
   "title": "ふつうのエンジニアの社会ノート",
   "handle": "@社会ノート",
   "country": "",
   "thumb": "https://yt3.ggpht.com/JZNtmobe-t9-43B1gCupLvPyHhlpBLoYBeWvDcu7HLLey91SM5MH8Tr0mpKO45IOhHeAjxrB0Q=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCToM4y3F3zMFoCvFKTr14-w": {
   "title": "散文と暮らし『こたつ。』",
   "handle": "@kotatu.sanbun26",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/nUoT2VSP4r-jP_VijbqkjKgvQoF_K80PjUgjoL1WvwO_eql9etVfXKIwIPJx8ly6yIMRwWRAvA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCO0h811ttcSv8jqrteIkqFg": {
   "title": "Los Presidenciables mx",
@@ -1586,21 +1665,24 @@
   "handle": "@taylorexplainshq",
   "country": "",
   "thumb": "https://yt3.ggpht.com/vuPFyintGX9Cg7gRiR3XG0JYctYiezU7YNFDLyXP6lPppYLf5qh6Gjlw_F6oHTspzfXfNGXwcEE=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCS6cPAdmlUYxzkfKtEjBGdA": {
   "title": "シンアイナイチャンネル",
   "handle": "@シンアイナイチャンネル",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/udLo1jPiI21iiFjTIDoXPdWLyk7q4yUgDFwTSd7QydEMkyioIOoGO1P4agSkwU47VHYmb9rG4Q=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCSPEjw8F2nQDtmUKPFNF7_A": {
   "title": "NHK WORLD-JAPAN",
   "handle": "@nhkworldjapan",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_m9YDtPWqgZW91_-QTdsVWLbnR0ZQ1BaHX38ZcSRVGnfd0=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": true
  },
  "UCSrlwqr8me8vSDE6z54wy3w": {
   "title": "Visual Talks Podcast",
@@ -1621,7 +1703,8 @@
   "handle": "@africa_check",
   "country": "ZA",
   "thumb": "https://yt3.ggpht.com/y9sJan0LohkKw5pW9_CucYwitz6v4Kqxyp2NcOO-vfIDBeVrlg2jvT1EDzjMx3sX7GglFR86=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCSGUwEbBX4mMsIuazyARPGg": {
   "title": "Deepak Sinha Classes",
@@ -1649,7 +1732,8 @@
   "handle": "@chinaobserver0",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_lS7Y4yWjsV0HHK9m0XVdJtIgElVGfJ-5pnPzhpDzySPlg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCQG8VPxerHfczaH8aTzwQcQ": {
   "title": "Mentor's walaa",
@@ -1663,35 +1747,40 @@
   "handle": "@もしもbox2026",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/FFDKHWKKLHVg5FCHw2c08AlQ22xGOR6qep07k17pE6mzSidSF0yAfPQ5G3jelp7_cIhnCLQg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCTa1PR23YngeLur3dgJ-tkQ": {
   "title": "South African Social Media Awards | SASMA",
   "handle": "@smawards_za",
   "country": "",
   "thumb": "https://yt3.ggpht.com/X6Dmc4lfq099sQvF-2VLg1Zl4EGGkVhW5sntTidUNhJiIa0n9GxLE5Tk3BiLZd-Db7xmDXl1wQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCRnLlxwOaxeplsJ8On583Vw": {
   "title": "Peterson Institute for International Economics",
   "handle": "@petersoninstitute",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_nD2xMf-bdjcwBRm0LAJtpHhwVWxDxfY7jp5nP56KJ41g=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCQ0-5V80zg8ds671sz0oDSQ": {
   "title": "Chez Chardé",
   "handle": "@chezcharde",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/BVEz6JJ5KUfxNLQ23RVtKSazIkJEmL73rQRwhct9PJ_ZoKO4G8UA0Xb-Lz-GLKENPdC_JTOJxg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCO9T-um8zZ9Zw023uoH8N1w": {
   "title": "湯浅忠雄チャンネル",
   "handle": "@tadaoyuasa8950",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/EsKgdS3mZpxvR9VRJyfmizzzhrj2d0oq33_UaDzlqdcph948zGt5_DF8bF9OOBfg1-0GbM_waj0=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCSX99Rvq5dszj6rzAPkdglA": {
   "title": "56BelowTV 零下56",
@@ -1705,7 +1794,8 @@
   "handle": "@thefreespeechunion",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_l_Fj6YDyGnzTT97lKklYzNz2ubiKpgpmMR7MUSju3kfQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCP-Gd80h2mKysVtnW8kwZWQ": {
   "title": "ひろゆき家【ひろゆき、hiroyuki】切り抜き",
@@ -1719,14 +1809,16 @@
   "handle": "@jett.franzen",
   "country": "",
   "thumb": "https://yt3.ggpht.com/b1qh8vc7JKiLD8RTyYx0wDPsrXpo6lgxVNba01wJ3J-B0vI2VO82DqBbxDKzMuZZuatiObD_v4g=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCO90BRXFhzv1SNJCIMnFltA": {
   "title": "Pooja Tiwari",
   "handle": "@knwlpooja",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/iOUmSvA_ocHLkfTD6wJWv93nMJVRn9N0IRMHlnNj7eUivvEkskEC8OnCovn9y3jMMG74Wz4d=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCTrVthZPbTpail9Hnrtfs-g": {
   "title": "The Dynamic Reason Channel",
@@ -1747,14 +1839,16 @@
   "handle": "@takahashi-keisuke-japan",
   "country": "",
   "thumb": "https://yt3.ggpht.com/nyOSutUK951W_w9v4XFZD8VXUG_Qyr3Ixs50-IgZvCF8kuhqrIiLthkWlISz7jDFFp4us8wIUA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCVRaEwN-NRazng2d1-TKzQQ": {
   "title": "The World from A to Z with Carl Azuz",
   "handle": "@theworldatoz",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/VmpM0dtuDpvlmDwN1eXxDE5_POJ7lqq9v9Cq4b-Y0vj6ntrhWTQlF3tqNJ45c4FizIhboIHP=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCVGjgDt7J7msOT4WyJtKUdQ": {
   "title": "Disha Arts Classes",
@@ -1782,14 +1876,16 @@
   "handle": "@womensdeclaration",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/v67diAUO2AYPbxZHZn40okbVN2aKG4WVHtZgXlJ5awjVIUjwQA8Hv11fudH5tU_3W8doWzasRg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCWzDCqSXDKSDCAPVufAz90Q": {
   "title": "Christine Grace Smith",
   "handle": "@christinegracesmith",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/MVn5isVgGq1MwGcoSEtLKIANx-DnW4pp5Hhb0NkaRH83tVzOw6CTg7rDVMMnBB9o_CzY_B6Z=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCUrSXD9aDo0BfSewhhC-0WQ": {
   "title": "じゃぱんエール【政治】",
@@ -1803,14 +1899,16 @@
   "handle": "@aishorenkumiai",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/otMLnE_J9QeGcVkUIMW6n9xun2vpB6IMS_1cosAugOivo0BTa_5LPSzrDVcz2pehxE_Bl-Q=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCYa4lInUzYDMCrRxsgzLxTA": {
   "title": "ポチと大福の『やさしい福祉と医療と国の制度』解説",
   "handle": "@ポチと大福",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/XaYIk3nOd7iYi-6EBAtcZ9Riehvx66uRhoFtHduH8jN6xjI5YdUUgfPjuHLjhFt15iDt4_gs=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCY1rSuaUfeaaQCCwgGUAOHQ": {
   "title": "INDRAJEET STUDY CENTRE ",
@@ -1845,7 +1943,8 @@
   "handle": "@ずんだもんの社会観察室",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/Yb2Ndcnk1Somayqs0i7yHaHTtBlXzXv_e-yK3_3E6NiFMn0BtnTiDgklEF8JAi2t7Dp2QvwuSkM=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCZ8oYerTcTZC7KgD1D8JE_g": {
   "title": "Political Panchayat",
@@ -1894,21 +1993,24 @@
   "handle": "@giinhakamesokudo",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/-wIYgCoevfEigUwcQLKQErwc6DQ0eNlhCjvZRKXAj7UyBd3OjsPu3VZvQgxBOzoOU8t20gcz0Jk=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCUHybLuhrq0YmYRBtWlWWyg": {
   "title": "Psychology of Gen X - Softly Seen",
   "handle": "@softly_seen",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/Yy9tOKp3BGDYYls-nrKDq6kP4r1Vwg3A8Nn0JFaAuhZ1pZo747dM8gGAyFm0sGQay2RTorriars=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCZLw-uCKv6ORN2bOHDlOIFw": {
   "title": "人生の教訓チャンネル",
   "handle": "@人生の教訓チャンネル-g9w",
   "country": "",
   "thumb": "https://yt3.ggpht.com/hmKkIIxVOyQXHp08mGPTHX8N8ktClRvpW4cuDuMORHTwggOhjjmSo2g7lX5IoOFM3JV1_6TL=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCZQj9dYlk04oRVCoUuvnjaw": {
   "title": "더팩트",
@@ -1922,14 +2024,16 @@
   "handle": "@paul_elam",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/uzrdTVECU1lCIHs11tnirNlTxwddMqmlRcaIQwTnYwbTPnH9SA9OSpNkd_mIvU69EFjInWWaE4Y=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCWWEvCschv0T0rtou4VaKGw": {
   "title": "MBA Wallah",
   "handle": "@mbawallah",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/403fDguOWNvQLUkqHE6Pdp4hwFi2zc_eoWcJoBJVsREDpO7DyZGlxprHTou7HAV_kt8CBg5qAjc=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCZBhJrn8ANeOO_n3pZhHAaQ": {
   "title": "The Boris Guy",
@@ -1964,14 +2068,16 @@
   "handle": "@indiatoday",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/zmdnM_PEm9R4tR4FL4n2GdTZ3vxFFMTUuxl4Tkw18Okng69ik68jGaoFJnYqdVYlDgJHVr7G9w=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCWcsR1R1DzkP391YBmuKPDQ": {
   "title": "ビジネス教養の解剖",
   "handle": "@kyoyo_kaibou",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/jqzbg3EAkUZM_tIQEIgn6PUIkr1vBxtOPfQmZRKb_1KuCtMlgEZfU6Dcd9E46XKDqmKXxiiYo0o=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCZcg7G1YDRa4zKN77c3YphA": {
   "title": "Believers IAS Academy",
@@ -1999,7 +2105,8 @@
   "handle": "@tariffandtank",
   "country": "VN",
   "thumb": "https://yt3.ggpht.com/czlIUDhlbH8D9nv0Hjpq8RP4CF7w-gUSy9frKjTOqZAe0XmgCTgaxUHFV-u73V6GIL7MYEjXTA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCW_q74Noz35H7H39aoY4Vog": {
   "title": "Телеканал Астана / Astana TV",
@@ -2013,21 +2120,24 @@
   "handle": "@iamcuriousindia",
   "country": "",
   "thumb": "https://yt3.ggpht.com/DnaMLOVX8pXQfFyRYP6RmT9nKZYNsNxTD_hhdVY9Oyi0tUXdX2FQWk45coIMNH6UBPOvElPrYg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCXFDIHI0nE66a8pN4tIM6qw": {
   "title": "榊淳司の「不動産・マンション・国際情勢etc.」チャンネル",
   "handle": "@榊淳司の不動産マンション国",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/kQygM1JBx5qF9rmFi7iJdJiVKNA_wobliONnKdONPWdtLDitqnr7JRp73xEjseA0dcBn4zoi=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCXZVeOY2keryCE3wKFTHGxQ": {
   "title": "Sociology Classes by Shibu",
   "handle": "@sociologyclassesbyshibu",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/kXqEkv3j4Djya43CrQfu_pJBT6BCVJQcwqkF4UMDOgK1KnJBj2r4I_WquXs3hgk6d5amfKed=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCXdwpddMN6_jvGLfnhgR3lg": {
   "title": "Educateable",
@@ -2055,14 +2165,16 @@
   "handle": "@makerere",
   "country": "UG",
   "thumb": "https://yt3.ggpht.com/Si2D5jFNvmtaCdG7GulKq2IEVWRxid_As27qLtKgwpxdZ9G6O6gP_xfeOAyTLAf3Cz3ZlCwZ1Q=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCXwRhRJU493IRP_7EIKdaQw": {
   "title": "RONDAN FES",
   "handle": "@rondanfes",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/U_JGjH_3-he01qucT2XVkQkuTIIXdp5YM4MgF-egk_wf74kyOgj7qTzPkynZoX2LMI5IuWXP1g=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCWjzbRHyK75pn47zGCu1KPw": {
   "title": "Clever Milo",
@@ -2076,7 +2188,8 @@
   "handle": "@江戸川太郎dayo",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/w2aZvNGCPJ0uhlOKmDrsFNXZQ5VNcEbD9F7awEMJ_QjJErSCLqLKbHRIszUZyfz4TEZC1Qml=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCVzyPWOli6UNTh1wlfH1U_w": {
   "title": "こまちニュースチャンネル",
@@ -2125,7 +2238,8 @@
   "handle": "@nkoga2364",
   "country": "",
   "thumb": "https://yt3.ggpht.com/rUttlx2OorVebCRNnlWRN9k97Z2zJtGFsmB5YuOMbbwQqaFwK9__79cX97rOor-xi3-4f0Dryg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UC_uR26BodKBZ4HVwxwd5isQ": {
   "title": "UGC NET Testbook",
@@ -2167,7 +2281,8 @@
   "handle": "@heterodox_centre",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/zgj8ek0TL_4c8hSb0QP9rE4khCRJbhHsCSmQaw-WShJb7RZAZL44iUnph3IAwqu6lSNNPNcU1A=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCavkCvmXK2FfPOelQVKevUw": {
   "title": "ひろゆき切り抜きちゃんねる",
@@ -2209,7 +2324,8 @@
   "handle": "@貯蓄の予備校",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/OvvETHQ3YraQ_n8baWXhlxOCNXTzXUWhLb5XQ_74GSzFBFbWRAspzGY03qHbrvWe3flwX_93FUc=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCfvgW58jIYWDuGzdbnrqvMw": {
   "title": "Michael DellaRocca | Our Everyday Lives ",
@@ -2251,7 +2367,8 @@
   "handle": "@standardandnations",
   "country": "",
   "thumb": "https://yt3.ggpht.com/Xy0OyeTnKLlGKTTqYn-ODw-3NEx4H8HQKFHD-oTP5hUeL05BbvaXJ9KEKaoJ-q4X89n6sK5qpA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCgEvEKgmQ-CHPIeOSaGCffw": {
   "title": "Amala Ekpunobi",
@@ -2265,7 +2382,8 @@
   "handle": "@darkly_ytube",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/dDVSmd81Yy9jkZSaSWL1BYPcPMUh0BTw2W22XgpAcp2CKZl08i3wPhquNvqyLk1o2ROxagbAnQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCdYG9SQgOqVnisarw3OpbeA": {
   "title": "凡人A【アンダークラス生態録】非正規・バイト・フリーター・生活の口コミ",
@@ -2279,7 +2397,8 @@
   "handle": "@fsakura",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/69cjJ5oaOsqp8xmuQNyP0uZL0_mXXcUPCrFdPDduTrZzwDc-M0m-lv2rVb_9j0Kkb5PbLmhrEw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCb8xzluIf5YhHlRpCHTEWPQ": {
   "title": "SVillage",
@@ -2307,7 +2426,8 @@
   "handle": "@nantonaku_suuji",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/gSFS5-MdIEKX3bdpu_hbBZeFmSFVLz0TAm4shRjuq1jAmCoRa9dwWpp8FJXmRMIgL6GJkbM_OQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCeg8--OxM659HC-cyZ0CFeg": {
   "title": "Goonj Digital",
@@ -2328,14 +2448,16 @@
   "handle": "@digitalsocialhour",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/DlUaeE6N3g1bmM3PWvqaaALjKIgO_6EvyI5IRmSiTTr5hEla6YRQg8cHrHMfb2acbLorcKt2OA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCgXl5H1V4Fq4q0_gJYXR3bw": {
   "title": "マイキーの非道徳な社会学",
   "handle": "@mykey-sano",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/mUk5dcksHPLbAGh9v_0-3wUXK9WTs9xqCOJydSk75CTCj-0oOLBmJ-oamx1oDTaqT3j9XcY6Iw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCdh4WWCnLBe86d_sjei3v7Q": {
   "title": "冷水TV・日本生活與日本文化",
@@ -2391,28 +2513,32 @@
   "handle": "@japanaffairs-m1f",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/CA1k1BdLfG5RbXPxNp4fv9rpjbIQkmMRLOUtj8r1DQle3cbzaKUnZmLAC0e2GQ0u3zb26qwlwQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCcM4hhp0646j696lxsq-McQ": {
   "title": "おもしろ荘",
   "handle": "@おもしろ荘-d9v",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/7xSUnqHEUrIzTbnwhJAFhyVTuPAd8rOJfkWzL3GrilS_UUgcSd__HbD0rchyf6NzGT8rg0Jn=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCbCHopoHrPDKKUVYT6gU30g": {
   "title": "Inside Modern Europe",
   "handle": "@insidemoderneurope",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/AiN-jyJHiUFSCbdkAEh8t-5HxabLr9wWwQmXekdwVV9DviW0vkONtlL0tWAwc0GaZNvetmPz=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCbFFVUaZTIPwIFWuuG_EH3w": {
   "title": "世界解読",
   "handle": "@世界解読",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/2ifYNwIcg7LblE-rAodOmlE370k-JZAOpfyyKLuFP0DYEewbM2nSo7g5IQwwpTCqUpJE46mbQw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCaL8FzVdMuIRgvJp0xSkOjw": {
   "title": "3代目☆大石あきこ応援",
@@ -2433,7 +2559,8 @@
   "handle": "@donotpassgo",
   "country": "CA",
   "thumb": "https://yt3.ggpht.com/CgoRxhraQpEYdW-lpJT4WVBbFbh5Y0sq94XmnKxin4yc_GNn4AvyN9sJsSyulTjQDNPZ8hn5=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCgeOlLcX6PReHdWImEnUVTg": {
   "title": "스픽스",
@@ -2447,21 +2574,24 @@
   "handle": "@claymaninstitute",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/ReTRoZgI24UmA4CKdyaTAZEkdnt3VIP1k80LpOMeS2eVo75cbEUhJArR5TQ3HXuVsByc8eSe=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UChFbTNsg42rLq0fhk08zM7g": {
   "title": "The 4chan Diaries",
   "handle": "@the4chandiaries",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/IgVw183eXV_m98NVG3zfqIx4B__JKn0-lUo95wUTdTBkknqtCaQf4U7Ig_dO5uMM1cfMLfQb=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UClXnsRYvgL76ySkkyCmiJfw": {
   "title": "マフィアの世界@犯罪社会学で覗く",
   "handle": "@mafia55japan",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/RWxgpNQMqJcRgSX47NP9ASbihhDLKnc205X5kykp--T12seBWY8GlXAZlhLC-XclomPwulEdvQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCmxTrKfs1sjtkNriaGgzEAQ": {
   "title": "Шортсы по каналу Александра Соколовского",
@@ -2531,14 +2661,16 @@
   "handle": "@mascarpone.y",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/rbpAG1geHilR5hucf7SMsNwmXsk_oAb6OaRSi9vaEYNokvLK0FaihiLHTeKHf-4TUkZ1gnpvf0I=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCk_KRGQgl0ldT2iy5vKaNFQ": {
   "title": "Society for Evidence-Based Gender Medicine",
   "handle": "@segm_ebm",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/QbQZiI_dFu9AQSAiU7eKwTTry_1LwJbzK8cvvUcO0olppZ9_cN6rYObUby_mYoQW3DCFGnZneg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCidYLccei9mfVpD9tPBQTUA": {
   "title": "Radar Popular",
@@ -2559,7 +2691,8 @@
   "handle": "@dwnews",
   "country": "DE",
   "thumb": "https://yt3.ggpht.com/NSOdTQTWlqMy8O_j32dx-ftfTCHMOt04Hm7KZ4pfAK6-eQzQSZMWvvss90kG8KQfJ7iNP3phyA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": true
  },
  "UCk9pA6hiA7BqylUL40aBQBA": {
   "title": "わにん",
@@ -2573,7 +2706,8 @@
   "handle": "@greaterkashmirvideo",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_nskF17EtBPkYNqLzZYSDZkVnFD-RDGHJs6RAljAtf_YYQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCnBnXTEEVj4BnlFWd6z_GdA": {
   "title": "Atlasium",
@@ -2594,14 +2728,16 @@
   "handle": "@seikai-navi-jp",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/S6IGfgInp8OD5UpGmFr12zGi_wvQ9EuEXzA1Xa9yXlCff6ypnvPFWsOIeIKaqhetyE5U5Zd_=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCjX-3wCGEPW3DzlLR35pB7g": {
   "title": " IMS CAT Prep",
   "handle": "@ims_cat_mba",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/U56V7arb_4zrwi9aoSRtMuano4iHkrGpX8V08aa3cIUOL4hkf9IkkURLUpGWbIrud2nRr39i9WQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCl3WYzx4w4Ev6avgQzmuN1Q": {
   "title": "Sticks Animation ",
@@ -2636,7 +2772,8 @@
   "handle": "@yujichannel",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/jSgjAHATjmqusQeZURfcPJ99Lfh1Y4aK9h5_bFWfH7AN2tjOL3antlTYf3iBbU9CLE-GXPm6hA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCjCwCfPSnQ7rZB_u5HYd2OA": {
   "title": "El Colegio de México A.C.",
@@ -2650,14 +2787,16 @@
   "handle": "@exploringthainightlife",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/X9UqJ6aYoDiZEWFUzLm64VLTWt-GI6b6MLWfZb-lwMyLM4kziqOdsSIVdChjU9FwvfS7eLdfRQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UChWW_EFFJrUcogclqQcFwqQ": {
   "title": "IRISHURA JANVIER ",
   "handle": "@iam_irishura",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/EKwMO1rRtJpqOQC_d7BA0nszCl9dzxPu_2HQFYNOpdsAgI1EchgnL8e9AAEom0gR1CH6OP5crdw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCi45jbLUBDReSc_oHvhxfWg": {
   "title": "THE PATHSHALA - RAHUL KUMAR",
@@ -2678,7 +2817,8 @@
   "handle": "@g-mans_sri",
   "country": "",
   "thumb": "https://yt3.ggpht.com/NIj7m-VogrV9pcCW53GIh1EROKnbgR5WCZwLkY_gQnJ_DdF-W9rED1Y2GnoJ_vwzpxixz9WK=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCh9yVCZdi6AHBBSdLJTF3yw": {
   "title": "Matemáticas con Toxqui",
@@ -2748,7 +2888,8 @@
   "handle": "@kokishin-no-tsubo",
   "country": "",
   "thumb": "https://yt3.ggpht.com/3P2Qeb1V-Ioh8SH3yzar5jFKoVAlxtVOH5w5e-JITOnM_jRENb9gMklhD3imvm1v5v9I2TzNJr0=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCnaqR6ku7Tbt1bHTEk13eCQ": {
   "title": "The Clip Theory",
@@ -2762,7 +2903,8 @@
   "handle": "@sarrthiiasoptional",
   "country": "",
   "thumb": "https://yt3.ggpht.com/gHSm2nSMuAH7vTsJXqQPsr4TI4PJRx1HrmjQQG5zVHvjDEh-Y6c4dQmU7hQRt_9Vs3xnobvf=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCmJ7jOI-M5u5w7642OHfxcw": {
   "title": "Noorify Bayan",
@@ -2783,7 +2925,8 @@
   "handle": "@systemicpill",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/QUOlVvtOMJcYLJsrQVxDJjZdWhk4Rgo__679gJYIBM6iO1lpvPe6FesCpmQvSqg2V6kjXi92wA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCnIWNujSpiiuH29-TBCz9aw": {
   "title": "VA Plus",
@@ -2804,7 +2947,8 @@
   "handle": "@philosophyexplainedtv",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/i8Qcs-aiIyUVfZfQix6w-D8e4fPSd2n_3YlE-Td5cdmi52AwrSW0u1fY1A7bAxpgraF_u1Rz5Q=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCrq3bYRpMKOf1RGqXGDtnBA": {
   "title": "He Said She Said What?",
@@ -2853,14 +2997,16 @@
   "handle": "@マニー革命チャンネル",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/pDcLY1zpnV-tjnKEIoHOh6jYvZq--oUvp3JwjOnCBTieRdqdAjXKpvqNQcRh_lWE13aGtmZF48s=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCtyYlhoRNMYF-iTL4ODSmEw": {
   "title": "大人の恋愛経済学",
   "handle": "@大人の恋愛経済学",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/I7jf3435zXNynGJL1FW1YiVm1ah_65bHYgisgDPFpNVOzvoFp8KY3V2blhWmZxRpru6jGKHyIQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCteO80U_G8MueAN-XGBPGmg": {
   "title": "時事直説",
@@ -2874,7 +3020,8 @@
   "handle": "@npo_kidsdoor",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/IJ7gGv1xZVg1S9G2wHvUjvAn5H7WoRxhJw085W3NeMwNBVuCwiEK8zYzMEvO5un_BlViSIOmyA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCpj047vqgCqkacyFAwqqnOw": {
   "title": "Es Nota",
@@ -2895,7 +3042,8 @@
   "handle": "@theai_future",
   "country": "",
   "thumb": "https://yt3.ggpht.com/qrMnY-hRf0KD6N-G_N5_cK70pabGyWdFYtgbhVmwDLFz4Q-MqTEiNk5EB4-ZMJ2j66-AiPcusQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCoERbibuc9-zc0ehh3cHS0A": {
   "title": "El Poder De La Fe TikTok",
@@ -2930,7 +3078,8 @@
   "handle": "@askabrothapodcast",
   "country": "",
   "thumb": "https://yt3.ggpht.com/k6prcv1WyF0QTJW8Mfr_7UWLq2YK8XAR9gixron4yHWBjn0m47emx8SyiipjuoKrA1aQ-dEDnmI=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCpN4cD0oS7rwyW26lXip9rw": {
   "title": "Pandiyan Natarajan",
@@ -2951,7 +3100,8 @@
   "handle": "@jenajyoti-i2w",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/iiD2X1oYjymwCJr7WaO2MCoBqgjHPnEdn3zciYbMaL49QQ0c-cILRhE-sfbdDx-bLBZM6HINZA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCqsp8A9llY4f2di3POg7FIw": {
   "title": "Brainrotifyme",
@@ -2986,7 +3136,8 @@
   "handle": "@whatitlooklike_tv",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/jlNfNlPIXatFiU0pA0H-nxxBFH5ZfMaZ1HJHqa6Y5Bvpdv_W41eCLRd9YunUdxzKFY4-V5xJgg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCraHrxq5GF9PIElcIz_pB3g": {
   "title": "alicia",
@@ -3014,21 +3165,24 @@
   "handle": "@興味深い経済学-o6w",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/b9WaSMkwMCsgYX2XoI2Ywd0uQLkI7Twy-M7WwVnamqwts1oOkuQtxUcvQsdJFOzf4TgVef4U=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCqGRXMQ6YfboPGPRnL7gyNQ": {
   "title": "Uncle Simba",
   "handle": "@unclesimba_zw",
   "country": "",
   "thumb": "https://yt3.ggpht.com/IHdPKcza8lUWD9IX_3flbQitCjDoZGqg_a1uLGhGo9SZnLb1zoLJkulUQYb7kA7Ip29QijxZgQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCuKAhg5hbj9Ul_rU-RrfXaA": {
   "title": "Exjapter",
   "handle": "@exjapter",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/1F1w6IVtqyRfDpOucWDvrnJQd0pMydGuZb2oeabU2SneoAA_BwjxCQiMsDzvDZx-OHR4pBdaEw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCp95lQgkrqXosLcnWU_DPIQ": {
   "title": "abhisquared",
@@ -3063,7 +3217,8 @@
   "handle": "@くじくんの横浜探訪",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/pvvtGaiNbbViXdOOkS0jhheShatoCeCNCUx9JnsileXPDwci32thZGrldztN4iuxiDg-jRuZg1w=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCs4ivWl9XGiSY0T20RPSLsA": {
   "title": "Marketing Toy",
@@ -3084,7 +3239,8 @@
   "handle": "@debateexposed",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/pMYxrX0F99MgXXp1PmyY95TnXrA6FvtDxM78MiqorcPRTaj_hqSJYqU3lLpdrabqwi_wRyYG=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCpgGl1uKYpx5eN-gvSnbCSQ": {
   "title": "高知さんさんテレビ",
@@ -3098,14 +3254,16 @@
   "handle": "@floriankyoto",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/9SPiawkWws_q_0aq0TlkZk341tsuhS7FgZGXFmquiRM8vOBER3arm4djqmWYGmc6VQKyK3SV=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCuV3Zhxpe6K-OwbBgJy8A8g": {
   "title": "BurbNBougie: The Feral Feminist ",
   "handle": "@burbnbougie",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/VxOcEvR1ktdg77ZOo6O4EJp0T8r82FzFM8agtanc3JmMJE2ypufw39h0tXUbNNAyINMMGu6y-XE=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCs8jEw745EX2w_PuwoPzQSQ": {
   "title": "ALL in One Assamese ",
@@ -3126,14 +3284,16 @@
   "handle": "@canadiannews_yt",
   "country": "CA",
   "thumb": "https://yt3.ggpht.com/DP-EyYcXiiUqnBDiSdusD2P6z-OYQAg1lWDA5Etpij249Fcpcd-efho-Z3yCXWm3_6gbmm1u=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCtxQD4HFxWUozTeMcV7g-qw": {
   "title": "Says Who?",
   "handle": "@sayswhothepodcast",
   "country": "GB",
   "thumb": "https://yt3.ggpht.com/B-BIFz-lrNe8jIHvNJDgaDMFYWrRJKQCKxGvCVtAVo_SQoIwhnrkJW8GCgf5uZt3bv9EkYduQDg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCo6qGrwEwgqozkfZV43SdIQ": {
   "title": "SHUKLA STUDY POINT",
@@ -3154,14 +3314,16 @@
   "handle": "@georgialiving1",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/WrVc8GVvduJysuucoxL5m3EoGCyINUtusCQzpyTyzgIF0h0vFFdrd-_-2X_LFOzX3p1ti3s-SMI=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCustbySVJGb659WDpdkeATg": {
   "title": "newslaundry",
   "handle": "@newslaundry",
   "country": "IN",
   "thumb": "https://yt3.ggpht.com/ytc/AIdro_kIKMI8h_q7kpwTxhzlCPmwZh39C7zZ4nPqkLJTjOycAio=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCxn3ouhXWbr7czOsNLO6hew": {
   "title": "미디어협동조합 국민TV",
@@ -3175,14 +3337,16 @@
   "handle": "@octlabo6129",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/irnMCHBL3oJfTPPrWXgugr-TrTigag3B0452tTTSUJq1uw2K21oiPKxKiIIyBkuRi4DffUnWZw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCwI4HXjE3TfUCiJX1m9qm5A": {
   "title": "The Irish Question",
   "handle": "@theirishquestionofficial",
   "country": "",
   "thumb": "https://yt3.ggpht.com/laUjhXVxxcsfHLjUpmK9g9qJDnpW9BECR4LhOgiY71xUvYeJBc2ACn707IrKsxszG-ikLbYUrg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCvEKz9_kSNF7_g4tAAkbgSA": {
   "title": "Chudalisindhey",
@@ -3238,14 +3402,16 @@
   "handle": "@shushoku_hyogaki",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/UOsG8CyhhMgSMaWCE7lPklOWu8sbSJ1mxZTuFqUJ9sOt3iysEXqJ7V-FEAEqTT43ad4_ACowKA=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCv2_DwZavyu6m2lZncSDkHw": {
   "title": "消えたスターの真相",
   "handle": "@消えたスターの真相",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/xcnB1uNEeaF4GM0o9RkG75W1Sf0gOGuP1QPAlnNIPaJz7JQUoeuGP8FpvhtzoTiONpKXFBFFhQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCwlLOXj4VicaHUDT1W5Ovjw": {
   "title": "What Kitty Sang",
@@ -3322,7 +3488,8 @@
   "handle": "@rehacq-niigata",
   "country": "",
   "thumb": "https://yt3.ggpht.com/lS5zWpSyYRey9a23-vyzJvfIUytUTkMlpmzdA-Cp0zU4Rb0kv_wu9v56Pas85hcDzCtUGEi1ntQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCzgD13zxZyY-C5dVVOfsWww": {
   "title": "日本の政治・経済を斬る",
@@ -3336,7 +3503,8 @@
   "handle": "@jointhecalm",
   "country": "DE",
   "thumb": "https://yt3.ggpht.com/IUClT_2uV9cM9ig41nesLrYtx12Hts3qi9a036cBmjWeSzTf9qI5KIJgDXsGw-Zt2bqOc_z7tQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCwAHpvJKY0zQGPlM9mc2bdQ": {
   "title": "日本正論チャンネル",
@@ -3350,7 +3518,8 @@
   "handle": "@mitsuhashipress",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/ozmjuLmZB5IOVp4iK8W-5kXQt__g4YgTWvrm77lXU_pIvk_K8dO93QZkLa7qn0QJopeZMTxR=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCz-wyOKfLTs49sFlIi8i8og": {
   "title": "The FPN",
@@ -3364,7 +3533,8 @@
   "handle": "@chineseemotion705",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/HESWMWzPXDjV7OjeCxLpHOy7B5qb7t-twZtLx-m5pv8zzU77F9rBHK7ib9B_fQEUQ3LFHeAK=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCyR3jMVUgZadX9dHjuKFuMQ": {
   "title": "Pearl",
@@ -3378,14 +3548,16 @@
   "handle": "@rabbidaniellevine",
   "country": "",
   "thumb": "https://yt3.ggpht.com/5SzD05tXlID5wZCX_HJwN534QoQTEyTpR1T2TxIAm_TwoebrtJBvJ9M7Wens3Zlr0y8F6FCVmQ=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCzLuj7qtQ8eTxJ5PI5HA4hg": {
   "title": "Sun Caesar",
   "handle": "@suncaesar",
   "country": "",
   "thumb": "https://yt3.ggpht.com/lSWJkmYC3ZUCOF7cD0mVh6ClMU1N09NK05MyUR22BGdoCEUh89shiliqiY9SmzlS2k9xhSPdNw=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCvjW74bl-2YnRYs-Xy2qssg": {
   "title": "世界の気まずい瞬間",
@@ -3420,7 +3592,8 @@
   "handle": "@chamber_films",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/mLeT-XgL5HWKTgiEBQnt7V5nfd3Bd66KJN9AU4EY7fOeo32_wFvIqYtsIxVJn7dt9y8O-HO91g=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCzuiQaDS-LR2Qr3QYcj730w": {
   "title": "Independent Television and Radio",
@@ -3441,7 +3614,8 @@
   "handle": "@rehanaliphilosophy",
   "country": "PK",
   "thumb": "https://yt3.ggpht.com/JvjFMUQd_tHFgvsTcc40K5HxtQY5jMX0XrgOR38tPzzttdaxoJkTfA8Ln9sQZKeqNureSVN7HD4=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCucJUE52WL-R5X9ksEQhccA": {
   "title": "SUZAN",
@@ -3476,7 +3650,8 @@
   "handle": "@k-japan-conservative-lab",
   "country": "JP",
   "thumb": "https://yt3.ggpht.com/4R0kTVuqADeRooNI1csiQ0U8g8FLARSQ-zxX6X07JHQUX76hnKrx3JflNEJWE4s_Fg_0RyPYMg=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCx2JdOiUmN-fVMyOzJ47LiQ": {
   "title": "数字でみる 60歳からの暮らし",
@@ -3511,21 +3686,24 @@
   "handle": "@crowndossier",
   "country": "",
   "thumb": "https://yt3.ggpht.com/9C7vSVRPHmH-QSt-RgtQd3InPEXtwlL84pTeJEdvh0yVVy1Xi91N9XJX-lHCeXm-GkZza7285w=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCHXnuSm6Ri9Ucsb5jVqyTFw": {
   "title": "Duran Learning",
   "handle": "@duranlearning",
   "country": "US",
   "thumb": "https://yt3.ggpht.com/UcswrK4ieEIQRiDTPH25iQlvtjW9FUCpCmbtFFRysU9vYd1OqXJulTx3fhvPk-7CMy1Et8WL=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCck0BkALoKVyLwxzB3IgERw": {
   "title": "おつかれニッポン",
   "handle": "@おつかれニッポン",
   "country": "",
   "thumb": "https://yt3.ggpht.com/pfiYIR1c7H3ZsF6bK5OwU_IXF_H-jBRXx60gwi1q9heg7gfq4OmPH-WOfqltIehMH4MVnh2i=s88-c-k-c0x00ffffff-no-rj",
-  "hiddenSubs": false
+  "hiddenSubs": false,
+  "news": false
  },
  "UCpT_RsfFzQAhad2ZR2TZeyg": {
   "title": "5WH Media",
@@ -3547,5 +3725,1941 @@
   "country": "PK",
   "thumb": "https://yt3.ggpht.com/ie5DS0TbWz29LIUamxu7Zqyl9rfTzJ2VgsyiKiMdQD8Gq2gEP7ke-L8CKY67pBrWtFvWhvX7=s88-c-k-c0x00ffffff-no-rj",
   "hiddenSubs": false
+ },
+ "UC3tFTSr-087kGejnKTw2cGg": {
+  "title": "Baalas documentary",
+  "handle": "@baalasdocumentary",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/HP67wJz31FXxXHNeGoBFwWSzIwEklbQk1SSrmf5Ps8O5Wfw4572IB95SusnBTySLpStvOGHh=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC5IgbmADKjYBuSo81ocSnog": {
+  "title": "Society, Lately",
+  "handle": "@societylately",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/kmg2pNgsyLm1lgNQrlOhFUHlT6Y2IS_wmCMubC3fp4IsUOBmY_7MXabIobOFRafNBBFwf76v_Zs=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC5dUUCs748wCYQl682LX6bg": {
+  "title": "Farron Balanced",
+  "handle": "@farronbalanced",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/_cM2jN9-VW3uNJ2rLVU6ktvYm20NIHvY47HdezQdscE5HudojS87k5CMp0jaQNnocfM4h5lvUQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC04_WCRGo7TQqbJcKIp1CFw": {
+  "title": "BudderAsassin",
+  "handle": "@budderasassin",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mtOLew7oe3a5vV4WJEoy8tsCTkvtyGNBWRPIN_EHdrC9g=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC12pJAGodCH5Rb1O1jEHC_g": {
+  "title": "genuinely, genevieve",
+  "handle": "@genuinely.genevievee",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/_AiOsrfAFrlAdoBwq5AbjGxxm06GVNsqzmC_ZMlBuC9pCB48LJ_k_3aAg_dl3SiAAWz9xSaCUg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC4IpVRc5pr56zEuveH0O_6Q": {
+  "title": "Carreiras Educação ",
+  "handle": "@carreiraseducacao",
+  "country": "BR",
+  "thumb": "https://yt3.ggpht.com/a977cG-0EPEhY-w3Dl2Yzkr10XfVVmE4tMOP7LqC2j_A4UGwP0Sx_it5R-ZIl6BFtDqqqqCyLvs=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC3ScyryU9Oy9Wse3a8OAmYQ": {
+  "title": "FRONTLINE PBS | Official",
+  "handle": "@frontline",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/jFMDozYJNM8EbQmokJA_ki7TQmnUCwB7fEEaw6d8YRLchiLorMqyNbJwoKE0wJ11q2T0f7Fj6g=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UC188EBhyM4xaz68rmDqnxWg": {
+  "title": "The British Life Desk with Thomas",
+  "handle": "@thebritishlifedeskwiththomas",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/9uUkyrahp0cJnwKS5ykpx3BQZhAM_yBEEs24e08WLM1iw3vnH9OJy-tKTXlnisPxIo8zdgxbRg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC445V5EQpTRbHJ5KTzR4E-Q": {
+  "title": "World Wire",
+  "handle": "@worldwire-yt",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/8ED4H6SVbFHhReScY7aAe0fMcyYHtBV5fD241qPYczQ4lS1upT9wOt7xBFXphORyJeQx4lBv=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC-xnK1na0SG9nbzogAhdQPg": {
+  "title": "現場からの医療改革推進協議会",
+  "handle": "@genbairyo",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/KBWlM2Cq83dU1ywd-2evbuVErt4WNCLzpWM5lMtmaShS97ThVmnijSyLq2FCIruikAOSJQGv=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC4GAD3UJxiyB4LyFMXo717Q": {
+  "title": "新政策 PANDA",
+  "handle": "@新政策",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/xVkqiTXNdyJUVjQXkDwzyqkc_9H4heQN8-S7CKe7_tXYUfOWQ7bzK_y521ICvko57Fqo9I4AZA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC3PYCDs1InwkWTnWLBhVQCA": {
+  "title": "価値百堂チャンネル",
+  "handle": "@kachi100_marshin",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/cRq1_B1dFgL2pmjTCVpyaeKvtA7tj5FvP_q2TylJQ-e-FteosCUQIX1yMYn9-wEgZAhuIwiRDbw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC49qOwFp8vMD8dxu18f3Qkg": {
+  "title": "人間の値札",
+  "handle": "@ningen_nefuda",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/UeFbBoBJzdKWp8AXoxgOKyoPP8UZavDAeXSnKX5qBg6z3puYZ1_sNQWYVMmutymZJHWBs44=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC4XCY-veCohUUF16KyQFdUA": {
+  "title": "I'm stickman",
+  "handle": "@imstickman95",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/Dg0oZg1nrEefs_F2f0F37K_NSFPltb9brrWq5txJhwnXpaUda3j3US0X1-RokGDH-9UI9gnM=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC1qoZNSH94-CrbsR3RsEupQ": {
+  "title": "exposureorg",
+  "handle": "@exposureuk",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/SThB0pqIhOJ0vIUTwQW-AgEaww67ST6S64mANbzpnfGmS_HHNhb_uk51IAw9Ompaqe5T2iCwhw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC3iVde7DUj4hOQgnHbxVuew": {
+  "title": "Asia Society",
+  "handle": "@asiasociety",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/6jxCjGlc065WjLoHDS4H4h6uz8MWsWOLolskDVdpHDVNitPOucff1Yk0LXBh-eBka_uc875i5w=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC1K3a_lMdlDZbVJqRKmeFbw": {
+  "title": "Prithviraj Singh Rana",
+  "handle": "@being_uttarakhandii",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/3wLbP2OeLBllH6JjzK7z4qsWxFWWciysE49pwn42_R6UKol-VtPgllWbCIK7cwaQRKa8C-aIcg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC-V9-gFIrfWdCCNsocDWmRQ": {
+  "title": "God’s Perspective",
+  "handle": "@godsperspective10",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/c6AEEjgH4WeU76psTyfI9B9SvItLCegwyhIVpXnKIPMjL9NZWnjnLCsEoez0MQ0yh2P6H35WQg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC49E_1NIRmATo7xFYYaNnUw": {
+  "title": "Sangeet Wohi Andaaz Naya",
+  "handle": "@sangeetwohiandaaznaya",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/Ze6iL3Ik2pEo0JoNi-Jz6RfXnJW_3LYZPCn5DnVSunCE5r5lHkynoC21rQ621gqh-0eDJcJVNQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC3Ez-we_WFPwQRzA1NY2Tgg": {
+  "title": "KGS UGC NET",
+  "handle": "@kgsugcnet",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/q-1YV0Xzo5qXQU_c12W07uxwE0Ye3H5OaAJAPvg_ILECdYDbiVg3WFseVIAvT1JWQzn6xaaAPA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC-IaZV5lFs23jyWSaHZqszw": {
+  "title": "IraNippon イラン文化センター",
+  "handle": "@iranippon",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/PupAynkh0vmUQikmfwNx-B6qG0pFOBwLGpKmlHZLelylJX4bb_M_F5z-zWIdlg9l4K_Iqge2=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC4_dogKcFQln8srwiv8EiPA": {
+  "title": "JAPAN DECODED",
+  "handle": "@harun1410",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/ftgKLVqBjPUMvst7rVyxwbgPWX0XGg2s68ZPD1Ab3lnSqxiyrnME0D5IfM6-Ui70n1B39aZk0g=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC3bXqhyO2364hPfEUw14kvg": {
+  "title": "The Royal Observer",
+  "handle": "@theroyalobservercom",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_nsyb98Vc7OZB4NMvT5-r3Zezx3E1Nv43GvrlvBNkNQZg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC5cIJlvJQMgdTOWQNd-60kw": {
+  "title": "Stephan Washburn",
+  "handle": "@stephanwashburn",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/QGGwIic-3q0KZIZIxJTFHZ2G6E1Ojh6uIxX297lzzqegfke6apQCcQpPBQ5F2WDRzYYCGTIl=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC3OiBxUOdkaJZJ6n62lsAUw": {
+  "title": "Domestic Crime",
+  "handle": "@domesticcrime",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/uuT38LHcmBys0kNVRBmKi7AOIqgDVP9RAsjuLjspbJWKyDqlXJveaKf3f0LdQcHD8NeTLi8TXQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC1Q3-LdvJO-tb3VGLKo9qQQ": {
+  "title": "Marry Ta",
+  "handle": "@marryta4515",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_ndWUzRFsxLgHtMd604gC4uRs4_BVEkMoF6NR7XNpbF_g=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC0uU92xGlrMUi4HHPes3Inw": {
+  "title": "TheDeclassifiedPast",
+  "handle": "@thedeclassifiedpast",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/goBVekca0g_ActmM77qamPQb0mNzaB2UrESFjXaQavobWD4sJdk3KPBHGPN8JaLMUBoFctEr=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC-PzizsHBr9nolTOPXt0zrw": {
+  "title": "Wild Echo",
+  "handle": "@wildecholongs",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/iQ6_5zXhDSPWFfglKKFoXm6G9gYKBcLJjMqHaHDvI-LnqJKL6BfH-2WvxCS8NbnVvwL6gcu10A=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC0g-wQtq3lKqYjVPPVoCr1g": {
+  "title": "IUSSP",
+  "handle": "@iussp",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/LHspdlr6SbVOPLdHvRLADRodFUt9AU7Y4AMx95kOctwGqeKjClpEIc3ZeGmndHriF9VGzqvG=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC0vn8ISa4LKMunLbzaXLnOQ": {
+  "title": "GBNews",
+  "handle": "@gbnewsonline",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/8hySIA7Ed6amMiAHJVNsG9oph0zoSlCAffYTmINH3gXJ8vvcToB_xh7uIlKSHA9fBEae3e_yl6I=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC29eHqWsQU228jK5w5dewEQ": {
+  "title": "Sol",
+  "handle": "@quietlyactually",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/sySFidvZgosluBNlkyMQi-qYyKRIVLisK9lm29mt7OCsTm7W4q6HNsxLRqxGvGG2aLFGXj0PYQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC6-BgjsBa5R3PZQ_kZ8hKPg": {
+  "title": "LLOUD Official",
+  "handle": "@wearelloud",
+  "country": "SG",
+  "thumb": "https://yt3.ggpht.com/wb1ZnIozatQ3tdhH9yBZE5elGHZwSemYeTNuQSZ_aXVm8ZFGCH166LNaWdDLzaMTAX38JYy_Uw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC0JSHtPRjN7S9JzlpTwt-DA": {
+  "title": "aaliyah garcia",
+  "handle": "@aaliyah668",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mhTMWCPNhaOcCbQql5HaTGRO_HHfjTbKzm6SvSxGw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC6GE7_GLqX9YryUN4EOTCPg": {
+  "title": "Maxwell Shepherd",
+  "handle": "@maxsheppy",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/a3EtlK7suqqV9nrjU2ZIWwrUKcLcKd_mX3LTz6F8ZO3TIlu8bdFW2UUcQpKzU1Bdoeeb96ZT=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCBo8eRYtICkqbkcXOZNZW4g": {
+  "title": "DemonCringe",
+  "handle": "@demoncringe",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/yZzwAVGyOTYM_vJYHXSPXYuREEHt5Uu_a-yvo4lkvmw07gFD06VU6FP3BMGAwJJlqDRgihbRAw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC9p8kxXxh5z79Igkg8lTxKQ": {
+  "title": "Japan News",
+  "handle": "@japannews-s4h",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/q-PFej-z-GyJA36pMi7xJuTqIW5GB_7_ARVeUKCMMXGOH5W31MliBgE9a_fMQSBVFuWv2UTa=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCB1eDEd1AYG3YrRIJSZzMOQ": {
+  "title": "Real Time History",
+  "handle": "@realtimehistory",
+  "country": "DE",
+  "thumb": "https://yt3.ggpht.com/erEMtUPyoZCe-aaA37Uwpaj5yptDK2GaKHBX5z1fVLN0KVukc86fp2CPqTGOdSc_2AbZT5mIN0s=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCBgM3uA8DM4z3KecvwieQrg": {
+  "title": "UK True Crime",
+  "handle": "@adam-uktruecrime",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/aLhXjqsew88dv6WFPqZ1wUvEPNfXKIzx5gNR2vUTlBCfTju40NjZK8g46H9L7n0-qSkaMVAymZs=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC6baclgK6h3-a_jUNi8sZKw": {
+  "title": "谷田川惣のオーソドックス研究室",
+  "handle": "@オーソドックス研究室",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/XrXRkOuyHALq6YU_htkbCpqSDI2abTW8V2ds_sxA_32ONt0DarFmYcefPY5nnreJ5Zj2Nc5p=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC8yHePe_RgUBE-waRWy6olw": {
+  "title": "PIVOT 公式チャンネル",
+  "handle": "@pivot00",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/Lm58Y_ADA-v5yYc90tyme_bG2Blb3ZPZrULSVWITIA6yVBvjX8WNm_YOSYaf-zvKNyJ3fqaguH8=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC8nLEpui9OjuTdMOpUF_AoA": {
+  "title": "Bad Manners Podcasts",
+  "handle": "@badmannerspodcasts",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_ncWjF6ELdgcuIjcujQyuEZTAeeGPZ80mMWsDh6pOqDtSqYtvfyOWPvp61gMoyzrzthrw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC9Wy0MAKH5Ehru0R8DJqZ4A": {
+  "title": "made_ for_you ",
+  "handle": "@made_for_you-t9d",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/yOcHVKpgtMIpqfvgdRq1BtW_9l-7xQ-RzUQy3d54NzDAlmOWXnrD2NVtNCBAA1B5Gc8BoZMZew=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC9RCIZlwUREBnGR_xOPHrww": {
+  "title": "きっとのお部屋",
+  "handle": "@きっとのお部屋",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/oc5BNOtI13kzy7-AgKP3RMJE15wk46CBXckHXnKS1AEhmDe3cjscBhYUStvlH2Nt9IUVkUxyCw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC9VT8lwxGQQmlZ06E77vkzA": {
+  "title": "北新地の山登り沢登り",
+  "handle": "@suzukagp",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/DEZRC4n72zTax2tx9SyS3Dmaem8uqLaSVmwk86pSbUAZQyJH1bT4TuLs-90spJKYy4r31sGjwA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCA1wCX0N2IUti8ieQoqBYkA": {
+  "title": "Akuma Shogun",
+  "handle": "@akumashogun-4649",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/Vr4uPgfJLLLHTO1LugU9NNKcEh1xqsfvMk-JNO9bbD6XI6lWtOCGjejof592w9B_sxuQyUX3Eg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC6ZFN9Tx6xh-skXCuRHCDpQ": {
+  "title": "PBS NewsHour",
+  "handle": "@pbsnewshour",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/3qIMp79Z-ynhtXTYyNcdybHwvtILVk_jNMKTLbasP8F1UYCdtU-FFjTJPNGQCp5KZuNUQ62n9Gk=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCDHnDJWF8Y1eD2ZiGo2ke0w": {
+  "title": "The PrEP Clinic",
+  "handle": "@theprepclinic",
+  "country": "CA",
+  "thumb": "https://yt3.ggpht.com/wgxYBYH48zbHqPqEDfg2yOe1rG4ynTC1CyQAj9D3QvzN5jOlh2cNunsavyk_dY98w0nhIla32Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC6LrZFlnHp17CJioNuXb5lg": {
+  "title": "We Love True Stories",
+  "handle": "@welovetruestories",
+  "country": "FR",
+  "thumb": "https://yt3.ggpht.com/2fyZ9kDUTjAl8UEkoGmNEknQbxmGxAc0H4v847O8IpXHJKvzrGgQQIweWtOoD1bib1kpU3I=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC9X9lwBvgMW-OYAxE-Vwfbg": {
+  "title": "ちさこの台所日和",
+  "handle": "@chisako_kitchen",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/KTXNmOaIf8h0FCK8HWaTCQGvm0vBke0gXB2k1WFX8mU0Ke-m8e5S8dzsAfdp7QJ91RCAbukw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCAQchzxy1w5OFPO5nXwxWCQ": {
+  "title": "Numbers Unfolded",
+  "handle": "@numbersunfoldedtv",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/aihKXMRTLf_Wtk8Z0phpNU0X3gs7jNOED38BOrSSHt3iy6I9-n3vpsaEKqGaRuEvQeVHh-k7wA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC7VyEaInn8DNnK-lBVwVrFw": {
+  "title": "The Educonomist",
+  "handle": "@theeduconomist",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/iBHT25j-AJYtHcB4KINVWIzRf7N6L-yGN_36M7eA2M2ZGZmddKe0N_GHpHXU2rVdXSSCHv2Q3Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC6AG81pAkf6Lbi_1VC5NmPA": {
+  "title": "TBS NEWS DIG Powered by JNN",
+  "handle": "@tbsnewsdig",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/E-A54dDrjqIAfIqwdEGPolaKeVj-jW4kEQR-M6BMR-hiBtw1DhwM_kXGT-4uezIq0-ioeoElZg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCA9lgJBmSXBkbnwlaCDKn3A": {
+  "title": "Held With Joy Podcast | Kelly D. Holder, PhD",
+  "handle": "@heldwithjoy",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/N0eNhcnkv_2oczTSOTxap7LpG0QNBsomtUTtfSyiFvYDmKZBAezIiKAAakJOpPAO4fYkZ5y6=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCCjQ4hQq-qegDremdV0tZ1w": {
+  "title": "中コメ",
+  "handle": "@chukome",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ArBuPdOpZm58KaiWFB2jUmqpTgi6oSrKcdHal913Sflkhx3j-lrVbxPa1pBmbeR8rT_0uz0R9g=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC8yH-uI81UUtEMDsowQyx1g": {
+  "title": "SABC News",
+  "handle": "@sabcdigitalnews",
+  "country": "ZA",
+  "thumb": "https://yt3.ggpht.com/kt7KGuaHi5CanLpbqBYAPjEPniZvUeg1DbmJFavd1H4OqmOVXZNogo3Qn9FPkiALMlp9EsGlP50=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC7F_eGw4CV_7NzTZcfCybRQ": {
+  "title": "Daniel - Asian Money Map",
+  "handle": "@asianmoneymap",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/61rUDq-HHU5Njy3eEw-8H5G0AIfj3bH9e8YWn6PQXXrqIJZySmw0brV7CzwcWsnOOEtM1AKMBBY=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC9BvJuD3pPhRvuWy8w7JC2w": {
+  "title": "MS1204 Management Thought and Practice",
+  "handle": "@ms1204managementthoughtandprac",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_lCcLaQxWcvI2EGO1Yx8JghVogwuIvweQtKO2WljVQO8Z9U-9WIqXep9b4I_4RwnbLfMQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC8Su5vZCXWRag13H53zWVwA": {
+  "title": "TIME",
+  "handle": "@time",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/VIvmcZV8AS2ol9dhW0lCfsBYXhUTS6ODzeKkCYC7ucUKbqhD37WJxTNzHXDcEi7_Zpf8ROuu=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC6t6luoqDJtAk2sfciemT6Q": {
+  "title": "Siraru in English",
+  "handle": "@siraru_in_english",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/JyV793xQc3vU71rcUbjkJZfD7-SQFj9ejaQ33L_plTuPT--krSDTnrYjCRwg-4L0xQCC9QgQxA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC9LbLWT9jm0KoYYwENTFFFA": {
+  "title": "Multicultural Council of Saskatchewan",
+  "handle": "@multiculturalcouncilofsask8613",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_kYwUdqMTQTzVrq9rgizUGBhFLcp5AD0j3jP56sWL8Jog=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCBNUqRngc9reRfKMLJ6beMg": {
+  "title": "StickMind",
+  "handle": "@stickmind1983",
+  "country": "NL",
+  "thumb": "https://yt3.ggpht.com/PVbIRGeEx8MvD19B71OsRHCAmnW4-5dNUVlFbimOU3YReloBYfRc_ZGaBIafZJCKvV7c9pA9=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCAxDZCX_E74949iLOrcwHyg": {
+  "title": "Canuck Secrets",
+  "handle": "@canucksecrets",
+  "country": "CA",
+  "thumb": "https://yt3.ggpht.com/N4B2_8Itd5mUV0Xo_mWcnxo637-BeZFMmCleJaIObi7fwur-UGtovP2YYldKB6jeW7KWkVYAxQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCKAERnV8xu2ekXRnLa5MWSw": {
+  "title": "YouShift",
+  "handle": "@youshiftfilms",
+  "country": "CA",
+  "thumb": "https://yt3.ggpht.com/EgUonZKqDhaqRShVbG0yxLKI3258clqq2xH1f6t_UGIilXiEKm2BmfGOT1GuYmsjNhEAYe-8kLo=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCHaCGGz1JXi6cO_CgBWSPXA": {
+  "title": "うえはたチャンネルby神戸市会議員 上畠のりひろ@神戸市東灘区",
+  "handle": "@神戸市会議員うえはたのりひろ",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/rS5k5KUrrQ9wu0-2LC0J_M4lWN6pc2WkWaJgjPEKXGnil9GzjgSZdC9fs3vHca4SOYvymAKr=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCGCZAYq5Xxojl_tSXcVJhiQ": {
+  "title": "ANNnewsCH",
+  "handle": "@annnewsch",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/YNCCp1NNe4z2aL7Iv82YHL8qKYmU6uOSn8NKep4qKRBK_E2XJCF5evjRiArUbs-gmLX2dnwtIQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCHFtmJZxRXlsYZ61D33-sDQ": {
+  "title": "UPSC EduRev",
+  "handle": "@upsc-edurev",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/-5AO0DLF1wlATzbVsZcpEZlffrZ-Alcjax_6wEr4BkvcLHyjJDm-Bn3KBgBJkf1a5KD6it0Z8A=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCJoIX9XXW5rz1iHebeABvhg": {
+  "title": "Nicole Jaglal",
+  "handle": "@nicolejaglal2436",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_kf1iKv1U-7YrlXZuJmSBos2mF1Z6WU0y8crDH4zw0=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCDPSZ5OwhHDUzL3zYF1R3xg": {
+  "title": "FertilityEducation",
+  "handle": "@fertilityeducationlondon",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/G40cG___77Avwm5_DIfizpXx_c3BF-kgDr3yeJ0Z9KWiYXTDj7F7EDrqcrksDJtpf44bnIQUYg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCHpw8xwDNhU9gdohEcJu4aA": {
+  "title": "The Guardian",
+  "handle": "@theguardian",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/nic8lu6MJQg0LQ093PiOfzrCd4e6BefWdO92sbOgTO_dCkZfWfVbH4_shpUDRe-tuPYeeeav6Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCIRYBXDze5krPDzAEOxFGVA": {
+  "title": "Guardian News",
+  "handle": "@guardiannews",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_nDo1i4jEe90wqB2OCDy57NjTMVUHo1o7vFBjLzVzLeBQI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCFrO-dKhooOuTtix5dia2_g": {
+  "title": "Banijay Documentaries",
+  "handle": "@banijaydocumentaries",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/oTWYiP6WCVRgtr8fJ_z6evTMVhOsmJ_kWVCK05kBafAoAlL0XYf0TiMQ68I_0g6Xn3iDJ0R-eA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCJMs0dkY7FEWzQLOFqcHkqQ": {
+  "title": "自堕落ばあちゃん",
+  "handle": "@自堕落ばあちゃん",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ASFyWlldQISyKjaRSt3a1DB9KExVcu-n9FCDtFXEQIsVsRYYkdMiMeyKltJLUuHhZdjLHHvtRQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCD_5rLzRiJpaO84PRCQUUJg": {
+  "title": "Lex_Therapy",
+  "handle": "@lex_therapy1",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/3yLWVcwT5kNcBG7DlpIOordpxbnveqIdOt_1sIbLW9M0g42XG9UMYhw-hk4UnlHwwfAtyoX8ew=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCJjUlbs-ZEo4draiZzz66sQ": {
+  "title": "WILD NATURE - Nature animal documentary",
+  "handle": "@wildnatureus2024",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/DD1zMuxhqa8CftMG65Pd6qFyIO5OTLfbP3w8xtR02WQMxOv14yEuenBTttujo67rslzjY1ub=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCInEdlLlh7FUpHZOHpP8qEw": {
+  "title": "Ask An Older Man",
+  "handle": "@askanolderman",
+  "country": "AE",
+  "thumb": "https://yt3.ggpht.com/JKzKq8Z-QVSt512KcJ9m5Sefk7DNOBl3yLTLeNSmonJSn0v5v_iLQOHFXWIrelULN2eHlBU-z-U=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCEc7D4cJEumhDNLRUJRIMJw": {
+  "title": "History Atlas",
+  "handle": "@historyatlas.ttbycdt",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/itHlhjEdI-02NSFJ3xIa4v7hogSeArGyZmJnCVLY4maBjtBBXVBLPKXlFt777wwD1l4d7Utbuw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCFFitekhbPZ_KOxNqFXRWkw": {
+  "title": "【海外の反応】おまんら世界を語るぜよ",
+  "handle": "@ryoma-tusin",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/rsqHxuHMqOWQQZWsp_lFT5nvM1Lf9QWCh9kT9Zy4H2sMq9kN8eX2RwBHYfVG0Mn0ylnYbfc-PQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCE7cFMRYRuMfFNBLxuQqaOA": {
+  "title": "From Mora With Love",
+  "handle": "@frommorawithlove",
+  "country": "RO",
+  "thumb": "https://yt3.ggpht.com/3gzHDh2NBJOUlE3cN-U-HYOMnWm_CJLrN9OkaP7aC3gHVj90MR8KnKxLpFTPauw7hjtFz2vbd0g=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCJnBXMqkhI5if50d6MQNdFA": {
+  "title": "仁ちゃん",
+  "handle": "@仁ちゃんzinchan",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/wQzlhhDMTGjHGr8khghnufX1_bib88aO-ysedJ-JZhVFWnyU0on-pMAUpNsA7czyETlWx1eYz98=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCHd62-u_v4DvJ8TCFtpi4GA": {
+  "title": "Washington Post",
+  "handle": "@washingtonpost",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/fUsltMCzmTj4JM5EzgbYe9s5YUEVtAk7vd0CUe9_cpl2FRnp_SmAA1YM7AtMIFr9xXgipXlB=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCJTtfcqV9I9b1xVOXFk4vYQ": {
+  "title": "Rock 'N' Roll Mysteries",
+  "handle": "@rocknrollmysteries",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/lB1CCGf2glnMmdwQCrkxGO55HK-dK63M6ZarPnd8TYqo2pfHpAg783UIBlCs0uhsR5A5CvTQvA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCF5OavZtnWc4HhvynSpIaZw": {
+  "title": "Accadrolli e Maruani Advogados Associados",
+  "handle": "@aposacc",
+  "country": "BR",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mOYX-qcqIYa5q_rVTPEeqwVMh7NzuMIRit7VUockgdKqE=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCI_mwTKUhicNzFrhm33MzBQ": {
+  "title": "ET Now",
+  "handle": "@etnow",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/uNszhFa92_t23EHKYhPxytuNokzFeRq9iilXrMYuQZIyJXTRRTcOlvHFs4tDfQbih-OBhK6OZQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCHIe8-YfXShl_pPmOCAa-iQ": {
+  "title": "TALIS",
+  "handle": "@talis_thinks",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/Axk-6Tjbyxq6cx6O_TVfOHTL5hY63B4qTxmQ5emmn4vmukPDbB5lnfaJ3oWRxh1asNsF43H_Mw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCDZR5SKNNCPPy2LVAWUBheg": {
+  "title": "資産防衛の知恵袋",
+  "handle": "@資産防衛の知恵袋",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/nYewRarrQuqp4RF1D4oywSZFIOBlsQQFSJRAFqjf5udzl4MnIJymQImrZH1_MjDsD_5LUB64=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCHQ0GRAK3w_s8Dm7WRzbT8g": {
+  "title": "Sin Ful The P",
+  "handle": "@sinfulthep773",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mt4nZuGLVLeV7EmgsL4HNkdVaimAz1LC1YQ6RGOjnUcA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCFZCKtiVt_r2GzCKu_s8cOA": {
+  "title": "タケノコ 日本保守党非公式応援チャンネル",
+  "handle": "@hosyutou-ouen",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/XyFFhxoEmLQ6rye33-QZ44dbsj5U1lb7LnMJ0XStrRySxEUANQKciVhVFy4peTNDvD44McX_sek=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCJ5oFf3kqg0-c4StM89lRXQ": {
+  "title": "ゆくわか",
+  "handle": "@yukkuri-news-kaisetsu",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/Ykv-eTOoaltSZr-OsMcdCflaOYhTgBIWElHR7Q78kF_7_0nw22zMRAoRS7_G_b0z6_2IGLR9_DI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCKkopCIVopHdk7M5Glvi9-g": {
+  "title": "Break The Script",
+  "handle": "@breakthe_script",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/2cmC9V9w5O0laAibuea3IKOaiarAPeSiHk6iVZwswV2sv8-_wiQeFnRQ23R51q3OYEv5pD12MBM=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCRDTK3vABHEAKOKB7OmBvxg": {
+  "title": "【小笠原理恵】風読みサロン ",
+  "handle": "@rieogasawara-kazeyomi",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/ZF4rp89VrZYYuKcmBiRJXf0eeVAKggHrlo6t9KSiaZsVGSG9-5W-ekcW5SyAz89lw2eeEeeGYlM=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCLpFUqGNBbrUh8OTABSvL2Q": {
+  "title": "Mr.spoonn",
+  "handle": "@mr.spoonn5782",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/KjCO4GR7t7JzJpazPes6r1PJ8ydfQf8EXDclGMUmXPS8xnYFsoJbEYDQOjkSd02tZpGW8fUSPg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCMKvT0YVLufHMdGLH89J1oA": {
+  "title": "朝日新聞",
+  "handle": "@asahicom",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/j7Jydoqt1X2BbqZwV5EANJJgFMzUX-CDtviSCSb8Fs7vXKGgfOTYIgphbe6AGZSirIxeAOhOPw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCOuZpjZJDZJPDh4zte9A_rQ": {
+  "title": "My Good School",
+  "handle": "@mygoodschool",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/PXjnXT2w2MvpPhmuWZREFVgu3OTZSwGx709Io7_uVlL8V5TLPpfJltGlQGkTYaI8yQxF9kfOcJ0=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCLXo7UDZvByw2ixzpQCufnA": {
+  "title": "Vox",
+  "handle": "@vox",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/iak9xjDjDoQHn9UNWSvkobPuxAzK1ApefjPH7HGObwo71AbaiEqdafMjmUJCgOoBFWNKPS2t2eI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCLnxMKcR9EWbFbHIzHFV4tA": {
+  "title": "FruitySaur",
+  "handle": "@fruitysaur",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/NKaflYTysUY9xzrHi1qZAUL-TEYUpiI2zNNKu1pUyiKn_HLmbZZQ2kqO1040Sjo3JV_R7PtDEw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCLV4VKLLiY8V_KGGOTZZciw": {
+  "title": "MD OFFICIAL ",
+  "handle": "@mdofficial-11",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/3r7cPDzEj3j2JCXQWJuyh8JwvS2SEBBP3gbbbJ7a3VuH22-nyvpsCa5w0KOx_Z0CvCjXQKA81w=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCNi5QTewmM_gvqCJkzm2sXQ": {
+  "title": "AH HISTORY",
+  "handle": "@ahhistory-h1t",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/2nu8UyJ-W1LMMjXD662AeN_3RLPZzwX-EuFOYiDlSf37Mf-gS1R9XYfszKqmzlgs0ORZObt1Ug=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCLi_eTb3Gcj_1GZdgbzni_Q": {
+  "title": "His Last Address",
+  "handle": "@hislastaddress",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/XsdoF3U47a6CeD0PGAK1Z8MVuoQR-qyQUcr7Q3Iyl_F5ioQB5QpYsdqwzxR5Z6eW1iiuNnPSEuw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCLrK24XM7kU7s0nrvSxNF7g": {
+  "title": "TombRaiderWes",
+  "handle": "@tombraiderwes",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/KALc701ADIopmaFzkyH915oWz3QnnvWGJ-QmOB5_O6kTWn-YDZGI2MdEU0GjapfXfweTvQpgLQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCMHVsnKP50BizIB9Q9AI3jw": {
+  "title": "David - True Crime",
+  "handle": "@truecrimewithdavid",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/Of30uO2KzTaXoJM-ZKYiUy_kGh4EnGWqCRqJcjO-ECsWrL7BUPvX_eCvz02AmU7bqqr5ypTU=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCMEx2bG2tZ7PMokkZMtT2KQ": {
+  "title": "Liza's Channel",
+  "handle": "@lizaschannel101",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_la-H9d58afKmA1gx1QVtyU-KPQL-P_-zFly6BX3pJlvct2ymNDOK1_281YXJGJXUfWug=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCLzKrxwwmdzcOHGyDMWAPxQ": {
+  "title": "日本かぎしっぽ連盟",
+  "handle": "@ネギみそチャーシュー-x3u",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/3QAN3teqizotkZysJro15oMmgBlWfWqbSbAw4AyAI-WKV1UDqtVGCaX_h1S9mmgV5l-B46Vb=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCQgryI982bkbBOWQJbVZzoA": {
+  "title": "革命前夜。",
+  "handle": "@eveofrevolution01",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/UIDsIIyzA3X7lz96uNdFvX1-SEwnOT-kC3qT4BRdARdPuMppndzTkf1AYetmCyxfq6buaXSt=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCMOnYD00NeQSENdSGzkLiEA": {
+  "title": "Mateo Romero",
+  "handle": "@mateo.rromero",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/2PJwGsYMYUXJgeBQSg-FvtNYYxvq5gkubJ2DueTmtvZsfeOvib_BRepIEJeTw9hsh52psGFUrLs=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCO0akufu9MOzyz3nvGIXAAw": {
+  "title": "News24",
+  "handle": "@news24",
+  "country": "AU",
+  "thumb": "https://yt3.ggpht.com/EESyW0_a9mZXY-kxPxNRbGj7GR19r8KwisdQdFkuVfTCW4k_6ei1PWwN4LirjXaNx0pybwU_Cg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCQE35oHoXrF581qU1tB4-oA": {
+  "title": "The Learning Academy Education",
+  "handle": "@learningacademyeducation",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/w-k5ezMabzNOYha_luq3NI4yRPfVO1vZm_qmMxnDFnTYLttQ21d-VIDFhb5gHtHuZtN0GQ4dbJI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCRln3Naeg3t99GwKhWVCtJQ": {
+  "title": "Old Money Documentaries",
+  "handle": "@oldmoneydocumentaries",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/xXM3Xc252wghzN8Gbu8UOGzcoeWxuZgZhsEcO0NbQp90F2M68hyQRpVX9Z6346XCVP0GYy7GLg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCLN58LXF4ZUg_bQVGl79kMA": {
+  "title": "Zoraya Vadillo",
+  "handle": "@zorayavadillo",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/Vl2fz273PQvKcp1KVd7FUFY_QThQKxcpIbcTPUj2gdeCbmMmEfG8azu4K1xerLIuJFNVOzZjh6k=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCOiP3QC_dXN-kiJYKOMuGkg": {
+  "title": "Trixi Mixi",
+  "handle": "@triximixi_lifestyle",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/OiCzVWiJk9LStCLTdj5rP1B3vcrSzgSsYnoz6vSriWZcRTGPRBI5hmgXGzLv_FmX5uLBSlA0vH0=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCMqezKrzG1ky_YHiZwpAPhw": {
+  "title": "Impossible Places Global",
+  "handle": "@impossibleplacesglobal",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/LwYkFZI2p-IY4wdKBofIBSNEu_selWlAK-xctI5EDkWgRuS-5ckOVcA9KIabO1lo04K8hUXYPw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCQXHTFnQYFTqN0MqmNh9EIA": {
+  "title": "BBC World Service",
+  "handle": "@bbcworldservice",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/Afb4PbWI_vJV8XegqKWd6a98foRDeuUXkJDKXOAD3xELpEjtcCg9uNI9Wety63B5cUaF4GfCAxA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCOC8DFw7C3EgbRWoBVyq77Q": {
+  "title": "Nkọlọ Mahadum (Wisdom University)",
+  "handle": "@nkolomahadum",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/JgoRTuCorsdW21oQrDkVOzmd6Li1jw1cwrgdO2k_gGxJgvcwYS5XfMUyN4jZErMMcBK4WlcJ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCMXK6CQwbQFO6A1ihDBmToA": {
+  "title": "TEACHING By SSG GURUKUL",
+  "handle": "@teachingbyssggurukul",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/o8pXJ1HXmVa8ay4ThsPKp9p241JoFw0lf2HVa8kEFV-T7QjOFhIlQx3ltbJK7V7yuowBJEZZyQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCPz_8qMqFRU3Ord2Qs4-6-A": {
+  "title": "Revolver_FPS",
+  "handle": "@revolver_fps",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/AfT5pJZvCdFxQmKPmZZ9-taOYhE4kb0OpJrQToVh00wfAmDL_AL_WrousIduIbdb0yYhxeyKCaI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCQO3qJmwQEkpeRdK0Xna0cQ": {
+  "title": "金子吉友の反DSチャンネル『あつまれニュースの森』",
+  "handle": "@kaneko.",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/sDuPa2ktXUpIFT2nFDxR_LeKaBjxGZ7OYTxDgTuSmKyJtzFRky6Tg8ialH4YbczqSTi401m7Wgw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCXTzEOrH0HG9qyoCd30j1AQ": {
+  "title": "Brian Adler",
+  "handle": "@brianadler-s9c",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_nWyPWxkLouOOka6GuHM8izDlE_yXnC5xTup5HP8T7CMeTZxq27qge_MoyYv6lzf2FRtw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCTZquhdENkTQGWKdnQIRQ2A": {
+  "title": "知と皮と肉",
+  "handle": "@chi_kawa_niku",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/2Y1eCzHQyXyRJnqHcyoN3jHXFRk_zXWKTqnYUNuSPj23tE5AB6Yc8GhXy7xY6tV5r9vNK-Pxug=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCUZNsZ1VXeVq9HSvUZEYTyw": {
+  "title": "American West golden age ",
+  "handle": "@goldwestamerica2026",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/ac9e7giZvzbKfCo6mplhhlrI0hvgKc8dE9vxozPeYfz-dyXOu2FVu8k2MIPcvcGancO570_VaA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCX4Tt8mEjN5s5LPjHK-aUyQ": {
+  "title": "Taizé Shillong",
+  "handle": "@taizeshillong",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ukA4r1s197WtYJ-TSZLicH4HyqgMs0aX4xnawcORgY_n0TAlrpElY1ubG0p11gk1B1crbaWE=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCW39zufHfsuGgpLviKh297Q": {
+  "title": "DW Documentary",
+  "handle": "@dwdocumentary",
+  "country": "DE",
+  "thumb": "https://yt3.ggpht.com/rgphL4c6DGPlwzkxIzE5tH0DPe1yuynH0nTdOAecCVIX5gUjJGsCwXtp9wnxjcsfqboL6C5aFg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCXOx0ZT2obP4UtxC0aIW0iQ": {
+  "title": "Rhea Kathleen Andres",
+  "handle": "@eirhrha",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/Xmc9GuvojCPW-O5QntRPC3wCPMzHxLbL_c99MnCvuWcqEj__DHP7cZd05Y_8c59Y_1VTcpbh=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCUpPkOO3HTVlof4MGt8uE6Q": {
+  "title": "True Crime Chronicles",
+  "handle": "@cr1mechronicles",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/U4T3sXSpOHbdZh3uQyYllsfdgW_r8Nt9p9VjEDLm0C345vBxdvWo9l6fVUAexZafTZkkI6ksew=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCVSJRPIp74MUiASgJuSlCIw": {
+  "title": "しくみの絵本",
+  "handle": "@しくみの絵本",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/qb6ngVHfKwLkh0_dPzil_70lYLqLZcjjRyukyUwMqA2IWAmNDbnNcAKnLIeaR8PtBPXDol-e0cQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCUC2Sw-5IrkV7b3bS9RSeYg": {
+  "title": "経済の解剖室",
+  "handle": "@keizai_kaibou",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/uhhj_Qs8f7SJj7FKHfs_XgvYfG4pfNsDFVF7ooMSL0PzzJXiByulS5FkNO1p40uYzn78URN4wg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCSbdGMdD9n1F_5a1uYCT7Jg": {
+  "title": "Immaculate Films",
+  "handle": "@immaculatefilmsofficial",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/ulmc0Z3q-Driq7jSagYPoJIq-4_-D3Pv6OD5wcQUnRChBZe4h92jeQl7so0JRxkg-mnzUqTlYsg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCVogAsASqbceBmQMi1WA39g": {
+  "title": "ARTE.tv Documentary",
+  "handle": "@artetvdocumentary",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/iZ0al4KOD-Jr62ghlmU5jyHzYvbacUmkeMomfJ0AjyUyiBTQrAWEtbTm8RAZfD0dLz4zLGNI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCTrQ7HXWRRxr7OsOtodr2_w": {
+  "title": "Channel 4 News",
+  "handle": "@channel4news",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mNdhtpAi0ZQmCqfkDSq6MQVdbfZe-c70nZ1qqdyQNzK3c=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCTV1UMHw1UWgQE3Nu9bOcTg": {
+  "title": "Abbas Sk",
+  "handle": "@abbassk2137",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mIq3VHfPUrGhS9seKsJqeGzc2vC6doz0-nM2OENLkRxafGhMnaFzOjB0stCwcIPBngbw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCTxyDFTeFHgN-gF2kU8vCpQ": {
+  "title": "EmarVaz Editloom",
+  "handle": "@emarvazeditloom",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/gSHpIf_r03LXwUU34Cwk-4P4H9r6osAxf85NbyEI42Wsf7eVNx3BPftvWVg9eDt0f0nCBASv=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCTvZcgH_rsvaGuZ8mU5jpnA": {
+  "title": "WHAS11",
+  "handle": "@whas11news",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_n3JaHu5SsaWqrqTndeIHikddwrtQDP5VFFVIrEi-ZPtJ8=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCVJ9_HEesi-7WilHxgLJAdw": {
+  "title": "お金の裏側研究所",
+  "handle": "@お金の裏側研究所",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/Z2ef3hxnGmi8DteLyVMNBpS-d8lmi2Oz_mNJ-g6Bgl9OPrUrd4sW6Jc6PcvVu_SvgyCm4wGs=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCWqopNHHyHdSrPfk0fKpaaw": {
+  "title": "Jam Tomorrow",
+  "handle": "@jamtomorrowblog",
+  "country": "UA",
+  "thumb": "https://yt3.ggpht.com/6Ouqk1hgKoRClS6hor85jJJyYprbQ80fxyH8STQBVZXbWT3fD4eebiChpZqQJvXUBxvUXJwjuQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCTk0rwLTTkr2nE5Gqdw0swg": {
+  "title": "ma'idha",
+  "handle": "@maidha",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/VcOe2Ozs0TT3ZHNH2lnuy8lHLU6hbQbHXW0kJJxkRjQO8QJ6-iEsM_lunlzt4GtwZ2LmORSIlQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCVu9R6aB0oj7UMM-QlVqUwQ": {
+  "title": "The Unmeasured Life",
+  "handle": "@theunmeasuredlife",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/dNoxx1bucpA7O3K4dDZupozWvDkqkzxX6ItZTmI6sSaQXavlE2K-FENiLI6MW9hRBVKurO_vaw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCVeE98q1IoHKrn8NkPBeWjQ": {
+  "title": "British Science Files",
+  "handle": "@britishsciencefiles",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mN1c1vzIft5ypy_rAQYCalK0QVpe02f37xaOHq7l5Pqc43B_9OZn0V4qqeYf-bVp7yIQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCUZSGU766yxR-5nnmkAvQNg": {
+  "title": "Madison Park Development Corporation",
+  "handle": "@mpdcrox",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/Bzakoxoow-IoRI5B9SDX72glhM-oUCDWb5hyxmEkUcdhY1vXpBwe3TQa3aeVYxaqOZNU_NZ8Wzo=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCT9qa81AQCJntpyWOBFhMmQ": {
+  "title": "Travel Lives",
+  "handle": "@travellives",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/dbcwCWOuagZVBTOGYziHTtI5ZTHN-ERCcLqRe8Id8g8o0UhJCYOXKjndOSlBJ3Ie4LO4JLWn6GA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCXIXyJgN_9ymLdK7sJnhITw": {
+  "title": "HarryMclarry",
+  "handle": "@harrymclarry291",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/x6SoxPyNVqqETsmZmu7mCmRgekFDZV_QoLKnNq3QGtKv_ldAPduHvSztH2RzQrPn-dsXC5jBZaE=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCUb93dBhEUp81PxBl27w0DQ": {
+  "title": "アレスの証明【公式】",
+  "handle": "@aresnoshomei",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/biNMEPPluIWlpsGGu5cM4krRSIFO7eX3GRmIwIY58I4JrnpyVdmCd7GNgizA06Vu1ufS-oOcLQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCUeb0DLk_1ETkagwV6YM_vg": {
+  "title": "スノービン 9",
+  "handle": "@スノービン9",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/DjtqF4LJEXLzg5D6xzqysmErAsVaE0AYolFKfwRZ8op5vdLvWlawhz6D5k5JCc1s9iT5Ix4O6Tg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCVv_NLhG-e1_q0Iif4z0XAw": {
+  "title": "たいすけの本の要約ch【毎日18時】",
+  "handle": "@taisuke-book",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/HSVQDSZQVqZZwmwtxtX4R_P6GuJ_zj661BrnjO1Rhf7ZF_XRAlOURCbXrlaUT0RFecRE3mjN=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCWgbvCJneWOghkGhJ0WSZ1w": {
+  "title": "CGIAR Gender Equality and Inclusion",
+  "handle": "@cgiargenderaccelerator",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/6bUpvE-0gQj_sqkNmlYQtPS00P0NtaIzDYUEF4pHsUTLotAS-QPtFVeylA1cTXB0KvZ2pLtC_kQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCVMHhPlUyHpgkzJWtfZ5j5g": {
+  "title": "Old Money Allure",
+  "handle": "@oldmoneyallure",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/xCntdKuagRQo4WzHDD5GfNaudqb8ZsYcj76n73Bv4qYHf64vFYJM5F_mvhUkrwae6b_caG4Ofg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCb0LrH4ozSBBlnmELxhoWDw": {
+  "title": "cyea",
+  "handle": "@ragistha.cyeraa",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/VUyprlbGBu-Kn-KaQOClz1dKrThs6B2dkmqaDjygm3OmEwPF8V2Tow5MRwDHMFTW67KzMfum1Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCbOzByeeAFwlch4qPgBJQrA": {
+  "title": "The Wizard of Wit ",
+  "handle": "@thewizardofwit",
+  "country": "CA",
+  "thumb": "https://yt3.ggpht.com/WRlh8IdpjqtswJ6sBJelzmbO3Gizd24CMXO5YONEKYlfYeR31wrpBR1KcZuL1BbcFANAIAhCJQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCbi02Ii1n7LbhLSpxv4Z9bw": {
+  "title": "Untamed Planet",
+  "handle": "@untamedplanet4k",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/Jz8O1QToeUJGIJpVn2QDKy7X0zSYJFBf6qbBdIocCeZPzNJNAnBhmPXbgQJ-qz02fKt9eIOZ7w=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCXe6UliDWzoC9R0uCTrC7Pw": {
+  "title": "Bizkoon(ビズくん)",
+  "handle": "@bizkoon19",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/B2OKnWYdRrQ4FvQWkN7ktbfEtQd4jDhHq3AROq6W98g1oevEX7jyWoL643sFWtumVQ94IEyPIA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCbzxshvXVewK8mQBINdlZ1g": {
+  "title": "DBSTELEVISION",
+  "handle": "@dbstelevision",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mELu7bR1APF_0x1aCxxX_tZ8xdr2UXxCx6VuRCBwnJEsg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCaJK5OLmeEYI97oBQigdcgw": {
+  "title": "信州読書会",
+  "handle": "@sbookclub",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_nqheLMx9-nkxUTAMnyvb0k-89tzN1cMffqKpP_txYqbKI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCbHxXlT7nf2WXtPIQ37bgYA": {
+  "title": "Humble Hands Creatives",
+  "handle": "@humblehandscreatives",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/OzVxCNTvxHvgGyS4OACgcs5izRnuGs3AeSiCC9Jw8D6kIEqC5sdT73oPp89Gj9sxeoqq_RpHvg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCdETHlu9F004nxG-JaQvzqg": {
+  "title": "思考の向こう側",
+  "handle": "@shikounomukougawa",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/WaCvI_yPegYPBZAxB63C39RLd6i1-lkmel1Fy0p4W_G1Jd45RvxrDIeOfOZJQ6ea5ZEkQ7rMhw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCe1EGHJ15DFVTXqBH9UEqBg": {
+  "title": "Centre for Population Change Connecting Gens",
+  "handle": "@cpc-cg",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/q8vH5FUH00NUFEVI2MyU3sZfCwU8SPOoHZ1TQz1B7kvOxCZTVXf5VoIfF1Ck83SunUuzwSBI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCYG9KHehttRqC_NjoX3-AlQ": {
+  "title": "Magdy Mawgoud",
+  "handle": "@magdy-books-ws",
+  "country": "EG",
+  "thumb": "https://yt3.ggpht.com/dvTpQNh2C9HwPUECCXNdKuVFHL9wposuUOy1ifDnveCGl0OV0QUlNK6-EYZLZzgKXd6ATV77Ig=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCYgFCTwDxSCCy3DUwriSEAA": {
+  "title": "1情報屋『おざきかんた』",
+  "handle": "@1情報屋",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/Uf98ukkyexbtkwfXRQMfnXA2rMJx4z7wDzq20mWiHwX7lq9vM5c4buZxI2tygY5sd8f6I8Te=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCbs3B0zahSe8tcyIn4tnhhg": {
+  "title": "The Fault Signal",
+  "handle": "@thefaultsignal",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/zIbRDLYd1CW6d7laH_XTl9PYgEfpFOmrv2pq0nNPdp63q5gdTEWI6-CZvNKeIzJwpFbbW8ky=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC_Lnb8ZHqqgLbp-7hltuT9w": {
+  "title": "CNA Insider",
+  "handle": "@cnainsider",
+  "country": "SG",
+  "thumb": "https://yt3.ggpht.com/doSuEkTIDs-gIx_9HpvQPo3SQWYuxIWLRk8WLrCndT-o1t8Ui9_lU1IddCYHxoHoMaFLSlUOOg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCY4snejmkmG782YnUliE88w": {
+  "title": "Roui Martin",
+  "handle": "@rouimartin-n3t",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_l-WPruEngifbfolAJ9ooMYouWRIljSLSUdcbFXhpBKLR2w067aQRcH7LDc0zzrTdX9yg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCbNv33r3CDZHfT2rdhz6eig": {
+  "title": "WILIscredia",
+  "handle": "@wiliscredia",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/Cn8yIUgfl84xunn9fNjncxu_o7E5qvZWn9zCy20cx4vCPMiQ6EETNEDuG7FnoHXXH8o6zggd=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCc2yHVz1dMasyKjGTuiyZ-g": {
+  "title": "Apex Paleo",
+  "handle": "@apexpaleo",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ZVm-sO_tCBhKhrpFSrptUdJvf6ZyaW5SfkY3vggWx-JJ4kWWrylVtzZEuYDaH3IbLVxR5Qz3tQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCe7zj4qQkw_vmkFC6ukbOfg": {
+  "title": "まるーく",
+  "handle": "@maru-chan-jpn",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/ZCwhNa12GAj73AYWU2FBGv5-UGLOxqf7d9HSWXtjT8eFc_rxfWRE4-al5ghONQV2jn1ayMPiNA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCYxYYiBL_fK9mZz8Sz2iqIw": {
+  "title": "Korea, Why?",
+  "handle": "@koreawhychannel",
+  "country": "KR",
+  "thumb": "https://yt3.ggpht.com/x-Un6at8MBumf4bIn3X-E8oIGiThGDlg1na8jhE-xsZNIpEW5GrlDhUdoTyKlcDbOgH1jV8QTZk=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCZaT_X_mc0BI-djXOlfhqWQ": {
+  "title": "VICE News",
+  "handle": "@vicenews",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/5-T_4OQwbVFrezPHUc3VP3wCyqo8nZ-VMOpJA_nppoxnZ6IhSVx1PrJPgfFkxD4Z8c5eDuQ9XQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCYtef7OlFqbdX5tRr5TWPlA": {
+  "title": "NotePlus",
+  "handle": "@noteplusofficial",
+  "country": "AU",
+  "thumb": "https://yt3.ggpht.com/1-gHIO3WueNq1xICeEgahp1llR2NuHBEe74lBiy5ltmG7sfDN6m1Cui9Sdl2GfU-i_Eupn62=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCcrKr4oHXR9sTRsjvrnctcg": {
+  "title": "日本保守党 群馬二区支部長 伊藤純子",
+  "handle": "@junko_110",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/Kun7uARx-k66yGM9FNtC7WWvvNzp-GiwULQeg0WCPmeM3rnkxa5i-2NoaXFDUfmRRhQmlpfUnHk=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCcHzWhd0zqW9hECTfSF1Xdw": {
+  "title": "ときの杜Tokinomori.",
+  "handle": "@tokinomori.5566",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_lidMLpfDPtyz7_srBT8lNtWQ81Of_n-ONo1nDs5gnP8rQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCdCHK10Kkib5P_nzUV-mxvw": {
+  "title": "レイナの闇の部屋",
+  "handle": "@レイナの闇の部屋-g1x",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/OselzW_zBXP_nc8-9qQZLiIvZnp5efGc235MUlRthgQl9I7dSse0X6jondR-7EuiRo5_88ycVQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCa4LDwDV6C9iuNtUCGnGDiw": {
+  "title": "氷河期世代の現在地",
+  "handle": "@hyogakisedai_now",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/T9o33AAHEk2GMP21N3KpOjuAXaCWjGFXxGJ--zH_Hs36G5pk1yWjJXTkJMF7q0qrxLChXAd2=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCZkkmQs-8OOhM4ErQAsDpQQ": {
+  "title": "希亡的閑塞",
+  "handle": "@希亡的閑塞",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/6govcWpau4ISDQ93_RB1Xd_TUa9NlE6ERstaS6k0YQKBdcHIN2phALeoni8qFfE2OV-3BGAUmA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCXfvF1-YTRVaRjFMeFCYUaw": {
+  "title": "Inside Nepali Village Life",
+  "handle": "@julamanuragiofficial",
+  "country": "NP",
+  "thumb": "https://yt3.ggpht.com/m5Hnw4fMcKVU4Iaa-rVfYcmlX-wP3Y4qPFpZgXUtEnCXwTQt4MsbAP61cHMPs_jahrEgN0Jk=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UC_ugkuJa4ooE9SvHg6yIkKQ": {
+  "title": "Steve Adams",
+  "handle": "@speedpadams",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/T7GlOM_s6RDplYyzhNHZ6h_KmQuMj5ow-wIXwRCzAB53-VzutKT49Jk_tlA52lFClkh4UlAPcQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCY3BQMZmAhKieTIu7jRZ22A": {
+  "title": "SerenaTheJournalist",
+  "handle": "@serenathejournalist",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/jhbEp7J4L-_vYNqaufasOLesPxRIupXCGhliBbqBM_v1vx-0GelMHPgqSDVgChUw_yOabtnx5Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCb9aRBOc66RPsWisxGZDoow": {
+  "title": "Mirage Codex",
+  "handle": "@miragecodex",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/Zpfcm7B9w7_fnSjojJ-pZ0V3VZjnyLiEY1zYhwtsct5uiwmVD8mt4SRS4NOkjivEHakNvdO0=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCYcXtqfvcgXLmiw5cMBOO2Q": {
+  "title": "Free Audiobook",
+  "handle": "@free_audiobook_477",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/fwIiDzqxw9qsYY3hfKmXPFVDcIwwJzKiADn5dQPH4zX3sIOLNZIRUu2_6faZSFqAHMdAg2uBlQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCgqnp7YjbMND9i9qLG3n1iw": {
+  "title": "hexumlite",
+  "handle": "@hexumlitee",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/0r_LtVqYiAvDxx9faWWZ8W9SW5qonerXSgLlnimcE3rJ8TuHEydobkbwglUCWEIXqeGaGwtb5IE=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCkFN-c-Mq2pXLNmOsRhtHHA": {
+  "title": "ずんだもんのゆっくりとした語りで",
+  "handle": "@ずんだもんのゆっくりとした語りで",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/s47eH9WeaHEidM-q2qvUPkT1tb61NH8xI4xB9HsSNu9Qh_YcIEOFpIbTyOQ-x8GzRiO5xuulbXc=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCfRxng_jBShVGDBQGnjRblQ": {
+  "title": "Truth Matters - Analyzing Faith",
+  "handle": "@truthmatters-analyzingfaith",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/9wX_aL_iZG7LdcOrXbArhzlYcIqm0tJEqW3RJWj3HPHM32XfcOKvZrEV9MaJx6HanqwysYu-sQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCjHz5SVHeMT0AViCYZvsGDA": {
+  "title": "NOVA PBS Official",
+  "handle": "@novapbs",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/yx6flJI75s--RAq27RgNOD-BQ_u_H4UNoQZlma1j1Txb0iSPZO5RoUW4sROUvP0g2-aClkjruO8=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCk_agN4JeO2zOVIapMxVg8A": {
+  "title": "Yolko",
+  "handle": "@yolkoanimations",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/NG74cVA-GgXmzE7j4rVW2zx9AcD2zfI33LhWcpgFABCO8vPAEYkB8Dokhx_ZBUleNU7A3w8BDQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCf33nkiGJ3C3u-Ey-5_r38A": {
+  "title": "Village Channel",
+  "handle": "@village-channel1",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/8-l1wICTStb5wUOcqdJz02XoEC-iBYRF6NQKwrMW_0YqmbOuVcxEtJ5ZI9kWx5THPtcLcPndM0c=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UChtAX4JLO-muIImu3m6Fv9A": {
+  "title": "Richard Fish",
+  "handle": "@fishschistory",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_kLcEmLB1eH_v7ld5gAYv9pQCQYZ5NKlafJ1N-AIA1dmCc=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCl4W8a43Pg6oLTJOHT-daew": {
+  "title": "Gia Đình Miền Tây",
+  "handle": "@giadinhmientay-y8k",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/GMEmM70qYs5fXllWSPZI2STt5XLyjgvXDqYFo3Aq5GldmhVzRI6aaYVnR1YGzXkuRQ_e18ZIZ2I=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCi3MtT7RK4tTfci6FBL2obQ": {
+  "title": "Charis’s Book Corner ",
+  "handle": "@xxminexrayxx4036",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/C-5VbaA5GbSOJAMvgfNhA_o3e2OTpOMgMv75VomGvJH0c0WOSzkrg_DVOSr3B-Wu-Fps7gw8xlA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UChrpb2XzGJLWbPq_3b1J8ww": {
+  "title": "AIと動画編集で紡ぐやさしい世界へ×あなたの心にそっと寄り添う映像を📹",
+  "handle": "@あなたの好きを映像というカタチに",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/m44cnZhgQs9Uh5NQ7hH3lHKzZKYVhWHZzbFi-y9oEATZY2MH6ZmHFikeP6tbu7FI-OtYi6nB7Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCiPGKRMj0TntpmsFKhA3-5w": {
+  "title": "opera-inside",
+  "handle": "@opera-inside4177",
+  "country": "CH",
+  "thumb": "https://yt3.ggpht.com/X-G5gv126UhnTYwawbR65jEJwZl-IMmdUU0sEP-ksjHkFsKTgSnsUFjsaRO_zb8YyRe1FcpNG4c=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCenKGEcb1FvonilsxUzQPpw": {
+  "title": "Nur Amalia Izzati",
+  "handle": "@nuramaliaizzati6966",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_kMsoaWb-Mps4A_3Xvhx1HzN1z8CltDXypOkvOK622dQA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCi7NaVsLc8HRxdraUVRMArg": {
+  "title": "The King of Main Street - A.K.A. Peter Merrick",
+  "handle": "@thekingofmainstreet-akapeterme",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/y54cAEjtzeDWYOB-0XzsO6Z2U6XkK9IBnyMHPx5onL1XgrrzlhUQ_V4SGi1UvISYOp78d3A2yQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UChqxOfH3Nj6fNOUq3k_EwqQ": {
+  "title": "公益社団法人日本新聞販売協会",
+  "handle": "@日販協",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/TNcYO5pQnmA8DLfowBbTI4emAMJbdKOkFR-9HKxC0bWWiAM3QJiAouB8xCYXB1HLtl7UD57Oe9k=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UClPJ0f2xr9Tp8XFLlor2MuQ": {
+  "title": "nursing institute 2.0",
+  "handle": "@nursinginstitutepreparation-78",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/8pt3lo7Q4WLK8mcAvRc0VAl44j0SkP-K_Q8llAXViMpPXSqy62iYkhVppYGsZ4fwofRlvQbcLA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UChNfJ92lTKuyvwTZjow6yWg": {
+  "title": "DARK LITERATURE",
+  "handle": "@darkliterature-bb",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/6sn0vBMVCI2rtUbnBhVnnCHKfdAP9cvXOlo3ekw0mfn7jIVQ0OaZRZ_YwLca13roQkO6Qq3biw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCiXpLH9b4odqomK9pgI0Rhg": {
+  "title": "Chloe Clement",
+  "handle": "@chloeclement-19",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_k1Xp3OrktpqNwGhtbo6zA1N8xZfM2-ivxM7ptxl7Dd_E2Ehrne9RE1y1nc08gin6WZJg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCeVYOX3oLIEL7wSYpYuDvbw": {
+  "title": "People Who Changed the World",
+  "handle": "@peoplechangedtheworld",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/88p0NLT4irtDa0wjH-MkBH5XYNhti_4jkeNAgR7jXdkPCCdnSCxK6fAVMpxWisURR_i7DJK7rg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCmreGswaPOXO3lHUpy0vCoQ": {
+  "title": "wunoo yae",
+  "handle": "@wunooyae9088",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/plqR6PU8WjE1K_7K1q6g2IYqQnIYxs_8-s_zXCg2lE4LF8ruAXgItADJlwdKkhaE_Y5egkmr3Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UClJqWRr9YwzIwAO2AvL6S8w": {
+  "title": "Kgantlapane_Mmoloki MD",
+  "handle": "@kgantlapane_mmoloki",
+  "country": "ZA",
+  "thumb": "https://yt3.ggpht.com/TFSJHGoV_S9T13ruoTuGNiduqQsiNHUgegrcjQT87RIARYvRVBkoWSt5yAwEBORL-zsQcfsHLA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCkoHfuaYTJrQWIWYlj6Xbgw": {
+  "title": "Indian Tintin",
+  "handle": "@indiantintin-dy",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/o5R0_nhERm3iQiu59quCgx7qa_rz74A_SLm2eaPKWzRCNTAt8zhwfj-Y1-Wh7EOp0foXDeXuow=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCj2-zKULab4kjozTy63Aiow": {
+  "title": "ChowTime 2.0",
+  "handle": "@chowtime2.0",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/kwUFuoreyBT312U9iQ5iIWJ4zJ389q3LIkIJQIApcS4lLfkTMLZRMgog3TQFhGZfyPGxqnSmtw=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCllRzoiQOT92ZLJD0ZwG8vw": {
+  "title": "ROYAL SCROLLS",
+  "handle": "@royalscrolls",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/SorDH43VoayqA9cOXHK-BVLZ3JKjNP_ngQwn9mtY9TYStH1vUy8foC4ws8eSl8LeJmSc1ZUU_Eg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCmgpjm53OGZd8a2z859a9vw": {
+  "title": "True Crime Fix",
+  "handle": "@truecrimefix",
+  "country": "AU",
+  "thumb": "https://yt3.ggpht.com/ojm_ej5VjHfWqEB2EziSMWwWGvWLq9RWiCvBk46TuL7tODtyl-FlA13Af4qivdGwKisNTaF-QA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCeedKEMrixcRXy9lj0k9F5Q": {
+  "title": "The Doll and Swordsman",
+  "handle": "@jackisamimic",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/IXHpaXq_V0-Dl_pwGnXlJjMaDG1jiW49V5XZW3HFgDKwevD2uEmUT2VkN1DmJLKeBBTLqFee=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UChRH-kn7h8L45CFIEFc-jWA": {
+  "title": "The Black File",
+  "handle": "@theblackfilesx10",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/QlpcJ1SRi8QUp0LdhbkDga79hzHPKpuWoxuc63HJk_nWxQ4vLTL20M4-bCH5kD12LM8242WkhA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCeHlf0Qu3MH9i_Z6H5lCC-g": {
+  "title": "RIKIYA TAKEUCHI HOPE IS A CHOICE",
+  "handle": "@takeuchirikiya",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/rpEIEvvsAXGTfQDq2Y43zeP6j-mL5hkaLzgx619Qpuer2a1hmugqX9qG6NFB0zAF751pbEcqwg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCnCAWO9PHGPLr6rUlJOIFRA": {
+  "title": "Beyond the Noise",
+  "handle": "@beyondthenoiseshows",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/iV8G4cIXXV4ssI0QrybEPeUr1K7TPhz6l-uga3NeiTVEratMLxMzOtb2CJKiLkpHa-w9KKmVDA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCnj8Q8tq9nE6A5AXGLXxn4w": {
+  "title": "Filmic Visions",
+  "handle": "@filmic_visions_kuk",
+  "country": "NZ",
+  "thumb": "https://yt3.ggpht.com/vMUkxTR7j7N5NKkCJvgL6WTxL-2iQFMQOP82bDItFYuK8ApDcFsALXrcFBpNH-VTgIdXGErxEPU=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCeW7J-8csupnjoInQw5fp2Q": {
+  "title": "めいろ",
+  "handle": "@めいろ-x5v",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/iXWBHxmqohvXnT8o0_nKvyfJqcKgS6HTJB0x68-tZXEYLeipjGhvkNf3-yrZIJ7RGsgXwrlu=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCkv4UcX2B8X5_Q9JxuaXosw": {
+  "title": "PremKV",
+  "handle": "@premkv21",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/3QkudNnSOS2xoJ_dxBnyTGBLVQQtgX2GPb8_jvXmJ0qNQtFchL_UhGlHnj3rT_J4rtporWBi=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCrPJ8HyNT2dhZsng94zLubQ": {
+  "title": "Theo",
+  "handle": "@theoexplainsfin",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/0UE3zWOlt1veL12FWpS8hUTwq8s65LzmHSnbTAmYivctngpxrrgHYCz6Y_2pfHStyxGvvPrsbA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCumYKvNbZ4ZezTd8xThWVgA": {
+  "title": "Grace Revelation",
+  "handle": "@gracerevelation-q6p",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/DjHK8IcrlJgcZCZoKjvqk-_vSNEgP56_Sgvwt4ap6IuNLwT6NgM8zUofe0aqU-Ot8l7JMe4f=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCuLIf5JN8MR8SYOQJ6Sc4Vg": {
+  "title": "Lanny",
+  "handle": "@lanny1300",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/iHzBYMcjTdOLvsSzjYtMyIqsZ2qgV7rpCPIWFG0EcwAsWmwn0ufhzatakJUOrrZdACPACLT6=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCu4XcDBdnZkV6-5z2f16M0g": {
+  "title": "Real Stories",
+  "handle": "@realstories",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/XVsObJGPeyedzNW9FNh5p1nbbxSVy9sjD5nrRnClicpVAAzIqWl0YaQY3QkIi32hOm3zccFXTQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UColdwL6T062LNo65OHngXAQ": {
+  "title": "Dr. James Tour",
+  "handle": "@drjamestour",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/prHBSUdjx2o5r1MIvSs15gJUSIlT_Wl9iQv4us1ZqhlKXwbCsOrezu7rhEp3A55drbWsN7UgXAM=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCrchMDK3mmNxZZZ754DUp7Q": {
+  "title": "Pete Rambo",
+  "handle": "@petergrambo",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/hpXWWcObwyMc1n1A806PkH1mRUdaLzwJysmJlzu12V9PkVyuwWq47q8fBFudURdg38rAad6tRZE=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCwJXtk_1CKlCrh7YJDP2uPw": {
+  "title": "共同通信  KYODO NEWS",
+  "handle": "@kyodonews",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/8wnUIPvOVwb1k_DT6XZrsXkfLyc2cjYa-QJCFXNfRt6jKxfuercUWOuW5LtpOQejb39tF42fpA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCuFFtHWoLl5fauMMD5Ww2jA": {
+  "title": "CBC News",
+  "handle": "@cbcnews",
+  "country": "CA",
+  "thumb": "https://yt3.ggpht.com/9bJu0WRWPRgja30h3i5gh3Mg4T94dVfcm6L8SEhjkM3j-AwqFKQZp1JxLhXpSVYzQjJTOXiw2vM=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCuK26Q1uE4Ovpne-x7HxGeQ": {
+  "title": "My Black Friends",
+  "handle": "@myblackfriends",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/J4cluJDC1Va_gdjC16pkuQKT12WGyTAEqo6CABAc2GmgwTRyUVjy0Tt4TgWAINF49lF0qJRYGIA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCurjdkkbUvxwD1-Chm85zaA": {
+  "title": "Crimes New Roman",
+  "handle": "@crimesnewroman",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/fhcz1ckzPskh5iXlbg8WXbL7TKejiN-awBko9cHkcsgcq1OTUyvxHGETmC_QEGRqNmLdl-35rA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCqbnhFiz58M7DfOCw0nLuAQ": {
+  "title": "AntaraSquad Academy",
+  "handle": "@antarasquad",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/bGUXbTz08KDCFnG1Gy58EXJSgSvok3uio6gznCG8QrkGu8C17peG-30K02ivUEmTEaugcrrV=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCoQBJMzcwmXrRSHBFAlTsIw": {
+  "title": "FNNプライムオンライン",
+  "handle": "@fnnnewsch",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/Px5pCuwMApeQ8kh4WcKshvsWi2ZRbhkRRaX5O9SE1pgyLNEQBirHPzz-FeGJ8PtMTtZb4OSlneg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCnyCrv8b7bu0oWFXGyHaPzg": {
+  "title": "TRT World Now",
+  "handle": "@trtworldnow",
+  "country": "TR",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_lyQp8wXS6hhiPoHXKeqDeTyYTCUG6cXfEyzhK8_hq9ZHg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCuw0GgMlZlAsWvpI8PgCN8g": {
+  "title": "ENDEVR",
+  "handle": "@endevrdocs",
+  "country": "DE",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_njolthD8WHPmujl2x58aw29y5cyNPyd7lHmWXkiQTwkWI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCsN32BtMd0IoByjJRNF12cw": {
+  "title": "60 Minutes",
+  "handle": "@60minutes",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/K00QPximTKmQW7xFqFz1oehgOpeIq8raIoDCTfEl85SKfHjq4bpyXZilN-q1VKmJC7aKQfGAdxQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCphDBU9sycX6bt9BJ_Xbc_Q": {
+  "title": "The Female Mindset",
+  "handle": "@femalemindset-x9t",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/8jq4BoyN-5ZJ5wmWCqOQlZjjxBjBhpr2wPNZYuvmE07lJbAaCLLPcX9C_8qPSYZznZtevAsnJW0=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCrC8mOqJQpoB7NuIMKIS6rQ": {
+  "title": "StudyIQ IAS",
+  "handle": "@studyiqeducationltd",
+  "country": "IN",
+  "thumb": "https://yt3.ggpht.com/QnU8L8IUm5IHAsjvhiNrDqjNhJWX_MWrvwMeVyBWrjP_vnhuhmSIsuQ6Lr5dbTqH2Le5WeGWDA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCrbTfKsG-XrJODYi1YM1NAA": {
+  "title": "Inside Village Life Nepal ",
+  "handle": "@insidevillagelifenepal27",
+  "country": "NP",
+  "thumb": "https://yt3.ggpht.com/x50rHUtd4xkGdmB2tPCjBpZL52NYy0gLUpx4-pyWsDSB-borkecAP07j145DWL1zovfi1u5xxg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCuTAXTexrhetbOe3zgskJBQ": {
+  "title": "日テレNEWS",
+  "handle": "@ntv_news",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/l6O9viXT0NUEet41Y2IAjKvuTbULIaErR8UUppXhtNeW7r-Z7hgruiBOxoCJaSQMlbHv4Cii=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCqnbDFdCpuN8CMEg0VuEBqA": {
+  "title": "The New York Times",
+  "handle": "@nytimes",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_niRq8CFu_t0QX45kIzJ58GtS9zlO2SGo7wArxG9gy6uEc=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCqc8FrgeQT34cewZA67XxAA": {
+  "title": "Conrad Riker",
+  "handle": "@konradnriker",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/lELyBB_IQE0wuc4lD8eyX2Uvjf0kuKHX0_0ASW2z7R00J4WUowP_ET_gvhAb_fGuYF-0yz5-=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCw6bmEcRUs3ABFFm55U9V3w": {
+  "title": "カワセミとスズメの教養チャンネル",
+  "handle": "@kawasemi-to-suzume",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/O1RnVQ_KUaq1bRUxQOEKNhpKK3Vo378jpA9knbx0K-5GZ8_FycvRrgEw5Sexf4WAqpfEB7GrxPo=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCuaiBjhXsqMjPRG8GSv3vUQ": {
+  "title": "Seemlytuber Studio",
+  "handle": "@seemlytuberstudio",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/xf-O5p_FK6jiI2UGKUKCoyg2joAEpnrKBJzmXgnHNcw8n1Z0Jdu6toKWb1ZyJkYoO_Qdf33NnlI=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCqoJme--hPfH0V48O2taXkw": {
+  "title": "Virtus Stoic",
+  "handle": "@virtus_stoic",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/kcc7cnowrvHZn3eCynsegx2F5HayUpwjnj5ccGMOFQr4tMCmP1uO0P8StaAGA4EJxhsLxNrY1VY=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCt7mJC7CZDVFscoGwxHehaA": {
+  "title": "Ethan",
+  "handle": "@ethan67777",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/7YaewrwcvdRESw97I5pxwtfKUKTfZJR197hA8R54oR9DGjJa2f5pwGEI6C1SeKYLSLdYKEnwUQ=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCpDoCWUbg73et-eJV2w1lTg": {
+  "title": "Blue Collar After Hours",
+  "handle": "@bluecollarafterhoursshow",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/d1u83z4lRIMbjxipwTnp7wky-xOmFrrW4zteS4iiDMr7LMJ9V9-7Nvx5-gnd5UOZlxawnMtcog=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCp4OXwfZE1SaCQ4jRAuaoXQ": {
+  "title": "RNZ",
+  "handle": "@rnznewzealand",
+  "country": "NZ",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_k0eTW1iiSJYzPFSWu-slsfhV9-g7mQSDunQUfukq-FD2I=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCucGPKsFjX3c0APXa-AvajA": {
+  "title": "ランキングの裏側",
+  "handle": "@ranking-no-uragawa",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/vgTDTCwetor44l9RQKuPiC_7KuDqJc3ORVH8e1byMMSn2AaaxyAAGyy6_b1wE4ArC1FA8cmKLA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCwoo7K19GY6fdmRT6xD-tuA": {
+  "title": "Johnmark Morta",
+  "handle": "@johnmarkmorta4286",
+  "country": "",
+  "thumb": "https://yt3.ggpht.com/ytc/AIdro_mGKq5bkQMIvmYQTwUP-w-_IY--SeDv67sTYFASz8F4wQY=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCxcrzzhQDj5zKJbXfIscCtg": {
+  "title": "ABC News In-depth",
+  "handle": "@abcnewsindepth",
+  "country": "AU",
+  "thumb": "https://yt3.ggpht.com/ba728amzd4JE6Wv110CIvKp2XYdxsHiHHFr05Ic75XViA3-bSt9un6gGj1YvzuZccPgyMKW30w=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": true
+ },
+ "UCy_3QM_sftAYnJUC7cHObDQ": {
+  "title": "ひろしま de ASIAN",
+  "handle": "@deasian-ys5vm",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/BRZtxp_AJdqJ04v9M9VZ4HyoD8NTsCr6jgt6TaZBcxlYML6t4-VUNO-3T-fp8XRddmQxGdiF=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCx-AwybIhbie1IuN3fUrR9w": {
+  "title": "Story Islam",
+  "handle": "@storyislam-f1e",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/xsNNFf98S7ic4YkofG-kYHMQRyKqPUQOjt-d1BmN4NxOW_O0q3NmnE_33C4X0B9kIPhUcZtl=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCzL_BaO8BudYWPrFRfBMrrA": {
+  "title": "ペンギン論評ch",
+  "handle": "@penpennews",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/5zFecYc-CR30XnqI5oYLZRWs9k-ricOKaIiMqCEPwZTgPs7FxvCFenhaIS78t56wPvj6tgQLMA=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCz3R_-BAaa4ZXCG18ps76_Q": {
+  "title": "Thotline ",
+  "handle": "@thotlinemiami0",
+  "country": "GB",
+  "thumb": "https://yt3.ggpht.com/EcFpvpgf00J4BGAlK9_fXN5xBQn0t-Z9XLu7rW7_2Ou2rYjqQy0_cv4PScTB7RWg2lYDlzPh6Q=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCwz5y5fJrbmaHt6qk4L9drA": {
+  "title": "Vexchequer",
+  "handle": "@vexchequer",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/sq4xHRJcROnMxAVI6Mow-BN3Rk0lU-xpeFu5zldaQrhKQs61uB3zMC6vtujM1cqBfIy-91xM=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCwd2jdYvabey58ugnKcmZJw": {
+  "title": "CALI. LEGENDS MEDIA",
+  "handle": "@luckystevemmv5852",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/FlhgN-gbwAeD89x6mRBS4KGTFS38MFuEy7ABkQwZr-VICAfHkLXTyrOs7HtPyNj-ZjvXWxNPqg=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCwYL1zI1ER5hA3WgOWTtVrQ": {
+  "title": "CineTime Capsule",
+  "handle": "@cinetimecapsule-09",
+  "country": "US",
+  "thumb": "https://yt3.ggpht.com/aBEMULyIiDMSaBReiWbipV7vfrZLChZvmceK3WOF7NH6iUTjPdI_PVhyjs-2LJYhnPhK0YuadXk=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
+ },
+ "UCzGwbhOysCab4TMKuJWRc1w": {
+  "title": "レオパレス暮らしのkinaco vlog",
+  "handle": "@kinacovlog1992",
+  "country": "JP",
+  "thumb": "https://yt3.ggpht.com/e8QUpGYf_X5UQZisk4-aPQX9vKjYHe8Q4Mtc1qBJZN3ApbPDpzYJvtJsqv4RMGMseDnS7w9J0PE=s88-c-k-c0x00ffffff-no-rj",
+  "hiddenSubs": false,
+  "news": false
  }
 }

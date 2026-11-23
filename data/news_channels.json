@@ -1,0 +1,186 @@
+{
+ "@nhk": {
+  "id": "UCip8ve30-AoX2y2OtAAmqFA",
+  "title": "NHK",
+  "lang": "ja",
+  "uploads": "UUip8ve30-AoX2y2OtAAmqFA"
+ },
+ "@NHKWORLDJAPAN": {
+  "id": "UCSPEjw8F2nQDtmUKPFNF7_A",
+  "title": "NHK WORLD-JAPAN",
+  "lang": "ja",
+  "uploads": "UUSPEjw8F2nQDtmUKPFNF7_A"
+ },
+ "@tbsnewsdig": {
+  "id": "UC6AG81pAkf6Lbi_1VC5NmPA",
+  "title": "TBS NEWS DIG Powered by JNN",
+  "lang": "ja",
+  "uploads": "UU6AG81pAkf6Lbi_1VC5NmPA"
+ },
+ "@ntv_news": {
+  "id": "UCuTAXTexrhetbOe3zgskJBQ",
+  "title": "日テレNEWS",
+  "lang": "ja",
+  "uploads": "UUuTAXTexrhetbOe3zgskJBQ"
+ },
+ "@ANNnewsCH": {
+  "id": "UCGCZAYq5Xxojl_tSXcVJhiQ",
+  "title": "ANNnewsCH",
+  "lang": "ja",
+  "uploads": "UUGCZAYq5Xxojl_tSXcVJhiQ"
+ },
+ "@FNNnewsCH": {
+  "id": "UCoQBJMzcwmXrRSHBFAlTsIw",
+  "title": "FNNプライムオンライン",
+  "lang": "ja",
+  "uploads": "UUoQBJMzcwmXrRSHBFAlTsIw"
+ },
+ "@asahicom": {
+  "id": "UCMKvT0YVLufHMdGLH89J1oA",
+  "title": "朝日新聞",
+  "lang": "ja",
+  "uploads": "UUMKvT0YVLufHMdGLH89J1oA"
+ },
+ "@mainichi": {
+  "id": "UCzTBMla3uzbjduOmqYdExIQ",
+  "title": "mainichi",
+  "lang": "ja",
+  "uploads": "UUzTBMla3uzbjduOmqYdExIQ"
+ },
+ "@KyodoNews": {
+  "id": "UCwJXtk_1CKlCrh7YJDP2uPw",
+  "title": "共同通信  KYODO NEWS",
+  "lang": "ja",
+  "uploads": "UUwJXtk_1CKlCrh7YJDP2uPw"
+ },
+ "@toyokeizai": {
+  "id": null,
+  "lang": "ja",
+  "notFound": true
+ },
+ "@BBCNews": {
+  "id": "UC16niRr50-MSBwiO3YDb3RA",
+  "title": "BBC News",
+  "lang": "en",
+  "uploads": "UU16niRr50-MSBwiO3YDb3RA"
+ },
+ "@BBCWorldService": {
+  "id": "UCQXHTFnQYFTqN0MqmNh9EIA",
+  "title": "BBC World Service",
+  "lang": "en",
+  "uploads": "UUQXHTFnQYFTqN0MqmNh9EIA"
+ },
+ "@DWDocumentary": {
+  "id": "UCW39zufHfsuGgpLviKh297Q",
+  "title": "DW Documentary",
+  "lang": "en",
+  "uploads": "UUW39zufHfsuGgpLviKh297Q"
+ },
+ "@dwnews": {
+  "id": "UCknLrEdhRCp1aegoMqRaCZg",
+  "title": "DW News",
+  "lang": "en",
+  "uploads": "UUknLrEdhRCp1aegoMqRaCZg"
+ },
+ "@aljazeeraenglish": {
+  "id": "UCNye-wNBqNL5ZzHSJj3l8Bg",
+  "title": "Al Jazeera English",
+  "lang": "en",
+  "uploads": "UUNye-wNBqNL5ZzHSJj3l8Bg"
+ },
+ "@PBSNewsHour": {
+  "id": "UC6ZFN9Tx6xh-skXCuRHCDpQ",
+  "title": "PBS NewsHour",
+  "lang": "en",
+  "uploads": "UU6ZFN9Tx6xh-skXCuRHCDpQ"
+ },
+ "@frontline": {
+  "id": "UC3ScyryU9Oy9Wse3a8OAmYQ",
+  "title": "FRONTLINE PBS | Official",
+  "lang": "en",
+  "uploads": "UU3ScyryU9Oy9Wse3a8OAmYQ"
+ },
+ "@Vox": {
+  "id": "UCLXo7UDZvByw2ixzpQCufnA",
+  "title": "Vox",
+  "lang": "en",
+  "uploads": "UULXo7UDZvByw2ixzpQCufnA"
+ },
+ "@guardiannews": {
+  "id": "UCIRYBXDze5krPDzAEOxFGVA",
+  "title": "Guardian News",
+  "lang": "en",
+  "uploads": "UUIRYBXDze5krPDzAEOxFGVA"
+ },
+ "@nytimes": {
+  "id": "UCqnbDFdCpuN8CMEg0VuEBqA",
+  "title": "The New York Times",
+  "lang": "en",
+  "uploads": "UUqnbDFdCpuN8CMEg0VuEBqA"
+ },
+ "@washingtonpost": {
+  "id": "UCHd62-u_v4DvJ8TCFtpi4GA",
+  "title": "Washington Post",
+  "lang": "en",
+  "uploads": "UUHd62-u_v4DvJ8TCFtpi4GA"
+ },
+ "@CNAInsider": {
+  "id": "UC_Lnb8ZHqqgLbp-7hltuT9w",
+  "title": "CNA Insider",
+  "lang": "en",
+  "uploads": "UU_Lnb8ZHqqgLbp-7hltuT9w"
+ },
+ "@Channel4News": {
+  "id": "UCTrQ7HXWRRxr7OsOtodr2_w",
+  "title": "Channel 4 News",
+  "lang": "en",
+  "uploads": "UUTrQ7HXWRRxr7OsOtodr2_w"
+ },
+ "@60minutes": {
+  "id": "UCsN32BtMd0IoByjJRNF12cw",
+  "title": "60 Minutes",
+  "lang": "en",
+  "uploads": "UUsN32BtMd0IoByjJRNF12cw"
+ },
+ "@CBCNews": {
+  "id": "UCuFFtHWoLl5fauMMD5Ww2jA",
+  "title": "CBC News",
+  "lang": "en",
+  "uploads": "UUuFFtHWoLl5fauMMD5Ww2jA"
+ },
+ "@abcnewsindepth": {
+  "id": "UCxcrzzhQDj5zKJbXfIscCtg",
+  "title": "ABC News In-depth",
+  "lang": "en",
+  "uploads": "UUxcrzzhQDj5zKJbXfIscCtg"
+ },
+ "@VICENews": {
+  "id": "UCZaT_X_mc0BI-djXOlfhqWQ",
+  "title": "VICE News",
+  "lang": "en",
+  "uploads": "UUZaT_X_mc0BI-djXOlfhqWQ"
+ },
+ "@NPR": {
+  "id": "UCJnS2EsPfv46u1JR8cnD0NA",
+  "title": "NPR",
+  "lang": "en",
+  "uploads": "UUJnS2EsPfv46u1JR8cnD0NA"
+ },
+ "@AJPlus": {
+  "id": "UCV3Nm3T-XAgVhKH9jT0ViRg",
+  "title": "AJ+",
+  "lang": "en",
+  "uploads": "UUV3Nm3T-XAgVhKH9jT0ViRg"
+ },
+ "@RealStories": {
+  "id": "UCu4XcDBdnZkV6-5z2f16M0g",
+  "title": "Real Stories",
+  "lang": "en",
+  "uploads": "UUu4XcDBdnZkV6-5z2f16M0g"
+ },
+ "@NHKWORLDDocumentary": {
+  "id": null,
+  "lang": "en",
+  "notFound": true
+ }
+}
