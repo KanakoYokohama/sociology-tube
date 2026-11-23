@@ -181,8 +181,15 @@ def text_hits(text, words):
     return out
 
 
+def style_text(v):
+    """語り口の判定に使う文章。説明文の定型文を拾わないよう冒頭だけ、報道機関はタイトルだけ。"""
+    if v.get("news"):
+        return v.get("title", "")
+    return v.get("title", "") + "\n" + v.get("description", "")[:200]
+
+
 def styles_of(v):
-    text = v.get("title", "") + "\n" + v.get("description", "")
+    text = style_text(v)
     out = []
     if v.get("news"):
         out.append(config.NEWS_STYLE["id"])
@@ -195,7 +202,7 @@ def styles_of(v):
 def book_match(v):
     """本の書き方（一人称の語り＋当事者の事例＋社会への問い）に近いか。テーマは問わない。
     「一人称・体験談」か「当事者・密着」に当たれば近いとし、当たった要素を返す。"""
-    text = v.get("title", "") + "\n" + v.get("description", "")
+    text = style_text(v)
     st = {s["id"]: text_hits(text, s["words"]) for s in config.STYLES}
     if not (st["first_person"] or st["case"]):
         return None
@@ -300,7 +307,7 @@ def collect(yt, today_d, now):
             pub = it.get("contentDetails", {}).get("videoPublishedAt") or sn.get("publishedAt", "")
             if not pub or datetime.fromisoformat(pub.replace("Z", "+00:00")) < after_dt:
                 continue
-            text = sn.get("title", "") + "\n" + (sn.get("description") or "")[:600]
+            text = sn.get("title", "")  # 説明文の定型文（SNSやチャンネル登録の案内）を拾わないよう、タイトルだけで判定
             cats = keyword_categories(text)
             doc = text_hits(text, DOC_WORDS)
             if cats or doc:
@@ -347,7 +354,14 @@ def collect(yt, today_d, now):
                 v["politics"] = pol
         if v.get("excluded"):
             continue
-        cats = set(v["searchCats"]) | set(keyword_categories(title + "\n" + desc))
+        # 説明文の後半は定型文が多いので、分野の判定はタイトル＋説明文の冒頭だけで行う
+        kw_text = title if is_news else title + "\n" + desc[:200]
+        if is_news:
+            v["searchCats"] = keyword_categories(title)
+        cats = set(v["searchCats"]) | set(keyword_categories(kw_text))
+        if not cats and not text_hits(title, config.SOCIOLOGY_WORDS):
+            v["excluded"] = "offtopic"  # どの分野にも当たらず、社会学らしい語もない
+            continue
         v["lang"] = lang
         v["categories"] = sorted(cats) or [config.OTHER_CATEGORY["id"]]
         vrows.append({"date": today, "video_id": it["id"],

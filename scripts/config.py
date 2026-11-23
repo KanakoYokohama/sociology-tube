@@ -87,7 +87,7 @@ CATEGORIES = [
             "ja": ["SNS 社会 影響", "ネット文化 解説"],
             "en": ["internet culture explained", "social media society"],
         },
-        "keywords": ["SNS", "ネット", "炎上", "YouTube", "TikTok", "インフルエンサー", "メディア", "推し", "陰謀論",
+        "keywords": ["SNS", "ネット文化", "ネット社会", "炎上", "TikTok", "インフルエンサー", "メディア", "推し", "陰謀論",
                      "internet culture", "social media", "influencer", "tiktok", "algorithm", "loneliness"],
     },
 ]
@@ -103,6 +103,10 @@ GENERAL_QUERIES = {
 REGION = {"ja": "JP", "en": "US"}
 
 OTHER_CATEGORY = {"id": "other", "name": "その他・社会学全般"}
+
+# どの分野にも当たらない動画は、これらの語がなければ「関係なし」として除外する
+SOCIOLOGY_WORDS = ["社会学", "社会問題", "社会", "人間関係", "孤独", "共同体", "差別",
+                   "sociolog", "society", "loneliness", "human connection"]
 
 
 # ---------------------------------------------------------------- 除外
@@ -121,7 +125,8 @@ SENSATIONAL_WORDS = {
         "DESTROYS", "DESTROYED", "OWNED", "HUMBLED", "TRIGGERED", "MELTDOWN", "MELTS DOWN",
         "SHUTS DOWN", "GOES OFF", "EPIC", "SHOCKING", "LIBS", "WOKE",
         "delusional", "brainwashed", "heated debate", "fact check", "humiliat", "red pill", "redpill",
-        "gets schooled", "meltdown", "2ch", "2ちゃん", "ガルちゃん", "レスバ", "スカッと"],
+        "gets schooled", "meltdown", "2ch", "2ちゃん", "ガルちゃん", "レスバ", "スカッと",
+        "都市伝説", "予言", "REACTS", "Parasite", "Beyond Sad"],
     # 2語そろうと除外（1点）
     1: ["衝撃", "ヤバい", "やばい", "ヤバ", "炎上", "激怒", "呆れ", "爆笑", "末路", "闇", "斬る", "本音",
         "怒り", "正論", "称賛", "批判殺到", "ｗ", "www", "残酷", "絶望", "地獄", "ガチ", "マジで", "罠",
@@ -156,7 +161,7 @@ STYLES = [
                "my ", "i'm", "i've", "why i ", "how i ", "i was", "personal", "my story", "my life", "essay"]},
     {"id": "case", "name": "当事者・密着",
      "words": ["インタビュー", "当事者", "密着", "ドキュメンタリー", "暮らし", "取材", "実態", "素顔", "日常", "に聞く",
-               "documentary", "interview", "inside", "living with", "life of", "day in the life", "meet the", "we live", "lives of"]},
+               "documentary", "interview", "living with", "life of", "day in the life", "we live", "lives of", "my life as"]},
     {"id": "explainer", "name": "解説・講義",
      "words": ["解説", "講義", "社会学者", "教授", "専門家", "研究", "データで", "わかりやすく", "なぜ起きる",
                "explained", "explainer", "lecture", "professor", "sociologist", "research", "analysis", "the science of"]},
@@ -185,7 +190,8 @@ POLITICS_WORDS = [
     "自民党", "立憲", "維新", "公明", "共産党", "国民民主", "参政党", "れいわ", "社民党", "首相", "総理", "石破",
     "高市", "岸田", "国会", "選挙", "衆院", "参院", "政権", "内閣", "議員", "政治家", "野党", "与党", "政府",
     "Trump", "Biden", "Harris", "Vance", "Congress", "Senate", "Republican", "Democrat", "GOP", "election",
-    "parliament", "MAGA", "White House", "prime minister", "president",
+    "parliament", "MAGA", "White House", "prime minister", "president", "大統領", "首脳", "外交",
+    "minister", "民主党", "共和党", "votes", "Pentagon", "Kremlin", "NATO", "military", "軍事", "防衛",
     # 経済・お金
     "投資", "株価", "NISA", "資産運用", "資産形成", "節約", "円安", "物価高", "日経平均", "為替", "金利",
     "年収アップ", "副業", "不動産", "経済", "税金", "増税", "減税",
