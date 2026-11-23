@@ -1,0 +1,36 @@
+name: 毎日の記録
+
+on:
+  schedule:
+    # 毎日 11:40 UTC = 20:40 日本時間に開始し、21時には画面が新しくなるようにしています。
+    # （ちょうど0分はGitHubが混み、遅れたり飛ばされたりしやすいため）
+    - cron: "40 11 * * *"
+  workflow_dispatch: {}   # 「Run workflow」ボタンで手動実行もできる
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-collect
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: YouTubeから記録して集計
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: python scripts/collect.py
+      - name: 記録を保存
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs/data
+          git diff --cached --quiet || git commit -m "記録 $(TZ=Asia/Tokyo date +%F)"
+          git push
