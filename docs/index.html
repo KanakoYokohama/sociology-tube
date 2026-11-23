@@ -299,10 +299,10 @@ function renderBook() {
   const m = state.bmetric in metrics && state.bmetric !== "inTop20" ? state.bmetric : "medianViewsPerDay";
   const few = B.compare[0].videos < 10;
   el.innerHTML = `
-    <p class="lead">『人はなぜ結婚をするのか』に近い動画＝結婚・家族のテーマで、一人称の体験談か当事者への密着がある動画です。</p>
+    <p class="lead">あなたの本の書き方に近い動画＝テーマを問わず、一人称の体験談か当事者への密着がある動画です。</p>
     <div class="filters"><select class="chip" data-s="bmetric" aria-label="比べる指標">${Object.entries(metrics).filter(([k]) => k !== "inTop20").map(([k, [l]]) => `<option value="${k}" ${k === m ? "selected" : ""}>${l}</option>`).join("")}</select></div>
     ${few ? `<div class="note">まだ本数が少ないため、比較の数字は参考程度です。記録がたまるほど確かになります。</div>` : ""}
-    ${barCard("本に近い動画は伸びやすい？", B.compare, m, "同じ結婚・家族のテーマの中で、語り口だけを比べています。")}
+    ${barCard("本に近い動画は伸びやすい？", B.compare, m, "8分野すべての動画で、語り口だけを分けて比べています。")}
     ${barCard("どの要素が効いている？", B.signals, m, "本に近い動画のうち、各要素を持つ動画の数字です（重なりあり）。")}
     ${barCard("全体：語り口ごとの伸びやすさ", S.styles.filter(x => x.videos), m, "8分野すべての動画で比べています。")}
     ${barCard("全体：問いかけ型タイトル", S.question, m, "「なぜ」「〜のか」「Why」などで始まる・含むタイトルとそれ以外。")}
@@ -317,7 +317,8 @@ function renderBook() {
               ${v.book.firstPerson.length ? `<span class="tag">一人称：${esc(v.book.firstPerson.join("・"))}</span>` : ""}
               ${v.book.case.length ? `<span class="tag">当事者：${esc(v.book.case.join("・"))}</span>` : ""}
               ${v.book.question ? `<span class="tag">問いかけ</span>` : ""}
-              <span class="tag k">テーマ：${esc(v.book.theme.join("・"))}</span></div>
+              ${v.book.explainer ? `<span class="tag">解説・考察</span>` : ""}
+              ${v.categories.map(c => `<span class="tag k">${esc(catLabel(c))}</span>`).join("")}</div>
           </div></div>
         <div class="stats">
           <div class="stat"><div class="k">24時間の伸び</div><div class="v ${v.gain24h > 0 ? "up" : ""}">${plus(v.gain24h)}</div></div>

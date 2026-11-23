@@ -193,18 +193,16 @@ def styles_of(v):
 
 
 def book_match(v):
-    """本の書き方に近いか。近ければ当たった要素を返す。"""
+    """本の書き方（一人称の語り＋当事者の事例＋社会への問い）に近いか。テーマは問わない。
+    「一人称・体験談」か「当事者・密着」に当たれば近いとし、当たった要素を返す。"""
     text = v.get("title", "") + "\n" + v.get("description", "")
-    theme = text_hits(text, config.BOOK_THEME_WORDS)
-    if not theme:
-        return None
     st = {s["id"]: text_hits(text, s["words"]) for s in config.STYLES}
     if not (st["first_person"] or st["case"]):
         return None
     question = bool(text_hits(v.get("title", ""), config.QUESTION_WORDS))
-    score = 2 * min(len(theme), 3) + 2 * bool(st["first_person"]) + 2 * bool(st["case"]) + question
-    return {"theme": theme[:4], "firstPerson": st["first_person"][:3], "case": st["case"][:3],
-            "question": question, "score": score}
+    score = 2 * bool(st["first_person"]) + 2 * bool(st["case"]) + bool(st["explainer"]) + question
+    return {"firstPerson": st["first_person"][:3], "case": st["case"][:3],
+            "explainer": bool(st["explainer"]), "question": question, "score": score}
 
 
 def parse_duration(iso):
@@ -536,19 +534,18 @@ def summarize(videos, channels, vhist, chist, today_d, now, news=None):
 
     # 本に近い動画
     book_list = sorted([x for x in vlist if x["book"]], key=growth_key, reverse=True)
-    theme_xs = [x for x in vlist if text_hits(x["title"] + "\n" + videos[x["id"]].get("description", ""),
-                                               config.BOOK_THEME_WORDS)]
     book = {
         "videos": book_list[:30],
         "compare": [
             {"id": "match", "name": "本に近い語り口", **stats(book_list)},
-            {"id": "theme_only", "name": "同じテーマの他の動画", **stats([x for x in theme_xs if not x["book"]])},
+            {"id": "rest", "name": "それ以外の語り口", **stats([x for x in vlist if not x["book"]])},
         ],
         "signals": [
             {"id": "fp", "name": "一人称・体験談あり", **stats([x for x in book_list if x["book"]["firstPerson"]])},
             {"id": "case", "name": "当事者・密着あり", **stats([x for x in book_list if x["book"]["case"]])},
             {"id": "both", "name": "両方あり", **stats([x for x in book_list if x["book"]["firstPerson"] and x["book"]["case"]])},
             {"id": "q", "name": "問いかけ型タイトル", **stats([x for x in book_list if x["book"]["question"]])},
+            {"id": "ex", "name": "解説・考察も含む", **stats([x for x in book_list if x["book"]["explainer"]])},
         ],
     }
 
