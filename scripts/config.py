@@ -18,7 +18,7 @@ CATEGORIES = [
             "en": ["inequality sociology", "poverty society explained"],
         },
         "keywords": ["格差", "貧困", "階層", "階級", "生活保護", "低所得", "富裕層", "中流",
-                     "inequality", "poverty", "class", "wealth gap", "the poor", "homeless"],
+                     "inequality", "poverty", "social class", "wealth gap", "the poor", "homeless"],
     },
     {
         "id": "gender",
@@ -38,7 +38,7 @@ CATEGORIES = [
             "en": ["marriage sociology", "family decline birth rate"],
         },
         "keywords": ["結婚", "婚活", "離婚", "家族", "少子化", "出生率", "子育て", "未婚", "夫婦",
-                     "marriage", "married", "divorce", "family", "birth rate", "fertility", "dating", "single"],
+                     "marriage", "married", "divorce", "family", "birth rate", "fertility", "dating"],
     },
     {
         "id": "work",
@@ -78,7 +78,7 @@ CATEGORIES = [
             "en": ["immigration sociology", "multicultural society"],
         },
         "keywords": ["移民", "外国人", "難民", "多文化", "共生", "在日", "国籍", "排外",
-                     "immigra", "migrant", "refugee", "multicultural", "race", "racism", "ethnic"],
+                     "immigra", "migrant", "refugee", "multicultural", "racism", "ethnic"],
     },
     {
         "id": "media",
@@ -88,7 +88,7 @@ CATEGORIES = [
             "en": ["internet culture explained", "social media society"],
         },
         "keywords": ["SNS", "ネット", "炎上", "YouTube", "TikTok", "インフルエンサー", "メディア", "推し", "陰謀論",
-                     "internet", "social media", "online", "influencer", "tiktok", "algorithm", "media", "loneliness"],
+                     "internet culture", "social media", "influencer", "tiktok", "algorithm", "loneliness"],
     },
 ]
 

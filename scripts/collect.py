@@ -75,11 +75,29 @@ class YouTube:
 
 # ---------------------------------------------------------------- 判定
 
-JA_CHARS = re.compile(r"[぀-ヿ一-鿿]")
+KANA = re.compile("[぀-ヿ]")
+HAN = re.compile("[一-鿿]")
+# キリル・ハングル・デーヴァナーガリー・タイ・アラビア・ベンガル〜タミル
+OTHER_SCRIPTS = re.compile("[Ѐ-ӿ가-힯ऀ-ॿ฀-๿؀-ۿঀ-௿]")
+LATIN = re.compile("[A-Za-z]")
 
 
-def detect_lang(text):
-    return "ja" if JA_CHARS.search(text or "") else "en"
+def detect_lang(snippet):
+    """日本語ならja、英語ならen、それ以外（中国語・韓国語・ロシア語など）はother。"""
+    title = snippet.get("title", "") or ""
+    desc = (snippet.get("description", "") or "")[:300]
+    audio = (snippet.get("defaultAudioLanguage") or snippet.get("defaultLanguage") or "").lower()
+    if audio.startswith("ja"):
+        return "ja"
+    if KANA.search(title) or (HAN.search(title) and KANA.search(desc + snippet.get("channelTitle", ""))):
+        return "ja"
+    if OTHER_SCRIPTS.search(title) or HAN.search(title):
+        return "other"  # 漢字だけでかなが見当たらない＝中国語とみなす
+    if audio and not audio.startswith("en"):
+        return "other"
+    if OTHER_SCRIPTS.search(desc):
+        return "other"
+    return "en" if len(LATIN.findall(title)) >= 5 else "other"
 
 
 def keyword_categories(text):
@@ -168,11 +186,16 @@ def collect(yt, today_d, now):
     # 2) 追跡中の動画（投稿からTRACK_DAYS日以内）の数字を取る
     cutoff = now - timedelta(days=config.TRACK_DAYS)
     active = [vid for vid, v in videos.items()
-              if "publishedAt" not in v or datetime.fromisoformat(v["publishedAt"].replace("Z", "+00:00")) >= cutoff]
+              if not v.get("excluded") and
+              ("publishedAt" not in v or datetime.fromisoformat(v["publishedAt"].replace("Z", "+00:00")) >= cutoff)]
     vrows = []
     for it in yt.videos(active):
         sn, st = it["snippet"], it.get("statistics", {})
         v = videos[it["id"]]
+        lang = detect_lang(sn)
+        if lang == "other":
+            v.update({"title": sn.get("title", ""), "excluded": "language"})
+            continue
         text = sn.get("title", "") + "\n" + sn.get("description", "")[:600]
         cats = set(v["categories"]) | set(keyword_categories(text))
         v.update({
@@ -180,7 +203,7 @@ def collect(yt, today_d, now):
             "channelId": sn["channelId"],
             "channelTitle": sn.get("channelTitle", ""),
             "publishedAt": sn["publishedAt"],
-            "lang": detect_lang(sn.get("title", "")),
+            "lang": lang,
             "duration": parse_duration(it.get("contentDetails", {}).get("duration")),
             "categories": sorted(cats) or [config.OTHER_CATEGORY["id"]],
         })
@@ -249,7 +272,7 @@ def summarize(videos, channels, vhist, chist, today_d, now):
     # 動画ごとの指標
     vlist = []
     for vid, s in vviews.items():
-        if today not in s or vid not in videos or "title" not in videos[vid]:
+        if today not in s or vid not in videos or "title" not in videos[vid] or videos[vid].get("excluded"):
             continue
         v = videos[vid]
         pub = datetime.fromisoformat(v["publishedAt"].replace("Z", "+00:00"))
