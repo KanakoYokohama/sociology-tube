@@ -244,6 +244,9 @@ def upsert_daily(path, fields, today, rows):
 
 # ---------------------------------------------------------------- 収集
 
+DOC_WORDS = ["ドキュメンタリー", "ドキュメント", "密着", "documentary", "docuseries", "in-depth", "special report"]
+
+
 def resolve_news_channels(yt):
     """報道機関の@ハンドルをチャンネルIDとアップロード一覧に変換（結果は保存して再利用）。"""
     cache = load_json(DATA / "news_channels.json", {})
@@ -297,8 +300,10 @@ def collect(yt, today_d, now):
             pub = it.get("contentDetails", {}).get("videoPublishedAt") or sn.get("publishedAt", "")
             if not pub or datetime.fromisoformat(pub.replace("Z", "+00:00")) < after_dt:
                 continue
-            cats = keyword_categories(sn.get("title", "") + "\n" + (sn.get("description") or "")[:600])
-            if cats:
+            text = sn.get("title", "") + "\n" + (sn.get("description") or "")[:600]
+            cats = keyword_categories(text)
+            doc = text_hits(text, DOC_WORDS)
+            if cats or doc:
                 vid = it["contentDetails"]["videoId"]
                 found.setdefault(vid, set()).update(cats)
 

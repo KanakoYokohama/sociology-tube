@@ -94,8 +94,9 @@ CATEGORIES = [
 
 # どの分野にも当てはめず「社会学全般」として探す検索語
 GENERAL_QUERIES = {
-    "ja": ["社会学", "ドキュメンタリー 社会", "特集 社会問題"],
-    "en": ["sociology", "documentary society", "video essay society"],
+    "ja": ["社会学", "ドキュメンタリー 社会", "特集 社会問題", "ドキュメンタリー 家族", "密着 暮らし", "ドキュメンタリー 孤独"],
+    "en": ["sociology", "documentary society", "video essay society", "documentary family life",
+           "documentary loneliness", "short documentary community"],
 }
 
 # 言語ごとの検索地域
@@ -134,15 +135,15 @@ SENSATIONAL_CHANNEL_WORDS = ["切り抜き", "切り抜", "国会中継", "ネ�
 
 # ---------------------------------------------------------------- 報道機関
 
-# 各国の報道機関。新着動画（最大50本）から、8分野のどれかに当てはまる
-# 3分超の動画を「報道特集」として拾う。@ハンドル名で指定。
+# 各国の報道機関・ドキュメンタリーチャンネル。新着動画（最大50本）から、8分野のどれかに
+# 当てはまるか、ドキュメンタリー・密着の語を含む3分超の動画を「報道特集」として拾う。@ハンドル名で指定。
 NEWS_CHANNELS = {
     "ja": ["@nhk", "@NHKWORLDJAPAN", "@tbsnewsdig", "@ntv_news", "@ANNnewsCH",
            "@FNNnewsCH", "@asahicom", "@mainichi", "@KyodoNews", "@toyokeizai"],
     "en": ["@BBCNews", "@BBCWorldService", "@DWDocumentary", "@dwnews", "@aljazeeraenglish",
            "@PBSNewsHour", "@frontline", "@Vox", "@guardiannews", "@nytimes",
            "@washingtonpost", "@CNAInsider", "@Channel4News", "@60minutes", "@CBCNews",
-           "@abcnewsindepth", "@VICENews", "@NPR", "@AJPlus"],
+           "@abcnewsindepth", "@VICENews", "@NPR", "@AJPlus", "@RealStories", "@NHKWORLDDocumentary"],
 }
 
 
