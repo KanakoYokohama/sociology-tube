@@ -5,7 +5,7 @@ SEARCH_WINDOW_DAYS = 7
 # 見つけた動画を何日間、毎日追跡するか
 TRACK_DAYS = 30
 # 1回の検索で取る件数（最大50）
-RESULTS_PER_SEARCH = 25
+RESULTS_PER_SEARCH = 50  # ショートを除外するぶん多めに取る（費用は同じ）
 
 # 8分野。id は英字、name は画面に出る名前。
 # queries: 検索語（日本語・英語）。keywords: タイトルや説明文での判定に使う語。
@@ -94,11 +94,89 @@ CATEGORIES = [
 
 # どの分野にも当てはめず「社会学全般」として探す検索語
 GENERAL_QUERIES = {
-    "ja": ["社会学"],
-    "en": ["sociology"],
+    "ja": ["社会学", "ドキュメンタリー 社会", "特集 社会問題"],
+    "en": ["sociology", "documentary society", "video essay society"],
 }
 
 # 言語ごとの検索地域
 REGION = {"ja": "JP", "en": "US"}
 
 OTHER_CATEGORY = {"id": "other", "name": "その他・社会学全般"}
+
+
+# ---------------------------------------------------------------- 除外
+
+# この秒数以下の動画はショートとみなして除外（YouTubeのショートは最長3分）
+MIN_DURATION_SEC = 181
+
+# 煽り判定。タイトル・チャンネル名に含まれる語に点数をつけ、合計が
+# SENSATIONAL_THRESHOLD 以上なら除外する。報道機関チャンネルは判定しない。
+SENSATIONAL_THRESHOLD = 2
+SENSATIONAL_WORDS = {
+    # 1語で除外（2点）
+    2: ["暴露", "論破", "ド正論", "痛烈", "嘲笑", "発狂", "ブチギレ", "ブチ切れ", "完全終了", "ざまぁ",
+        "公開処刑", "撃沈", "売国", "反日", "媚中", "在日特権", "許せない", "絶句", "フルボッコ", "痛快",
+        "一刀両断", "黙らせ", "ボコボコ", "大炎上", "ヤバすぎ", "やばすぎ", "悲報", "朗報",
+        "DESTROYS", "DESTROYED", "OWNED", "HUMBLED", "TRIGGERED", "MELTDOWN", "MELTS DOWN",
+        "SHUTS DOWN", "GOES OFF", "EPIC", "SHOCKING", "LIBS", "WOKE",
+        "delusional", "brainwashed", "heated debate", "fact check", "humiliat", "red pill", "redpill",
+        "gets schooled", "meltdown", "2ch", "2ちゃん", "ガルちゃん", "レスバ", "スカッと"],
+    # 2語そろうと除外（1点）
+    1: ["衝撃", "ヤバい", "やばい", "ヤバ", "炎上", "激怒", "呆れ", "爆笑", "末路", "闇", "斬る", "本音",
+        "怒り", "正論", "称賛", "批判殺到", "ｗ", "www", "残酷", "絶望", "地獄", "ガチ", "マジで", "罠",
+        "口コミ", "限界突破",
+        "EXPOSED", "INSANE", "CRAZY", "BROKE", "RANT", "SLAMS", "CLAPBACK"],
+}
+# チャンネル名にこれが入っていたら除外（切り抜き・まとめ系）
+SENSATIONAL_CHANNEL_WORDS = ["切り抜き", "切り抜", "国会中継", "ネットの話題", "まとめ", "スカッと", "Clips", "clips",
+                             "ガルちゃん", "2ch", "口コミ", "物申"]
+
+
+# ---------------------------------------------------------------- 報道機関
+
+# 各国の報道機関。新着動画（最大50本）から、8分野のどれかに当てはまる
+# 3分超の動画を「報道特集」として拾う。@ハンドル名で指定。
+NEWS_CHANNELS = {
+    "ja": ["@nhk", "@NHKWORLDJAPAN", "@tbsnewsdig", "@ntv_news", "@tvtokyobiz", "@ANNnewsCH",
+           "@FNNnewsCH", "@asahicom", "@mainichi", "@KyodoNews", "@toyokeizai", "@NewsPicks"],
+    "en": ["@BBCNews", "@BBCWorldService", "@DWDocumentary", "@dwnews", "@aljazeeraenglish",
+           "@PBSNewsHour", "@frontline", "@Vox", "@guardiannews", "@TheEconomist", "@nytimes",
+           "@washingtonpost", "@CNAInsider", "@Channel4News", "@60minutes", "@CBCNews",
+           "@abcnewsindepth", "@VICENews", "@NPR", "@AJPlus"],
+}
+
+
+# ---------------------------------------------------------------- 語り口
+
+# 語り口の分類（1本が複数に入ることもある）。どれにも当たらなければ「その他」。
+STYLES = [
+    {"id": "first_person", "name": "一人称・体験談",
+     "words": ["私", "あたし", "僕", "わたし", "体験", "実体験", "経験談", "した話", "私の", "人生", "生き方", "エッセイ", "語る",
+               "my ", "i'm", "i've", "why i ", "how i ", "i was", "personal", "my story", "my life", "essay"]},
+    {"id": "case", "name": "当事者・密着",
+     "words": ["インタビュー", "当事者", "密着", "ドキュメンタリー", "暮らし", "取材", "実態", "素顔", "日常", "に聞く",
+               "documentary", "interview", "inside", "living with", "life of", "day in the life", "meet the", "we live", "lives of"]},
+    {"id": "explainer", "name": "解説・講義",
+     "words": ["解説", "講義", "社会学者", "教授", "専門家", "研究", "データで", "わかりやすく", "なぜ起きる",
+               "explained", "explainer", "lecture", "professor", "sociologist", "research", "analysis", "the science of"]},
+]
+NEWS_STYLE = {"id": "news", "name": "報道特集"}
+OTHER_STYLE = {"id": "other", "name": "その他"}
+
+# 問いかけ型のタイトル
+QUESTION_WORDS = ["なぜ", "どうして", "とは", "？", "?", "のか", "べきか",
+                  "why ", "what ", "how ", "is it", "should ", "can we", "do we"]
+
+
+# ---------------------------------------------------------------- 本に近い動画
+
+# 二冊目『人はなぜ結婚をするのか』の書き方に近い動画の判定。
+# テーマに1つ以上当たり、かつ「一人称・体験談」か「当事者・密着」に当たる動画を「近い」とする。
+BOOK_THEME_WORDS = [
+    "結婚", "婚姻", "未婚", "非婚", "婚活", "離婚", "家族", "夫婦", "事実婚", "夫婦別姓", "同性婚", "同性カップル",
+    "パートナーシップ", "友情結婚", "契約結婚", "週末婚", "別居婚", "シェアハウス", "共同生活", "ルームシェア",
+    "シングルマザー", "ひとり親", "独身", "おひとりさま", "老後", "嫁", "姑", "披露宴", "名字", "戸籍", "少子化", "子なし",
+    "marriage", "married", "marry", "divorce", "family", "families", "single mother", "single mom", "co-living",
+    "cohabit", "roommate", "platonic", "same-sex", "gay couple", "chosen family", "unmarried", "childfree",
+    "child-free", "loneliness", "living alone", "commune", "spouse", "wedding",
+]

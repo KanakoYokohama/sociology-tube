@@ -5,10 +5,10 @@ from datetime import datetime, timedelta, timezone
 
 EPOCH = datetime(2026, 10, 1, tzinfo=timezone.utc)
 
-JA_TITLES = ["なぜ若者は結婚しないのか", "格差はどこから生まれる？", "非正規で働く30代のリアル",
+JA_TITLES = ["【暴露】移民賛成派がヤバすぎる理由 #日本 #政治 #自民党", "私が友情結婚を選んだ理由｜夫婦のリアルな暮らし", "格差はどこから生まれる？", "非正規で働く30代のリアル",
              "地方が消える日", "SNSが孤独を深める理由", "ジェンダー平等は進んだのか",
              "外国人労働者と日本の未来", "教育格差の正体", "老後2000万円問題その後", "推し活の社会学"]
-EN_TITLES = ["Why Gen Z Is Lonelier Than Ever", "The Death of the Middle Class", "Why Nobody Wants Kids Anymore",
+EN_TITLES = ["Feminist DESTROYED by Student!!", "Why I Chose a Platonic Marriage | Our Life Documentary", "The Death of the Middle Class", "Why Nobody Wants Kids Anymore",
              "Small Towns Are Dying", "Is Feminism Winning?", "The Truth About Immigration",
              "Burnout Culture Explained", "How Algorithms Shape Society", "The Retirement Crisis", "College Isn't Worth It"]
 
@@ -29,11 +29,14 @@ class MockYouTube:
         titles = JA_TITLES if ja else EN_TITLES
         pub = EPOCH + timedelta(hours=n * 7)
         ch = r.randrange(12)
+        if n % 7 == 0:
+            ch = 99
         return vid, {
             "title": titles[n % 10] + ("" if n < 10 else f" #{n}"),
             "ja": ja, "pub": pub, "ch": f"UCmock{'ja' if ja else 'en'}{ch:02d}",
             "base": r.choice([2_000, 8_000, 30_000, 120_000, 500_000]),
             "short": r.random() < 0.2,
+            "news": n % 7 == 0,
         }
 
     def _all(self):
@@ -66,7 +69,8 @@ class MockYouTube:
             views = int(v["base"] * (1 - 0.6 ** (age + 0.3)) * (1 + 0.02 * age))
             out.append({
                 "id": vid,
-                "snippet": {"title": v["title"], "description": "", "channelId": v["ch"],
+                "snippet": {"title": v["title"], "description": "家族と結婚について取材しました" if v["ja"] else "An interview about family and marriage",
+                            "channelId": v["ch"],
                             "channelTitle": v["ch"].replace("UCmock", "チャンネル"),
                             "publishedAt": v["pub"].strftime("%Y-%m-%dT%H:%M:%SZ")},
                 "statistics": {"viewCount": str(views), "likeCount": str(views // 30),
@@ -74,6 +78,26 @@ class MockYouTube:
                 "contentDetails": {"duration": "PT58S" if v["short"] else "PT14M20S"},
             })
         return out
+
+    def channel_by_handle(self, handle):
+        self.units += 1
+        if handle in ("@nhk", "@BBCNews"):
+            ja = handle == "@nhk"
+            return {"id": f"UCmock{'ja' if ja else 'en'}99", "snippet": {"title": handle[1:]},
+                    "contentDetails": {"relatedPlaylists": {"uploads": "UU" + handle}}}
+        return None
+
+    def uploads(self, playlist_id):
+        self.units += 1
+        ja = "nhk" in playlist_id
+        out = []
+        for _, vid, v in self._all():
+            if v["news"] and v["ja"] == ja:
+                out.append({"snippet": {"title": v["title"], "description": "結婚 家族 family marriage",
+                                        "publishedAt": v["pub"].strftime("%Y-%m-%dT%H:%M:%SZ")},
+                            "contentDetails": {"videoId": vid,
+                                               "videoPublishedAt": v["pub"].strftime("%Y-%m-%dT%H:%M:%SZ")}})
+        return out[-50:]
 
     def channels(self, ids):
         self.units += -(-len(ids) // 50)

@@ -38,7 +38,7 @@ class YouTube:
         self.key = key
         self.units = 0
 
-    def get(self, endpoint, cost, **params):
+    def get(self, endpoint, cost, allow_fail=False, **params):
         params["key"] = self.key
         url = API + endpoint + "?" + urllib.parse.urlencode(params)
         req = urllib.request.Request(url, headers={"Accept": "application/json"})
@@ -48,6 +48,10 @@ class YouTube:
                 return json.load(r)
         except urllib.error.HTTPError as e:
             body = e.read().decode("utf-8", "replace")[:500]
+            self.units += cost
+            if allow_fail and e.code in (400, 404):
+                print(f"  スキップ: {endpoint} {params.get('forHandle') or params.get('playlistId')} ({e.code})")
+                return {}
             raise SystemExit(f"YouTube APIエラー {e.code} ({endpoint}): {body}")
 
     def search(self, q, lang, published_after):
@@ -64,6 +68,15 @@ class YouTube:
             out += self.get("videos", 1, part="snippet,statistics,contentDetails",
                             id=",".join(ids[i:i + 50])).get("items", [])
         return out
+
+    def channel_by_handle(self, handle):
+        items = self.get("channels", 1, allow_fail=True, part="snippet,contentDetails",
+                         forHandle=handle).get("items", [])
+        return items[0] if items else None
+
+    def uploads(self, playlist_id):
+        return self.get("playlistItems", 1, allow_fail=True, part="snippet,contentDetails",
+                        playlistId=playlist_id, maxResults=50).get("items", [])
 
     def channels(self, ids):
         out = []
@@ -89,7 +102,7 @@ def detect_lang(snippet):
     audio = (snippet.get("defaultAudioLanguage") or snippet.get("defaultLanguage") or "").lower()
     if audio.startswith("ja"):
         return "ja"
-    if KANA.search(title) or (HAN.search(title) and KANA.search(desc + snippet.get("channelTitle", ""))):
+    if KANA.search(title):
         return "ja"
     if OTHER_SCRIPTS.search(title) or HAN.search(title):
         return "other"  # 漢字だけでかなが見当たらない＝中国語とみなす
@@ -114,6 +127,84 @@ def keyword_categories(text):
                 found.append(c["id"])
                 break
     return found
+
+
+def _count_words(text, words):
+    hits = []
+    for w in words:
+        if w.isascii() and w.isupper():
+            if re.search(r"(?<![A-Za-z])" + re.escape(w) + r"(?![A-Za-z])", text):
+                hits.append(w)
+        elif w.lower() in text.lower():
+            hits.append(w)
+    return hits
+
+
+def sensational_score(title, channel):
+    """煽り度の点数と、当たった理由。"""
+    score, why = 0, []
+    for pts, words in config.SENSATIONAL_WORDS.items():
+        for w in _count_words(title, words):
+            score += pts
+            why.append(w)
+    for w in config.SENSATIONAL_CHANNEL_WORDS:
+        if w in channel:
+            score += 2
+            why.append("ch:" + w)
+    caps = [w for w in re.findall(r"[A-Za-z']+", title) if len(w) >= 3 and w.isupper()]
+    if len(caps) >= 3:
+        score += 1
+        why.append("大文字")
+    if title.count("!") + title.count("！") >= 2:
+        score += 1
+        why.append("！！")
+    tags = re.findall(r"#\S+", title)
+    if len(tags) >= 3:
+        score += 1
+        why.append("#多数")
+    if any(p in title for p in ["#自民党", "#立憲", "#参政党", "#維新", "#国民民主", "#石破", "#高市", "#MAGA", "#Trump"]):
+        score += 1
+        why.append("#政党")
+    return score, why
+
+
+def text_hits(text, words):
+    t = (text or "").lower()
+    out = []
+    for w in words:
+        k = w.lower()
+        if k.isascii() and k.strip().isalpha():
+            if re.search(r"(?<![a-z])" + re.escape(k.strip()) + r"(?![a-z])", t):
+                out.append(w.strip())
+        elif k in t:
+            out.append(w.strip())
+    return out
+
+
+def styles_of(v):
+    text = v.get("title", "") + "\n" + v.get("description", "")
+    out = []
+    if v.get("news"):
+        out.append(config.NEWS_STYLE["id"])
+    for st in config.STYLES:
+        if text_hits(text, st["words"]):
+            out.append(st["id"])
+    return out or [config.OTHER_STYLE["id"]]
+
+
+def book_match(v):
+    """本の書き方に近いか。近ければ当たった要素を返す。"""
+    text = v.get("title", "") + "\n" + v.get("description", "")
+    theme = text_hits(text, config.BOOK_THEME_WORDS)
+    if not theme:
+        return None
+    st = {s["id"]: text_hits(text, s["words"]) for s in config.STYLES}
+    if not (st["first_person"] or st["case"]):
+        return None
+    question = bool(text_hits(v.get("title", ""), config.QUESTION_WORDS))
+    score = 2 * min(len(theme), 3) + 2 * bool(st["first_person"]) + 2 * bool(st["case"]) + question
+    return {"theme": theme[:4], "firstPerson": st["first_person"][:3], "case": st["case"][:3],
+            "question": question, "score": score}
 
 
 def parse_duration(iso):
@@ -155,10 +246,28 @@ def upsert_daily(path, fields, today, rows):
 
 # ---------------------------------------------------------------- 収集
 
+def resolve_news_channels(yt):
+    """報道機関の@ハンドルをチャンネルIDとアップロード一覧に変換（結果は保存して再利用）。"""
+    cache = load_json(DATA / "news_channels.json", {})
+    for lang, handles in config.NEWS_CHANNELS.items():
+        for hd in handles:
+            if hd in cache:
+                continue
+            it = yt.channel_by_handle(hd)
+            if it:
+                cache[hd] = {"id": it["id"], "title": it["snippet"].get("title", ""), "lang": lang,
+                             "uploads": it["contentDetails"]["relatedPlaylists"]["uploads"]}
+            else:
+                cache[hd] = {"id": None, "lang": lang, "notFound": True}
+    save_json(DATA / "news_channels.json", cache, pretty=True)
+    return cache
+
+
 def collect(yt, today_d, now):
     videos = load_json(DATA / "videos.json", {})
     channels = load_json(DATA / "channels.json", {})
-    after = (now - timedelta(days=config.SEARCH_WINDOW_DAYS)).strftime("%Y-%m-%dT%H:%M:%SZ")
+    after_dt = now - timedelta(days=config.SEARCH_WINDOW_DAYS)
+    after = after_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
     today = today_d.isoformat()
 
     # 1) 分野ごとに検索して新しい動画を見つける
@@ -179,11 +288,29 @@ def collect(yt, today_d, now):
                 if cat:
                     found[vid].add(cat)
 
-    for vid, cats in found.items():
-        v = videos.setdefault(vid, {"firstSeen": today, "categories": []})
-        v["categories"] = sorted(set(v["categories"]) | cats)
+    # 2) 報道機関の新着から、8分野に当てはまる動画を拾う
+    news = resolve_news_channels(yt)
+    news_ids = {n["id"] for n in news.values() if n.get("id")}
+    for n in news.values():
+        if not n.get("uploads"):
+            continue
+        for it in yt.uploads(n["uploads"]):
+            sn = it["snippet"]
+            pub = it.get("contentDetails", {}).get("videoPublishedAt") or sn.get("publishedAt", "")
+            if not pub or datetime.fromisoformat(pub.replace("Z", "+00:00")) < after_dt:
+                continue
+            cats = keyword_categories(sn.get("title", "") + "\n" + (sn.get("description") or "")[:600])
+            if cats:
+                vid = it["contentDetails"]["videoId"]
+                found.setdefault(vid, set()).update(cats)
 
-    # 2) 追跡中の動画（投稿からTRACK_DAYS日以内）の数字を取る
+    for vid, cats in found.items():
+        v = videos.setdefault(vid, {"firstSeen": today, "searchCats": []})
+        if "searchCats" not in v:  # 旧形式からの移行
+            v["searchCats"] = [c for c in v.get("categories", []) if c != config.OTHER_CATEGORY["id"]]
+        v["searchCats"] = sorted(set(v["searchCats"]) | cats)
+
+    # 3) 追跡中の動画（投稿からTRACK_DAYS日以内）の数字を取る
     cutoff = now - timedelta(days=config.TRACK_DAYS)
     active = [vid for vid, v in videos.items()
               if not v.get("excluded") and
@@ -192,28 +319,34 @@ def collect(yt, today_d, now):
     for it in yt.videos(active):
         sn, st = it["snippet"], it.get("statistics", {})
         v = videos[it["id"]]
+        v.setdefault("searchCats", [c for c in v.get("categories", []) if c != config.OTHER_CATEGORY["id"]])
+        title, desc = sn.get("title", ""), (sn.get("description", "") or "")[:600]
+        duration = parse_duration(it.get("contentDetails", {}).get("duration"))
+        is_news = sn["channelId"] in news_ids
+        v.update({"title": title, "description": desc[:500], "channelId": sn["channelId"],
+                  "channelTitle": sn.get("channelTitle", ""), "publishedAt": sn["publishedAt"],
+                  "duration": duration, "news": is_news})
+        # 除外の判定
         lang = detect_lang(sn)
         if lang == "other":
-            v.update({"title": sn.get("title", ""), "excluded": "language"})
+            v["excluded"] = "language"
+        elif duration < config.MIN_DURATION_SEC or "#shorts" in (title + desc).lower():
+            v["excluded"] = "short"
+        elif not is_news:
+            score, why = sensational_score(title, sn.get("channelTitle", ""))
+            if score >= config.SENSATIONAL_THRESHOLD:
+                v["excluded"] = "sensational"
+                v["sensational"] = why
+        if v.get("excluded"):
             continue
-        text = sn.get("title", "") + "\n" + sn.get("description", "")[:600]
-        cats = set(v["categories"]) | set(keyword_categories(text))
-        v.update({
-            "title": sn.get("title", ""),
-            "channelId": sn["channelId"],
-            "channelTitle": sn.get("channelTitle", ""),
-            "publishedAt": sn["publishedAt"],
-            "lang": lang,
-            "duration": parse_duration(it.get("contentDetails", {}).get("duration")),
-            "categories": sorted(cats) or [config.OTHER_CATEGORY["id"]],
-        })
-        if len(v["categories"]) > 1 and config.OTHER_CATEGORY["id"] in v["categories"]:
-            v["categories"].remove(config.OTHER_CATEGORY["id"])
+        cats = set(v["searchCats"]) | set(keyword_categories(title + "\n" + desc))
+        v["lang"] = lang
+        v["categories"] = sorted(cats) or [config.OTHER_CATEGORY["id"]]
         vrows.append({"date": today, "video_id": it["id"],
                       "views": st.get("viewCount", 0), "likes": st.get("likeCount", 0),
                       "comments": st.get("commentCount", 0)})
 
-    # 3) そのチャンネルの登録者数などを取る
+    # 4) そのチャンネルの登録者数などを取る
     ch_ids = sorted({videos[r["video_id"]]["channelId"] for r in vrows})
     crows = []
     for it in yt.channels(ch_ids):
@@ -224,6 +357,7 @@ def collect(yt, today_d, now):
             "country": sn.get("country", ""),
             "thumb": sn.get("thumbnails", {}).get("default", {}).get("url", ""),
             "hiddenSubs": bool(st.get("hiddenSubscriberCount")),
+            "news": it["id"] in news_ids,
         }
         crows.append({"date": today, "channel_id": it["id"],
                       "subs": st.get("subscriberCount", 0), "views": st.get("viewCount", 0),
@@ -233,7 +367,7 @@ def collect(yt, today_d, now):
     save_json(DATA / "channels.json", channels, pretty=True)
     vhist = upsert_daily(DATA / "video_daily.csv", ["date", "video_id", "views", "likes", "comments"], today, vrows)
     chist = upsert_daily(DATA / "channel_daily.csv", ["date", "channel_id", "subs", "views", "videos"], today, crows)
-    return videos, channels, vhist, chist
+    return videos, channels, vhist, chist, news
 
 
 # ---------------------------------------------------------------- 集計
@@ -258,7 +392,7 @@ def median(xs):
     return statistics.median(xs) if xs else None
 
 
-def summarize(videos, channels, vhist, chist, today_d, now):
+def summarize(videos, channels, vhist, chist, today_d, now, news=None):
     today = today_d.isoformat()
     d1 = (today_d - timedelta(days=1)).isoformat()
     d7 = (today_d - timedelta(days=7)).isoformat()
@@ -301,6 +435,10 @@ def summarize(videos, channels, vhist, chist, today_d, now):
             "subs": subs,
             "viewsPerSub": round(views / subs, 2) if subs else None,
             "trend": [s.get((today_d - timedelta(days=i)).isoformat()) for i in range(13, -1, -1)],
+            "news": bool(v.get("news")),
+            "styles": styles_of(v),
+            "question": bool(text_hits(v["title"], config.QUESTION_WORDS)),
+            "book": book_match(v),
         })
 
     # 「今日伸びた」順：前日比があればそれ。初めて見つけた動画は、
@@ -381,6 +519,48 @@ def summarize(videos, channels, vhist, chist, today_d, now):
         })
     cats.sort(key=lambda c: c["medianViewsPerDay"] or -1, reverse=True)
 
+    # 語り口ごとの伸びやすさ
+    def stats(xs):
+        gains = [x["gain24h"] for x in xs if x["gain24h"] is not None]
+        ratios = [x["viewsPerSub"] for x in xs if x["viewsPerSub"] is not None]
+        return {"videos": len(xs), "medianViewsPerDay": median([x["viewsPerDay"] for x in xs]),
+                "medianGain24h": median(gains), "medianViewsPerSub": median(ratios),
+                "inTop20": len([x for x in xs if x["id"] in top_ids])}
+
+    style_defs = [config.NEWS_STYLE] + config.STYLES + [config.OTHER_STYLE]
+    styles = [{"id": d["id"], "name": d["name"], **stats([x for x in vlist if d["id"] in x["styles"]])}
+              for d in style_defs]
+    styles.sort(key=lambda c: c["medianViewsPerDay"] or -1, reverse=True)
+    question = [{"id": "q", "name": "問いかけ型タイトル", **stats([x for x in vlist if x["question"]])},
+                {"id": "nq", "name": "それ以外", **stats([x for x in vlist if not x["question"]])}]
+
+    # 本に近い動画
+    book_list = sorted([x for x in vlist if x["book"]], key=growth_key, reverse=True)
+    theme_xs = [x for x in vlist if text_hits(x["title"] + "\n" + videos[x["id"]].get("description", ""),
+                                               config.BOOK_THEME_WORDS)]
+    book = {
+        "videos": book_list[:30],
+        "compare": [
+            {"id": "match", "name": "本に近い語り口", **stats(book_list)},
+            {"id": "theme_only", "name": "同じテーマの他の動画", **stats([x for x in theme_xs if not x["book"]])},
+        ],
+        "signals": [
+            {"id": "fp", "name": "一人称・体験談あり", **stats([x for x in book_list if x["book"]["firstPerson"]])},
+            {"id": "case", "name": "当事者・密着あり", **stats([x for x in book_list if x["book"]["case"]])},
+            {"id": "both", "name": "両方あり", **stats([x for x in book_list if x["book"]["firstPerson"] and x["book"]["case"]])},
+            {"id": "q", "name": "問いかけ型タイトル", **stats([x for x in book_list if x["book"]["question"]])},
+        ],
+    }
+
+    # 除外した動画の数（追跡期間内に投稿されたもの）
+    cutoff = now - timedelta(days=config.TRACK_DAYS)
+    excluded = {}
+    for v in videos.values():
+        if v.get("excluded") and "publishedAt" in v and \
+                datetime.fromisoformat(v["publishedAt"].replace("Z", "+00:00")) >= cutoff:
+            excluded[v["excluded"]] = excluded.get(v["excluded"], 0) + 1
+
+    news = news or {}
     days_recorded = len({r["date"] for r in vhist})
     return {
         "updatedAt": now.astimezone(JST).isoformat(timespec="minutes"),
@@ -392,6 +572,12 @@ def summarize(videos, channels, vhist, chist, today_d, now):
         "channels": clist[:100],
         "categories": cats,
         "counts": {"videos": len(vlist), "channels": len(clist)},
+        "styles": styles,
+        "question": question,
+        "book": book,
+        "excluded": excluded,
+        "newsChannels": {"found": sorted(n.get("title", h) for h, n in news.items() if n.get("id")),
+                         "notFound": sorted(h for h, n in news.items() if not n.get("id"))},
     }
 
 
@@ -419,8 +605,8 @@ def main():
             raise SystemExit("YOUTUBE_API_KEY が設定されていません")
         yt = YouTube(key)
 
-    videos, channels, vhist, chist = collect(yt, today_d, now)
-    summary = summarize(videos, channels, vhist, chist, today_d, now)
+    videos, channels, vhist, chist, news = collect(yt, today_d, now)
+    summary = summarize(videos, channels, vhist, chist, today_d, now, news)
     summary["quotaUnits"] = yt.units
     save_json(SITE_DATA / "summary.json", summary)
     print(f"{today_d}: 動画 {summary['counts']['videos']} 本 / チャンネル {summary['counts']['channels']} 件 / "
