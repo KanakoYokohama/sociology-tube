@@ -3,91 +3,155 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="theme-color" content="#fcfcfb" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#1a1a19" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#1e2a78">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="社会学チューブ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%236250d6'/%3E%3Cstop offset='1' stop-color='%232a78d6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='url(%23g)'/%3E%3Cpath d='M14 44l10-12 8 7 16-19' stroke='white' stroke-width='6' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <title>社会学チューブ</title>
 <style>
 :root{
-  --bg:#fcfcfb;--card:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--ink3:#7a7974;--line:#e1e0d9;
-  --accent:#2a78d6;--accent-soft:#e6f0fb;--up:#006300;--chip:#f0efec;
-  --r:14px;
+  --bg:#f4f3f0;--card:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--ink3:#7a7974;--line:#e8e7e1;--chip:#f0efec;
+  --up:#006300;--up-bg:#e3f3e3;--shadow:0 1px 2px rgba(20,20,40,.05),0 6px 20px rgba(20,20,40,.06);
+  /* 8分野の色（固定順・検証済みパレット） */
+  --c-inequality:#2a78d6;--c-gender:#eb6834;--c-family:#1baf7a;--c-work:#eda100;
+  --c-youth:#e87ba4;--c-aging:#008300;--c-migration:#6250d6;--c-media:#e34948;--c-other:#8f8e87;
+  /* タブごとのテーマ色 */
+  --h1:#1e2a78;--h2:#2a78d6;--h3:#1baf7a;--accent:#2a78d6;
+  --r:20px;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#1a1a19;--card:#232322;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#8f8e87;--line:#2c2c2a;
-  --accent:#3987e5;--accent-soft:#1f2b3a;--up:#0ca30c;--chip:#2c2c2a;
+  --bg:#121211;--card:#1d1d1c;--ink:#f0efec;--ink2:#c3c2b7;--ink3:#8f8e87;--line:#2c2c2a;--chip:#2a2a28;
+  --up:#0ca30c;--up-bg:#14301a;--shadow:0 1px 2px rgba(0,0,0,.4);
+  --c-inequality:#3987e5;--c-gender:#d95926;--c-family:#199e70;--c-work:#c98500;
+  --c-youth:#d55181;--c-aging:#0ca30c;--c-migration:#9085e9;--c-media:#e66767;--c-other:#8f8e87;
 }}
-*{box-sizing:border-box}
+body[data-tab=channels]{--h1:#3b2a8f;--h2:#6250d6;--h3:#e87ba4;--accent:#6250d6}
+body[data-tab=fields]{--h1:#8a2f12;--h2:#eb6834;--h3:#eda100;--accent:#eb6834}
+body[data-tab=book]{--h1:#5a1a3a;--h2:#d55181;--h3:#6250d6;--accent:#d55181}
+@media (prefers-color-scheme:dark){
+  body[data-tab=channels]{--accent:#9085e9}
+  body[data-tab=book]{--accent:#e87ba4}
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--ink);
   font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;
-  font-size:15px;line-height:1.5;-webkit-text-size-adjust:100%}
-header{position:sticky;top:0;z-index:5;background:var(--bg);padding:calc(env(safe-area-inset-top) + 12px) 16px 8px;border-bottom:1px solid var(--line)}
-h1{font-size:18px;margin:0}
-.meta{font-size:12px;color:var(--ink3);margin-top:2px}
-main{padding:12px 16px calc(84px + env(safe-area-inset-bottom));max-width:720px;margin:0 auto}
-.filters{display:flex;gap:6px;overflow-x:auto;padding:4px 0 10px;scrollbar-width:none}
+  font-size:15px;line-height:1.55;-webkit-text-size-adjust:100%}
+a{color:inherit}
+
+/* ---------- hero */
+.hero{position:relative;overflow:hidden;color:#fff;padding:calc(env(safe-area-inset-top) + 18px) 20px 22px;
+  background:linear-gradient(135deg,var(--h1) 0%,var(--h2) 58%,var(--h3) 115%);transition:background .4s}
+.hero::before,.hero::after{content:"";position:absolute;border-radius:50%;background:rgba(255,255,255,.09);pointer-events:none}
+.hero::before{width:220px;height:220px;right:-70px;top:-90px}
+.hero::after{width:140px;height:140px;right:60px;bottom:-80px;background:rgba(255,255,255,.06)}
+.brand{font-size:11px;letter-spacing:.18em;font-weight:700;opacity:.85}
+.hero h1{font-size:26px;line-height:1.25;margin:4px 0 6px;font-weight:800;letter-spacing:.01em}
+.hero .meta{font-size:12px;opacity:.85}
+.kpis{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
+.kpi{background:rgba(255,255,255,.16);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);
+  border:1px solid rgba(255,255,255,.22);border-radius:14px;padding:6px 12px;min-width:76px}
+.kpi b{display:block;font-size:18px;line-height:1.2;font-variant-numeric:tabular-nums}
+.kpi span{font-size:11px;opacity:.85}
+
+/* ---------- filters (sticky) */
+.bar{position:sticky;top:0;z-index:4;background:color-mix(in srgb,var(--bg) 86%,transparent);
+  backdrop-filter:saturate(1.4) blur(12px);-webkit-backdrop-filter:saturate(1.4) blur(12px);
+  padding:10px 0 6px;border-bottom:1px solid transparent}
+.bar.stuck{border-bottom-color:var(--line)}
+.filters{display:flex;gap:6px;overflow-x:auto;padding:0 16px 6px;scrollbar-width:none}
 .filters::-webkit-scrollbar{display:none}
-.chip{flex:none;border:1px solid var(--line);background:var(--card);color:var(--ink2);border-radius:999px;
-  padding:6px 12px;font-size:13px;font-family:inherit;cursor:pointer}
+.chip{flex:none;display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--card);
+  color:var(--ink2);border-radius:999px;padding:7px 13px;font-size:13px;font-family:inherit;cursor:pointer;font-weight:500}
+.chip .d{width:8px;height:8px;border-radius:50%}
 .chip[aria-pressed=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
-select.chip{appearance:none;-webkit-appearance:none;padding-right:26px;
+.chip[aria-pressed=true] .d{box-shadow:0 0 0 2px var(--bg)}
+select.chip{appearance:none;-webkit-appearance:none;padding-right:28px;
   background-image:linear-gradient(45deg,transparent 50%,var(--ink3) 50%),linear-gradient(135deg,var(--ink3) 50%,transparent 50%);
-  background-position:right 13px center,right 8px center;background-size:5px 5px;background-repeat:no-repeat}
-.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;margin-bottom:10px}
-.vtop{display:flex;gap:10px;align-items:flex-start}
-.rank{flex:none;width:26px;height:26px;border-radius:8px;background:var(--chip);color:var(--ink2);font-weight:700;
-  font-size:13px;display:flex;align-items:center;justify-content:center}
+  background-position:right 14px center,right 9px center;background-size:5px 5px;background-repeat:no-repeat}
+
+main{padding:6px 16px calc(100px + env(safe-area-inset-bottom));max-width:720px;margin:0 auto}
+.wrap{max-width:720px;margin:0 auto}
+
+/* ---------- cards */
+.card{position:relative;background:var(--card);border-radius:var(--r);padding:14px 16px 14px 18px;margin-bottom:12px;
+  box-shadow:var(--shadow);overflow:hidden}
+.card.cat::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:var(--cc,var(--accent))}
+.vtop{display:flex;gap:12px;align-items:flex-start}
+.rank{flex:none;width:30px;height:30px;border-radius:10px;background:var(--chip);color:var(--ink2);font-weight:800;
+  font-size:14px;display:flex;align-items:center;justify-content:center;font-variant-numeric:tabular-nums}
+.rank.r1{background:linear-gradient(135deg,#f6c445,#eda100);color:#3a2600}
+.rank.r2{background:linear-gradient(135deg,#d9dde6,#a9b0bf);color:#20242c}
+.rank.r3{background:linear-gradient(135deg,#f0a77f,#d06a3a);color:#3a1505}
 .rank.hi{background:var(--accent);color:#fff}
-.vtitle{font-weight:600;color:var(--ink);text-decoration:none;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.sub{font-size:12px;color:var(--ink3);margin-top:2px}
-.tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
-.tag{font-size:11px;background:var(--chip);color:var(--ink2);border-radius:6px;padding:1px 7px}
-.tag.news{background:var(--accent-soft);color:var(--accent);font-weight:600}
-.tag.k{background:transparent;border:1px solid var(--line)}
-.lead{font-size:13px;color:var(--ink2);margin:0 0 8px}
-.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}
+.vtitle{font-weight:700;font-size:15.5px;line-height:1.45;text-decoration:none;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.sub{font-size:12px;color:var(--ink3);margin-top:3px}
+.tags{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.tag{display:inline-flex;align-items:center;gap:5px;font-size:11.5px;color:var(--ink2);border-radius:8px;padding:2px 8px;
+  background:color-mix(in srgb,var(--cc,var(--ink3)) 13%,var(--card))}
+.tag .d{width:7px;height:7px;border-radius:50%;background:var(--cc,var(--ink3))}
+.tag.news{background:linear-gradient(135deg,var(--h1),var(--h2));color:#fff;font-weight:700}
+.tag.plain{background:var(--chip)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
 .stat .k{font-size:11px;color:var(--ink3)}
-.stat .v{font-size:16px;font-weight:700;font-variant-numeric:tabular-nums}
-.stat .v.up{color:var(--up)}
-.spark{margin-top:8px;position:relative}
-.spark svg{display:block;width:100%;height:44px;overflow:visible}
-.dot{position:absolute;width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 2px var(--card);transform:translate(-50%,-50%);pointer-events:none}
+.stat .v{font-size:17px;font-weight:800;font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+.stat .v.up{display:inline-block;color:var(--up);background:var(--up-bg);border-radius:8px;padding:0 7px}
+.spark{margin-top:10px;position:relative}
+.spark svg{display:block;width:100%;height:46px;overflow:visible}
+.dot{position:absolute;width:10px;height:10px;border-radius:50%;background:var(--cc,var(--accent));box-shadow:0 0 0 3px var(--card);transform:translate(-50%,-50%);pointer-events:none}
 .tip{position:absolute;top:-6px;transform:translate(-50%,-100%);background:var(--ink);color:var(--bg);font-size:11px;
-  padding:3px 7px;border-radius:6px;white-space:nowrap;pointer-events:none;display:none}
-.note{font-size:12px;color:var(--ink3);background:var(--chip);border-radius:10px;padding:8px 10px;margin-bottom:10px}
+  padding:3px 8px;border-radius:8px;white-space:nowrap;pointer-events:none;display:none}
+.note{font-size:12.5px;color:var(--ink2);background:color-mix(in srgb,var(--accent) 10%,var(--card));border-radius:14px;padding:10px 12px;margin-bottom:12px}
 .empty{color:var(--ink3);text-align:center;padding:40px 0}
-nav{position:fixed;left:0;right:0;bottom:0;z-index:5;display:flex;background:var(--card);border-top:1px solid var(--line);
-  padding-bottom:env(safe-area-inset-bottom)}
-nav button{flex:1;border:0;background:none;color:var(--ink3);font:inherit;font-size:12px;padding:8px 0 10px;cursor:pointer}
-nav button .ic{display:block;font-size:20px;line-height:1.2}
-nav button[aria-current=page]{color:var(--accent);font-weight:700}
-h2{font-size:15px;margin:6px 0 8px}
-.bars .row{display:grid;grid-template-columns:9em 1fr;gap:8px;align-items:center;padding:6px 0;cursor:pointer;border-radius:8px}
-.bars .row:active,.bars .row.sel{background:var(--accent-soft)}
-.bars .name{font-size:12.5px;color:var(--ink2);text-align:right}
-.bars .track{position:relative;height:22px}
-.bars .bar{position:absolute;left:0;top:3px;height:16px;background:var(--accent);border-radius:0 4px 4px 0;min-width:2px}
-.bars .val{position:absolute;top:1px;font-size:12px;color:var(--ink2);font-variant-numeric:tabular-nums;white-space:nowrap;padding-left:6px}
+h2{font-size:15px;margin:2px 0 10px;font-weight:800}
+.sec{font-size:13px;font-weight:800;color:var(--ink2);margin:18px 2px 8px;letter-spacing:.04em}
+.lead{font-size:13px;color:var(--ink2);margin:0 0 12px}
+
+/* ---------- bars */
+.bars .row{display:grid;grid-template-columns:8.6em 1fr;gap:10px;align-items:center;padding:6px 6px;cursor:pointer;border-radius:12px}
+.bars .row.sel{background:color-mix(in srgb,var(--accent) 10%,var(--card))}
+.bars .name{font-size:12.5px;color:var(--ink2);text-align:right;line-height:1.3}
+.bars .name small{display:block;font-size:11px;color:var(--ink3)}
+.bars .track{position:relative;height:24px}
+.bars .barf{position:absolute;left:0;top:4px;height:16px;background:var(--cc,var(--accent));border-radius:0 6px 6px 0;min-width:3px}
+.bars .val{position:absolute;top:2px;font-size:12px;color:var(--ink);font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;padding-left:7px}
 table{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
-th,td{padding:6px 4px;border-bottom:1px solid var(--line);text-align:right}
+th,td{padding:7px 4px;border-bottom:1px solid var(--line);text-align:right}
 th:first-child,td:first-child{text-align:left}
 th{color:var(--ink3);font-weight:500}
 .detail{font-size:13px;color:var(--ink2)}
 .detail b{color:var(--ink)}
-.ch{display:flex;gap:10px;align-items:center}
-.ch img,.ch .ph{flex:none;width:36px;height:36px;border-radius:50%;background:var(--chip)}
-.ch .t{font-weight:600;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.ch a{color:inherit;text-decoration:none}
-details summary{cursor:pointer;color:var(--ink2);font-size:13px;padding:4px 0}
-footer{font-size:11px;color:var(--ink3);margin-top:16px}
+.dhead{margin:-14px -16px 12px -18px;padding:12px 16px 12px 18px;color:#fff;font-weight:800;font-size:16px;
+  background:linear-gradient(135deg,var(--cc),color-mix(in srgb,var(--cc) 60%,#000))}
+details summary{cursor:pointer;color:var(--ink2);font-size:13px;font-weight:700;padding:2px 0}
+
+/* ---------- channels */
+.ch{display:flex;gap:12px;align-items:center}
+.av{flex:none;width:44px;height:44px;border-radius:50%;padding:2px;background:conic-gradient(var(--h2),var(--h3),var(--h2))}
+.av img,.av .ph{display:block;width:100%;height:100%;border-radius:50%;background:var(--chip);border:2px solid var(--card);object-fit:cover}
+.ch .t{font-weight:800;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ch a{text-decoration:none}
+
+/* ---------- nav */
+nav{position:fixed;left:12px;right:12px;bottom:calc(10px + env(safe-area-inset-bottom));z-index:6;display:flex;max-width:520px;margin:0 auto;
+  background:color-mix(in srgb,var(--card) 82%,transparent);backdrop-filter:saturate(1.6) blur(16px);-webkit-backdrop-filter:saturate(1.6) blur(16px);
+  border:1px solid var(--line);border-radius:24px;padding:6px;box-shadow:0 10px 30px rgba(0,0,0,.12)}
+nav button{flex:1;border:0;background:none;color:var(--ink3);font:inherit;font-size:11px;font-weight:700;padding:6px 0;border-radius:18px;cursor:pointer;transition:background .2s,color .2s}
+nav button .ic{display:block;font-size:19px;line-height:1.25}
+nav button[aria-current=page]{color:#fff;background:linear-gradient(135deg,var(--h1),var(--h2))}
+footer{font-size:11px;color:var(--ink3);margin-top:18px;line-height:1.6}
 </style>
 </head>
-<body>
-<header>
-  <h1 id="htitle">今日伸びた動画</h1>
-  <div class="meta" id="meta">読み込み中…</div>
+<body data-tab="today">
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">SOCIOLOGY TUBE</div>
+    <h1 id="htitle">今日伸びた動画</h1>
+    <div class="meta" id="meta">読み込み中…</div>
+    <div class="kpis" id="kpis"></div>
+  </div>
 </header>
+<div class="bar" id="bar"><div class="wrap" id="filters"></div></div>
 <main>
   <section id="tab-today"></section>
   <section id="tab-channels" hidden></section>
@@ -95,7 +159,8 @@ footer{font-size:11px;color:var(--ink3);margin-top:16px}
   <section id="tab-book" hidden></section>
   <footer>
     データ：YouTube Data API。登録者数はYouTubeの仕様で上3桁に丸められた値です（例：12.3万人）。
-    分野・語り口・煽りは、タイトルと説明文の言葉から自動で判定しています（1本が複数に入ることがあります）。3分以下の動画（ショート）と、政治・経済の色が強い動画は除外しています。
+    分野・語り口・煽りは、タイトルと説明文の言葉から自動で判定しています（1本が複数に入ることがあります）。
+    3分以下の動画（ショート）と、煽りや政治・経済の色が強い動画は除外しています。
   </footer>
 </main>
 <nav>
@@ -123,21 +188,29 @@ let S = null;
 const state = Object.assign({tab: "today", lang: "all", cat: "all", news: "all", csort: "gain", metric: "medianViewsPerDay", bmetric: "medianViewsPerDay"},
                             store.get("state", {}));
 const save = () => store.set("state", state);
+const CAT_IDS = ["inequality", "gender", "family", "work", "youth", "aging", "migration", "media", "other"];
+const cc = id => `--cc:var(--c-${CAT_IDS.includes(id) ? id : "other"})`;
+const catLabel = id => (S && S.categoryNames[id]) || id;
+const catTag = id => `<span class="tag" style="${cc(id)}"><span class="d"></span>${esc(catLabel(id))}</span>`;
+const ytUrl = id => `https://www.youtube.com/watch?v=${encodeURIComponent(id)}`;
 
-// ---------- sparkline (single series; tap/hover shows value)
-function spark(values, labelFn) {
+// ---------- sparkline（1系列。タップで値を表示）
+let sparkSeq = 0;
+function spark(values, kind, colorVar) {
   const pts = values.map((v, i) => [i, v]).filter(p => p[1] != null);
   if (pts.length < 2) return "";
-  const W = 300, H = 44, n = values.length - 1 || 1;
+  const W = 300, H = 46, n = values.length - 1 || 1, gid = "g" + (++sparkSeq);
   const ys = pts.map(p => p[1]), lo = Math.min(...ys), hi = Math.max(...ys), span = hi - lo || 1;
-  const X = i => i / n * W, Y = v => H - 4 - (v - lo) / span * (H - 10);
+  const X = i => i / n * W, Y = v => H - 4 - (v - lo) / span * (H - 12);
   const d = pts.map((p, k) => (k ? "L" : "M") + X(p[0]).toFixed(1) + "," + Y(p[1]).toFixed(1)).join("");
+  const area = d + `L${X(pts[pts.length - 1][0]).toFixed(1)},${H}L${X(pts[0][0]).toFixed(1)},${H}Z`;
   const last = pts[pts.length - 1];
-  const data = esc(JSON.stringify(values));
-  return `<div class="spark" data-v="${data}" data-kind="${labelFn}">
+  return `<div class="spark" style="${colorVar || ""}" data-v="${esc(JSON.stringify(values))}" data-kind="${kind}">
     <svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="推移">
-      <line x1="0" x2="${W}" y1="${H - 1}" y2="${H - 1}" stroke="var(--line)" stroke-width="1" vector-effect="non-scaling-stroke"/>
-      <path d="${d}" fill="none" stroke="var(--accent)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"/>
+      <defs><linearGradient id="${gid}" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="var(--cc,var(--accent))" stop-opacity=".22"/><stop offset="1" stop-color="var(--cc,var(--accent))" stop-opacity="0"/></linearGradient></defs>
+      <path d="${area}" fill="url(#${gid})"/>
+      <path d="${d}" fill="none" stroke="var(--cc,var(--accent))" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/>
       <line class="cx" x1="0" x2="0" y1="0" y2="${H}" stroke="var(--ink3)" stroke-width="1" vector-effect="non-scaling-stroke" opacity="0"/>
     </svg>
     <span class="dot" style="left:${X(last[0]) / W * 100}%;top:${Y(last[1]) / H * 100}%"></span>
@@ -145,14 +218,13 @@ function spark(values, labelFn) {
 }
 function bindSparks(root) {
   root.querySelectorAll(".spark").forEach(el => {
-    const vals = JSON.parse(el.dataset.v), tip = $(".tip", el), cx = $(".cx", el), n = vals.length - 1;
-    const back = n, kind = el.dataset.kind;
+    const vals = JSON.parse(el.dataset.v), tip = $(".tip", el), cx = $(".cx", el), n = vals.length - 1, kind = el.dataset.kind;
     const show = e => {
       const r = el.getBoundingClientRect(), x = (e.touches ? e.touches[0].clientX : e.clientX) - r.left;
       let i = Math.round(Math.max(0, Math.min(1, x / r.width)) * n);
       while (i > 0 && vals[i] == null) i--;
       if (vals[i] == null) return;
-      const ago = back - i;
+      const ago = n - i;
       tip.textContent = (ago === 0 ? "今日" : ago + "日前") + "：" + num(vals[i]) + (kind === "subs" ? "人" : "回");
       tip.style.left = (i / n * 100) + "%"; tip.style.display = "block";
       cx.setAttribute("x1", i / n * 300); cx.setAttribute("x2", i / n * 300); cx.setAttribute("opacity", "1");
@@ -164,189 +236,188 @@ function bindSparks(root) {
   });
 }
 
-// ---------- filters
+// ---------- フィルター
 function chips(name, opts, cur) {
-  return opts.map(([v, l]) => `<button class="chip" data-f="${name}" data-v="${v}" aria-pressed="${v === cur}">${esc(l)}</button>`).join("");
+  return opts.map(([v, l, dot]) => `<button class="chip" data-f="${name}" data-v="${v}" aria-pressed="${v === cur}">${dot ? `<span class="d" style="background:var(--c-${dot})"></span>` : ""}${esc(l)}</button>`).join("");
 }
-function bindFilters(root, rerender) {
-  root.querySelectorAll("[data-f]").forEach(b => b.addEventListener("click", () => {
-    state[b.dataset.f] = b.dataset.v; save(); rerender();
-  }));
-  root.querySelectorAll("select[data-s]").forEach(s => s.addEventListener("change", () => {
-    state[s.dataset.s] = s.value; save(); rerender();
-  }));
+function select(name, opts, cur, label) {
+  return `<select class="chip" data-s="${name}" aria-label="${label}">${opts.map(([k, l]) => `<option value="${k}" ${k === cur ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>`;
 }
-const langOpts = [["all", "すべて"], ["ja", "日本語"], ["en", "英語"]];
-const catLabel = id => S.categoryNames[id] || id;
+function setFilters(rows, rerender) {
+  const el = $("#filters");
+  el.innerHTML = rows.filter(Boolean).map(r => `<div class="filters">${r}</div>`).join("");
+  el.querySelectorAll("[data-f]").forEach(b => b.addEventListener("click", () => { state[b.dataset.f] = b.dataset.v; save(); rerender(); }));
+  el.querySelectorAll("select[data-s]").forEach(s => s.addEventListener("change", () => { state[s.dataset.s] = s.value; save(); rerender(); }));
+}
+const langOpts = [["all", "日本語＋英語"], ["ja", "日本語"], ["en", "英語"]];
 
-// ---------- today
+function kpis(items) {
+  $("#kpis").innerHTML = items.map(([v, l]) => `<div class="kpi"><b>${v}</b><span>${l}</span></div>`).join("");
+}
+
+function videoCard(v, i, extraTags = "") {
+  const main = v.categories[0];
+  const rankCls = i === 0 ? "r1" : i === 1 ? "r2" : i === 2 ? "r3" : "";
+  return `<article class="card cat" style="${cc(main)}">
+    <div class="vtop"><div class="rank ${rankCls}">${i + 1}</div>
+      <div style="min-width:0">
+        <a class="vtitle" href="${ytUrl(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a>
+        <div class="sub">${esc(v.channel)} ・ ${v.lang === "ja" ? "日本語" : "英語"} ・ ${v.ageDays < 1 ? Math.round(v.ageDays * 24) + "時間" : Math.floor(v.ageDays) + "日"}前 ・ ${Math.round((v.duration || 0) / 60)}分</div>
+        <div class="tags">${v.news ? `<span class="tag news">報道特集</span>` : ""}${extraTags}${v.categories.map(catTag).join("")}</div>
+      </div></div>
+    <div class="stats">
+      <div class="stat"><div class="k">24時間の伸び</div><div class="v ${v.gain24h > 0 ? "up" : ""}">${plus(v.gain24h)}</div></div>
+      <div class="stat"><div class="k">${extraTags ? "1日あたり" : "総再生"}</div><div class="v">${num(extraTags ? v.viewsPerDay : v.views)}</div></div>
+      <div class="stat"><div class="k">登録者比</div><div class="v">${v.viewsPerSub == null ? "—" : v.viewsPerSub + "倍"}</div></div>
+    </div>
+    ${spark(v.trend, "views", cc(main))}
+  </article>`;
+}
+
+// ---------- 今日
 function renderToday() {
   const el = $("#tab-today");
-  const catOpts = [["all", "全分野"], ...S.categories.filter(c => c.videos).map(c => [c.id, c.name])];
-  let vs = S.top.filter(v =>
+  const cats = S.categories.filter(c => c.videos);
+  setFilters([
+    chips("lang", langOpts, state.lang) + chips("news", [["all", "全動画"], ["news", "報道特集だけ"]], state.news),
+    chips("cat", [["all", "全分野"], ...cats.map(c => [c.id, c.name, CAT_IDS.includes(c.id) ? c.id : "other"])], state.cat),
+  ], renderToday);
+  const vs = S.top.filter(v =>
     (state.lang === "all" || v.lang === state.lang) &&
     (state.cat === "all" || v.categories.includes(state.cat)) &&
-    (state.news !== "news" || v.news));
-  vs = vs.slice(0, 20);
-  const firstDay = S.daysRecorded < 2;
+    (state.news !== "news" || v.news)).slice(0, 20);
+  kpis([[num(S.counts.videos), "追跡中の動画"], [num(S.top.filter(v => v.news).length), "報道特集"], [S.daysRecorded + "日", "記録"]]);
   el.innerHTML = `
-    <div class="filters">${chips("lang", langOpts, state.lang)}
-      <select class="chip" data-s="cat" aria-label="分野">${catOpts.map(([v, l]) => `<option value="${v}" ${v === state.cat ? "selected" : ""}>${esc(l)}</option>`).join("")}</select>
-      ${chips("news", [["all", "すべて"], ["news", "報道特集だけ"]], state.news)}</div>
-    ${firstDay ? `<div class="note">記録1日目のため、「24時間の伸び」はまだ出ません。明日から前日比で並びます。今日は投稿からの1日あたり再生数で並べています。</div>` : ""}
-    ${vs.length ? vs.map((v, i) => `
-      <article class="card">
-        <div class="vtop"><div class="rank ${i < 5 ? "hi" : ""}">${i + 1}</div>
-          <div style="min-width:0">
-            <a class="vtitle" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a>
-            <div class="sub">${esc(v.channel)} ・ ${v.lang === "ja" ? "日本語" : "英語"} ・ 投稿${v.ageDays < 1 ? Math.round(v.ageDays * 24) + "時間" : Math.floor(v.ageDays) + "日"}前 ・ ${Math.round(v.duration / 60)}分</div>
-            <div class="tags">${v.news ? `<span class="tag news">報道特集</span>` : ""}${v.categories.map(c => `<span class="tag">${esc(catLabel(c))}</span>`).join("")}</div>
-          </div></div>
-        <div class="stats">
-          <div class="stat"><div class="k">24時間の伸び</div><div class="v ${v.gain24h > 0 ? "up" : ""}">${plus(v.gain24h)}</div></div>
-          <div class="stat"><div class="k">総再生</div><div class="v">${num(v.views)}</div></div>
-          <div class="stat"><div class="k">登録者比</div><div class="v">${v.viewsPerSub == null ? "—" : v.viewsPerSub + "倍"}</div></div>
-        </div>
-        ${spark(v.trend, "views")}
-      </article>`).join("") : `<div class="empty">条件に合う動画がありません</div>`}`;
-  bindFilters(el, renderToday); bindSparks(el);
+    ${S.daysRecorded < 2 ? `<div class="note">記録1日目のため「24時間の伸び」はまだ出ません。明日から前日比で並びます。今日は1日あたりの再生数で並べています。</div>` : ""}
+    ${vs.length ? vs.map((v, i) => videoCard(v, i)).join("") : `<div class="empty">条件に合う動画がありません</div>`}`;
+  bindSparks(el);
 }
 
-// ---------- channels
+// ---------- チャンネル
 function renderChannels() {
   const el = $("#tab-channels");
   const sorts = {gain: ["登録者の増加（7日）", c => c.subsGain7d ?? -Infinity],
                  pct: ["増加率（7日）", c => c.subsGrowth7dPct ?? -Infinity],
                  views: ["再生の増加（7日）", c => c.viewsGain7d ?? -Infinity],
                  subs: ["登録者数", c => c.subs]};
-  let cs = S.channels.filter(c => state.lang === "all" || c.lang === state.lang)
+  if (!(state.csort in sorts)) state.csort = "gain";
+  setFilters([chips("lang", langOpts, state.lang) + select("csort", Object.entries(sorts).map(([k, [l]]) => [k, l]), state.csort, "並べ方")], renderChannels);
+  const cs = S.channels.filter(c => state.lang === "all" || c.lang === state.lang)
     .sort((a, b) => sorts[state.csort][1](b) - sorts[state.csort][1](a)).slice(0, 40);
   const enough = S.daysRecorded >= 8;
+  kpis([[num(S.counts.channels), "チャンネル"], [num(S.channels.filter(c => (c.subsGain7d ?? 0) > 0).length), "7日で増加"], [S.daysRecorded + "日", "記録"]]);
   el.innerHTML = `
-    <div class="filters">${chips("lang", langOpts, state.lang)}
-      <select class="chip" data-s="csort" aria-label="並べ方">${Object.entries(sorts).map(([k, [l]]) => `<option value="${k}" ${k === state.csort ? "selected" : ""}>${l}</option>`).join("")}</select></div>
-    ${enough ? "" : `<div class="note">7日間の伸びは、記録が8日分たまると出ます（今 ${S.daysRecorded} 日分）。それまでは記録開始日からの増加を表示します。</div>`}
+    ${enough ? "" : `<div class="note">7日間の伸びは、記録が8日分たまると出ます（いま ${S.daysRecorded} 日分）。それまでは記録開始日からの増加を表示します。</div>`}
     ${cs.map((c, i) => {
-      const first = c.trend.find(v => v != null), gainSince = first != null ? c.subs - first : null;
-      return `<article class="card">
-        <div class="ch">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy">` : `<div class="ph"></div>`}
+      const first = c.trend.find(v => v != null), since = first != null ? c.subs - first : null;
+      const main = c.categories[0] || "other", g = enough ? c.subsGain7d : since;
+      return `<article class="card cat" style="${cc(main)}">
+        <div class="ch"><div class="av">${c.thumb ? `<img src="${esc(c.thumb)}" alt="" loading="lazy">` : `<div class="ph"></div>`}</div>
           <div style="min-width:0;flex:1"><a href="https://www.youtube.com/channel/${esc(c.id)}" target="_blank" rel="noopener"><div class="t">${i + 1}. ${esc(c.title)}</div></a>
           <div class="sub">${c.lang === "ja" ? "日本語" : c.lang === "en" ? "英語" : ""} ・ 追跡中の動画 ${c.trackedVideos}本</div></div></div>
-        <div class="tags">${c.categories.map(x => `<span class="tag">${esc(catLabel(x))}</span>`).join("")}</div>
+        <div class="tags">${c.categories.map(catTag).join("")}</div>
         <div class="stats">
           <div class="stat"><div class="k">登録者</div><div class="v">${c.hiddenSubs ? "非公開" : num(c.subs)}</div></div>
-          <div class="stat"><div class="k">${enough ? "7日の増加" : "記録開始から"}</div><div class="v ${(enough ? c.subsGain7d : gainSince) > 0 ? "up" : ""}">${plus(enough ? c.subsGain7d : gainSince)}</div></div>
+          <div class="stat"><div class="k">${enough ? "7日の増加" : "記録開始から"}</div><div class="v ${g > 0 ? "up" : ""}">${plus(g)}</div></div>
           <div class="stat"><div class="k">増加率(7日)</div><div class="v">${c.subsGrowth7dPct == null ? "—" : c.subsGrowth7dPct + "%"}</div></div>
         </div>
-        ${spark(c.trend, "subs")}
+        ${spark(c.trend, "subs", cc(main))}
       </article>`; }).join("") || `<div class="empty">チャンネルがありません</div>`}`;
-  bindFilters(el, renderChannels); bindSparks(el);
+  bindSparks(el);
 }
 
-// ---------- fields
+// ---------- 分野
 const metrics = {
   medianViewsPerDay: ["1日あたり再生（中央値）", v => num(v) + "回"],
   medianGain24h: ["24時間の伸び（中央値）", v => num(v) + "回"],
   medianViewsPerSub: ["登録者あたり再生（中央値）", v => v == null ? "—" : v.toFixed(2) + "倍"],
   inTop20: ["伸び上位20本に入った本数", v => v + "本"],
 };
+function bars(rows, m, opts = {}) {
+  const max = Math.max(...rows.map(r => r[m] ?? 0), 1);
+  return `<div class="bars">${rows.map(r => `
+    <div class="row ${opts.sel === r.id ? "sel" : ""}" data-id="${r.id}" style="${opts.color ? opts.color(r) : ""};${opts.click ? "" : "cursor:default"}">
+      <div class="name">${esc(r.name)}<small>${r.videos}本</small></div>
+      <div class="track"><div class="barf" style="width:${(r[m] ?? 0) / max * 64}%"></div>
+        <div class="val" style="left:${(r[m] ?? 0) / max * 64}%">${r[m] == null ? "—" : metrics[m][1](r[m])}</div></div>
+    </div>`).join("")}</div>`;
+}
 function renderFields() {
   const el = $("#tab-fields");
   const m = state.metric in metrics ? state.metric : "medianViewsPerDay";
+  setFilters([select("metric", Object.entries(metrics).map(([k, [l]]) => [k, l]), m, "比べる指標")], renderFields);
   const cs = S.categories.filter(c => c.videos).slice().sort((a, b) => (b[m] ?? -1) - (a[m] ?? -1));
-  const max = Math.max(...cs.map(c => c[m] ?? 0), 1);
   const sel = cs.find(c => c.id === state.fsel) || cs[0];
+  const best = cs[0];
+  kpis([[best ? esc(best.name) : "—", "いちばん伸びる分野"], [cs.length, "分野"], [S.daysRecorded + "日", "記録"]]);
   el.innerHTML = `
-    <div class="filters"><select class="chip" data-s="metric" aria-label="比べる指標">${Object.entries(metrics).map(([k, [l]]) => `<option value="${k}" ${k === m ? "selected" : ""}>${l}</option>`).join("")}</select></div>
-    <div class="card">
-      <h2>${metrics[m][0]}</h2>
-      <div class="bars">${cs.map(c => `
-        <div class="row ${sel && c.id === sel.id ? "sel" : ""}" data-id="${c.id}">
-          <div class="name">${esc(c.name)}</div>
-          <div class="track"><div class="bar" style="width:${(c[m] ?? 0) / max * 66}%"></div>
-            <div class="val" style="left:${(c[m] ?? 0) / max * 66}%">${c[m] == null ? "—" : metrics[m][1](c[m])}</div></div>
-        </div>`).join("")}</div>
-      <div class="sub" style="margin-top:6px">直近${S.trackDays}日以内に投稿された動画で比較。棒をタップすると詳しく見られます。</div>
-    </div>
-    ${sel ? `<div class="card detail">
-      <h2>${esc(sel.name)}</h2>
+    <div class="card"><h2>${metrics[m][0]}</h2>
+      ${bars(cs, m, {sel: sel && sel.id, click: true, color: r => cc(r.id)})}
+      <div class="sub" style="margin-top:8px">直近${S.trackDays}日以内に投稿された動画で比較。分野をタップすると詳しく見られます。</div></div>
+    ${sel ? `<div class="card detail" style="${cc(sel.id)}">
+      <div class="dhead">${esc(sel.name)}</div>
       <div>動画 <b>${sel.videos}</b>本（${sel.channels}チャンネル）・日本語の割合 <b>${sel.jaShare == null ? "—" : Math.round(sel.jaShare * 100) + "%"}</b></div>
-      <div>1日あたり再生の中央値 <b>${num(sel.medianViewsPerDay)}</b>回（ショートを除くと ${num(sel.medianViewsPerDayLong)}回）</div>
+      <div>1日あたり再生の中央値 <b>${num(sel.medianViewsPerDay)}</b>回</div>
       <div>分野全体の24時間の伸び <b>${plus(sel.totalGain24h)}</b>回</div>
-      <div style="margin-top:6px;font-size:12px;color:var(--ink3)">分野全体の1日ごとの伸び（過去14日）</div>
-      ${spark(sel.daily, "views") || `<div class="sub">記録が2日分たまると表示されます</div>`}
+      <div style="margin-top:8px;font-size:12px;color:var(--ink3)">分野全体の1日ごとの伸び（過去14日）</div>
+      ${spark(sel.daily, "views", cc(sel.id)) || `<div class="sub">記録が2日分たまると表示されます</div>`}
     </div>` : ""}
     <details class="card"><summary>表で見る</summary>
       <table><thead><tr><th>分野</th><th>本数</th><th>1日再生</th><th>24h伸び</th><th>登録者比</th><th>上位20</th></tr></thead>
       <tbody>${cs.map(c => `<tr><td>${esc(c.name)}</td><td>${c.videos}</td><td>${num(c.medianViewsPerDay)}</td><td>${num(c.medianGain24h)}</td><td>${c.medianViewsPerSub == null ? "—" : c.medianViewsPerSub.toFixed(2)}</td><td>${c.inTop20}</td></tr>`).join("")}</tbody></table>
     </details>`;
-  bindFilters(el, renderFields); bindSparks(el);
+  bindSparks(el);
   el.querySelectorAll(".bars .row").forEach(r => r.addEventListener("click", () => { state.fsel = r.dataset.id; save(); renderFields(); }));
 }
 
-// ---------- book
-function barCard(title, rows, m, note) {
-  const max = Math.max(...rows.map(r => r[m] ?? 0), 1);
-  return `<div class="card"><h2>${title}</h2><div class="bars">${rows.map(r => `
-    <div class="row" style="cursor:default"><div class="name">${esc(r.name)}<br><span style="font-size:11px;color:var(--ink3)">${r.videos}本</span></div>
-      <div class="track"><div class="bar" style="width:${(r[m] ?? 0) / max * 66}%"></div>
-      <div class="val" style="left:${(r[m] ?? 0) / max * 66}%">${r[m] == null ? "—" : metrics[m][1](r[m])}</div></div></div>`).join("")}</div>
-    ${note ? `<div class="sub" style="margin-top:6px">${note}</div>` : ""}</div>`;
-}
+// ---------- 本に近い
 function renderBook() {
   const el = $("#tab-book"), B = S.book;
-  if (!B) { el.innerHTML = `<div class="empty">次回の記録から表示されます</div>`; return; }
-  const m = state.bmetric in metrics && state.bmetric !== "inTop20" ? state.bmetric : "medianViewsPerDay";
-  const few = B.compare[0].videos < 10;
+  const bm = Object.entries(metrics).filter(([k]) => k !== "inTop20");
+  const m = bm.some(([k]) => k === state.bmetric) ? state.bmetric : "medianViewsPerDay";
+  setFilters([select("bmetric", bm.map(([k, [l]]) => [k, l]), m, "比べる指標")], renderBook);
+  if (!B) { kpis([]); el.innerHTML = `<div class="empty">次回の記録から表示されます</div>`; return; }
+  const a = B.compare[0], b = B.compare[1];
+  const ratio = a[m] && b[m] ? (a[m] / b[m]) : null;
+  kpis([[a.videos + "本", "本に近い動画"], [ratio ? ratio.toFixed(1) + "倍" : "—", "それ以外と比べた伸び"], [S.daysRecorded + "日", "記録"]]);
+  const card = (t, rows, note) => `<div class="card"><h2>${t}</h2>${bars(rows, m)}${note ? `<div class="sub" style="margin-top:8px">${note}</div>` : ""}</div>`;
   el.innerHTML = `
-    <p class="lead">あなたの本の書き方に近い動画＝テーマを問わず、一人称の体験談か当事者への密着がある動画です。</p>
-    <div class="filters"><select class="chip" data-s="bmetric" aria-label="比べる指標">${Object.entries(metrics).filter(([k]) => k !== "inTop20").map(([k, [l]]) => `<option value="${k}" ${k === m ? "selected" : ""}>${l}</option>`).join("")}</select></div>
-    ${few ? `<div class="note">まだ本数が少ないため、比較の数字は参考程度です。記録がたまるほど確かになります。</div>` : ""}
-    ${barCard("本に近い動画は伸びやすい？", B.compare, m, "8分野すべての動画で、語り口だけを分けて比べています。")}
-    ${barCard("どの要素が効いている？", B.signals, m, "本に近い動画のうち、各要素を持つ動画の数字です（重なりあり）。")}
-    ${barCard("全体：語り口ごとの伸びやすさ", S.styles.filter(x => x.videos), m, "8分野すべての動画で比べています。")}
-    ${barCard("全体：問いかけ型タイトル", S.question, m, "「なぜ」「〜のか」「Why」などで始まる・含むタイトルとそれ以外。")}
-    <h2 style="margin-top:14px">本に近い動画（伸びた順）</h2>
-    ${B.videos.length ? B.videos.map((v, i) => `
-      <article class="card">
-        <div class="vtop"><div class="rank ${i < 5 ? "hi" : ""}">${i + 1}</div>
-          <div style="min-width:0">
-            <a class="vtitle" href="https://www.youtube.com/watch?v=${esc(v.id)}" target="_blank" rel="noopener">${esc(v.title)}</a>
-            <div class="sub">${esc(v.channel)} ・ ${v.lang === "ja" ? "日本語" : "英語"} ・ ${Math.round(v.duration / 60)}分</div>
-            <div class="tags">${v.news ? `<span class="tag news">報道特集</span>` : ""}
-              ${v.book.firstPerson.length ? `<span class="tag">一人称：${esc(v.book.firstPerson.join("・"))}</span>` : ""}
-              ${v.book.case.length ? `<span class="tag">当事者：${esc(v.book.case.join("・"))}</span>` : ""}
-              ${v.book.question ? `<span class="tag">問いかけ</span>` : ""}
-              ${v.book.explainer ? `<span class="tag">解説・考察</span>` : ""}
-              ${v.categories.map(c => `<span class="tag k">${esc(catLabel(c))}</span>`).join("")}</div>
-          </div></div>
-        <div class="stats">
-          <div class="stat"><div class="k">24時間の伸び</div><div class="v ${v.gain24h > 0 ? "up" : ""}">${plus(v.gain24h)}</div></div>
-          <div class="stat"><div class="k">1日あたり</div><div class="v">${num(v.viewsPerDay)}</div></div>
-          <div class="stat"><div class="k">登録者比</div><div class="v">${v.viewsPerSub == null ? "—" : v.viewsPerSub + "倍"}</div></div>
-        </div>
-        ${spark(v.trend, "views")}
-      </article>`).join("") : `<div class="empty">今日は当てはまる動画がありません</div>`}`;
-  bindFilters(el, renderBook); bindSparks(el);
+    <p class="lead">あなたの本の書き方に近い動画＝分野を問わず、一人称の体験談か、当事者への密着がある動画です。</p>
+    ${a.videos < 10 ? `<div class="note">まだ本数が少ないため、比較の数字は参考程度です。記録がたまるほど確かになります。</div>` : ""}
+    ${card("本に近い動画は伸びやすい？", B.compare, "8分野すべての動画を、語り口だけで分けて比べています。")}
+    ${card("どの要素が効いている？", B.signals, "本に近い動画のうち、各要素を持つ動画の数字です（重なりあり）。")}
+    ${card("全体：語り口ごとの伸びやすさ", S.styles.filter(x => x.videos))}
+    ${card("全体：問いかけ型タイトル", S.question, "「なぜ」「〜のか」「Why」などを含むタイトルとそれ以外。")}
+    <div class="sec">本に近い動画（伸びた順）</div>
+    ${B.videos.length ? B.videos.map((v, i) => videoCard(v, i,
+      (v.book.firstPerson.length ? `<span class="tag plain">一人称：${esc(v.book.firstPerson.join("・"))}</span>` : "") +
+      (v.book.case.length ? `<span class="tag plain">当事者：${esc(v.book.case.join("・"))}</span>` : "") +
+      (v.book.question ? `<span class="tag plain">問いかけ</span>` : "") +
+      (v.book.explainer ? `<span class="tag plain">解説・考察</span>` : ""))).join("")
+      : `<div class="empty">今日は当てはまる動画がありません</div>`}`;
+  bindSparks(el);
 }
 
-// ---------- tabs
+// ---------- タブ
 const titles = {today: "今日伸びた動画", channels: "チャンネル比較", fields: "分野別の伸びやすさ", book: "本の書き方に近い動画"};
+const renders = {today: renderToday, channels: renderChannels, fields: renderFields, book: renderBook};
 function show(tab) {
   state.tab = tab; save();
+  document.body.dataset.tab = tab;
   document.querySelectorAll("nav button").forEach(b => b.dataset.tab === tab ? b.setAttribute("aria-current", "page") : b.removeAttribute("aria-current"));
   Object.keys(titles).forEach(t => $("#tab-" + t).hidden = t !== tab);
   $("#htitle").textContent = titles[tab];
-  ({today: renderToday, channels: renderChannels, fields: renderFields, book: renderBook})[tab]();
+  renders[tab]();
   window.scrollTo(0, 0);
 }
 document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => show(b.dataset.tab)));
+new IntersectionObserver(([e]) => $("#bar").classList.toggle("stuck", !e.isIntersecting)).observe($(".hero"));
 
 fetch("data/summary.json?t=" + Date.now()).then(r => r.json()).then(s => {
   S = s;
-  const u = new Date(s.updatedAt);
-  $("#meta").textContent = `更新 ${u.getMonth() + 1}/${u.getDate()} ${String(u.getHours()).padStart(2, "0")}:${String(u.getMinutes()).padStart(2, "0")} ・ 記録${s.daysRecorded}日分 ・ 動画${s.counts.videos}本 / ${s.counts.channels}チャンネル` +
-    (s.excluded ? ` ・ 除外 ショート${s.excluded.short || 0}・煽り${s.excluded.sensational || 0}・政治経済${s.excluded.politics || 0}` : "");
+  const u = new Date(s.updatedAt), ex = s.excluded || {};
+  $("#meta").textContent = `更新 ${u.getMonth() + 1}/${u.getDate()} ${String(u.getHours()).padStart(2, "0")}:${String(u.getMinutes()).padStart(2, "0")}` +
+    (s.excluded ? ` ・ 除外 ショート${ex.short || 0}・煽り${ex.sensational || 0}・政治経済${ex.politics || 0}` : "");
   show(state.tab in titles ? state.tab : "today");
 }).catch(() => { $("#meta").textContent = "データを読み込めませんでした。最初の自動実行のあとに表示されます。"; });
 </script>
