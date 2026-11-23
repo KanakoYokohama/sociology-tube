@@ -6,6 +6,9 @@ on:
     # （ちょうど0分はGitHubが混み、遅れたり飛ばされたりしやすいため）
     - cron: "40 11 * * *"
   workflow_dispatch: {}   # 「Run workflow」ボタンで手動実行もできる
+  push:                   # プログラムや設定を変えたときも、すぐに1回動かす
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/**"]
 
 permissions:
   contents: write
