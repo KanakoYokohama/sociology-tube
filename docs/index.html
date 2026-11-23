@@ -95,7 +95,7 @@ footer{font-size:11px;color:var(--ink3);margin-top:16px}
   <section id="tab-book" hidden></section>
   <footer>
     データ：YouTube Data API。登録者数はYouTubeの仕様で上3桁に丸められた値です（例：12.3万人）。
-    分野・語り口・煽りは、タイトルと説明文の言葉から自動で判定しています（1本が複数に入ることがあります）。3分以下の動画（ショート）は除外しています。
+    分野・語り口・煽りは、タイトルと説明文の言葉から自動で判定しています（1本が複数に入ることがあります）。3分以下の動画（ショート）と、政治・経済の色が強い動画は除外しています。
   </footer>
 </main>
 <nav>
@@ -346,7 +346,7 @@ fetch("data/summary.json?t=" + Date.now()).then(r => r.json()).then(s => {
   S = s;
   const u = new Date(s.updatedAt);
   $("#meta").textContent = `更新 ${u.getMonth() + 1}/${u.getDate()} ${String(u.getHours()).padStart(2, "0")}:${String(u.getMinutes()).padStart(2, "0")} ・ 記録${s.daysRecorded}日分 ・ 動画${s.counts.videos}本 / ${s.counts.channels}チャンネル` +
-    (s.excluded ? ` ・ 除外 ショート${s.excluded.short || 0}・煽り${s.excluded.sensational || 0}` : "");
+    (s.excluded ? ` ・ 除外 ショート${s.excluded.short || 0}・煽り${s.excluded.sensational || 0}・政治経済${s.excluded.politics || 0}` : "");
   show(state.tab in titles ? state.tab : "today");
 }).catch(() => { $("#meta").textContent = "データを読み込めませんでした。最初の自動実行のあとに表示されます。"; });
 </script>

@@ -45,7 +45,7 @@ CATEGORIES = [
         "name": "労働・働き方",
         "queries": {
             "ja": ["働き方 社会問題", "非正規雇用"],
-            "en": ["work culture sociology", "labor workers economy"],
+            "en": ["work culture sociology", "work life society"],
         },
         "keywords": ["労働", "働き方", "非正規", "雇用", "賃金", "給料", "残業", "転職", "仕事",
                      "work", "labor", "labour", "job", "wage", "employment", "burnout", "career"],
@@ -137,10 +137,10 @@ SENSATIONAL_CHANNEL_WORDS = ["切り抜き", "切り抜", "国会中継", "ネ�
 # 各国の報道機関。新着動画（最大50本）から、8分野のどれかに当てはまる
 # 3分超の動画を「報道特集」として拾う。@ハンドル名で指定。
 NEWS_CHANNELS = {
-    "ja": ["@nhk", "@NHKWORLDJAPAN", "@tbsnewsdig", "@ntv_news", "@tvtokyobiz", "@ANNnewsCH",
-           "@FNNnewsCH", "@asahicom", "@mainichi", "@KyodoNews", "@toyokeizai", "@NewsPicks"],
+    "ja": ["@nhk", "@NHKWORLDJAPAN", "@tbsnewsdig", "@ntv_news", "@ANNnewsCH",
+           "@FNNnewsCH", "@asahicom", "@mainichi", "@KyodoNews", "@toyokeizai"],
     "en": ["@BBCNews", "@BBCWorldService", "@DWDocumentary", "@dwnews", "@aljazeeraenglish",
-           "@PBSNewsHour", "@frontline", "@Vox", "@guardiannews", "@TheEconomist", "@nytimes",
+           "@PBSNewsHour", "@frontline", "@Vox", "@guardiannews", "@nytimes",
            "@washingtonpost", "@CNAInsider", "@Channel4News", "@60minutes", "@CBCNews",
            "@abcnewsindepth", "@VICENews", "@NPR", "@AJPlus"],
 }
@@ -172,3 +172,22 @@ QUESTION_WORDS = ["なぜ", "どうして", "とは", "？", "?", "のか", "べ
 
 # 本に近い動画＝テーマは問わず、「一人称・体験談」か「当事者・密着」の語り口を持つ動画。
 # 判定に使う語は上の STYLES と QUESTION_WORDS を共用。
+
+
+# ---------------------------------------------------------------- 政治・経済を少し減らす
+
+# タイトルにこれらの語が POLITICS_THRESHOLD 個以上あれば除外（報道機関も対象）。
+# 「少しだけ離れる」ための弱めの設定。強めたいときは THRESHOLD を1に。
+POLITICS_THRESHOLD = 2
+POLITICS_WORDS = [
+    # 政治
+    "自民党", "立憲", "維新", "公明", "共産党", "国民民主", "参政党", "れいわ", "社民党", "首相", "総理", "石破",
+    "高市", "岸田", "国会", "選挙", "衆院", "参院", "政権", "内閣", "議員", "政治家", "野党", "与党", "政府",
+    "Trump", "Biden", "Harris", "Vance", "Congress", "Senate", "Republican", "Democrat", "GOP", "election",
+    "parliament", "MAGA", "White House", "prime minister", "president",
+    # 経済・お金
+    "投資", "株価", "NISA", "資産運用", "資産形成", "節約", "円安", "物価高", "日経平均", "為替", "金利",
+    "年収アップ", "副業", "不動産", "経済", "税金", "増税", "減税",
+    "stock", "invest", "crypto", "bitcoin", "interest rate", "inflation", "recession", "the Fed", "GDP",
+    "tariff", "economy", "taxes",
+]

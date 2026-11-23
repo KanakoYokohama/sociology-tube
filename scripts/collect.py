@@ -335,6 +335,11 @@ def collect(yt, today_d, now):
             if score >= config.SENSATIONAL_THRESHOLD:
                 v["excluded"] = "sensational"
                 v["sensational"] = why
+        if not v.get("excluded"):
+            pol = text_hits(title, config.POLITICS_WORDS)
+            if len(pol) >= config.POLITICS_THRESHOLD:
+                v["excluded"] = "politics"
+                v["politics"] = pol
         if v.get("excluded"):
             continue
         cats = set(v["searchCats"]) | set(keyword_categories(title + "\n" + desc))
