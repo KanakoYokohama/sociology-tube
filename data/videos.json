@@ -183,7 +183,8 @@
   "channelTitle": "우이야",
   "publishedAt": "2026-11-20T05:27:41Z",
   "lang": "en",
-  "duration": 38
+  "duration": 38,
+  "excluded": "language"
  },
  "paVHvEvrGbc": {
   "firstSeen": "2026-11-23",
@@ -388,7 +389,8 @@
   "channelTitle": "Jasmin Kosubek",
   "publishedAt": "2026-11-17T17:00:28Z",
   "lang": "en",
-  "duration": 36
+  "duration": 36,
+  "excluded": "language"
  },
  "sydQasVx_oQ": {
   "firstSeen": "2026-11-23",
@@ -412,7 +414,8 @@
   "channelTitle": "Isto foi História ",
   "publishedAt": "2026-11-20T16:18:31Z",
   "lang": "en",
-  "duration": 60
+  "duration": 60,
+  "excluded": "language"
  },
  "yF9gR056JoQ": {
   "firstSeen": "2026-11-23",
@@ -436,7 +439,8 @@
   "channelTitle": "El Colegio de México A.C.",
   "publishedAt": "2026-11-17T21:03:32Z",
   "lang": "en",
-  "duration": 14786
+  "duration": 14786,
+  "excluded": "language"
  },
  "i9_CYDyAi0w": {
   "firstSeen": "2026-11-23",
@@ -460,7 +464,8 @@
   "channelTitle": "Canal Abierto",
   "publishedAt": "2026-11-18T15:43:10Z",
   "lang": "en",
-  "duration": 2248
+  "duration": 2248,
+  "excluded": "language"
  },
  "KYnN5ezrBPE": {
   "firstSeen": "2026-11-23",
@@ -472,7 +477,8 @@
   "channelTitle": "The Savvy Humanities",
   "publishedAt": "2026-11-18T04:07:41Z",
   "lang": "en",
-  "duration": 6991
+  "duration": 6991,
+  "excluded": "language"
  },
  "eFwoehywoQE": {
   "firstSeen": "2026-11-23",
@@ -484,7 +490,8 @@
   "channelTitle": "Einstein Hospital Israelita",
   "publishedAt": "2026-11-20T10:30:03Z",
   "lang": "en",
-  "duration": 127
+  "duration": 127,
+  "excluded": "language"
  },
  "m48_ILyWffA": {
   "firstSeen": "2026-11-23",
@@ -496,7 +503,8 @@
   "channelTitle": "Радио Стриж",
   "publishedAt": "2026-11-18T15:00:08Z",
   "lang": "en",
-  "duration": 3637
+  "duration": 3637,
+  "excluded": "language"
  },
  "M4ON9jvJmAE": {
   "firstSeen": "2026-11-23",
@@ -520,7 +528,8 @@
   "channelTitle": "Gyaanpeeth Classes",
   "publishedAt": "2026-11-21T03:13:03Z",
   "lang": "en",
-  "duration": 3720
+  "duration": 3720,
+  "excluded": "language"
  },
  "nDayYsy6pJg": {
   "firstSeen": "2026-11-23",
@@ -544,7 +553,8 @@
   "channelTitle": "INDRAJEET STUDY CENTRE ",
   "publishedAt": "2026-11-17T07:26:57Z",
   "lang": "en",
-  "duration": 939
+  "duration": 939,
+  "excluded": "language"
  },
  "OlvIe50rJYk": {
   "firstSeen": "2026-11-23",
@@ -569,7 +579,8 @@
   "channelTitle": "EduZenith",
   "publishedAt": "2026-11-16T13:50:03Z",
   "lang": "en",
-  "duration": 623
+  "duration": 623,
+  "excluded": "language"
  },
  "BAXRK1cAO6U": {
   "firstSeen": "2026-11-23",
@@ -583,7 +594,8 @@
   "channelTitle": "KGS UPPSC",
   "publishedAt": "2026-11-22T09:00:12Z",
   "lang": "en",
-  "duration": 715
+  "duration": 715,
+  "excluded": "language"
  },
  "npIH8YHWKb4": {
   "firstSeen": "2026-11-23",
@@ -596,7 +608,8 @@
   "channelTitle": "Pradeep Ramgarh ",
   "publishedAt": "2026-11-21T18:34:55Z",
   "lang": "en",
-  "duration": 155
+  "duration": 155,
+  "excluded": "language"
  },
  "vR_KT5RgzZ8": {
   "firstSeen": "2026-11-23",
@@ -608,7 +621,8 @@
   "channelTitle": "ESTRADA",
   "publishedAt": "2026-11-17T11:20:30Z",
   "lang": "en",
-  "duration": 124
+  "duration": 124,
+  "excluded": "language"
  },
  "bt6JAn7T-Cg": {
   "firstSeen": "2026-11-23",
@@ -620,7 +634,8 @@
   "channelTitle": "INDRAJEET STUDY CENTRE ",
   "publishedAt": "2026-11-18T13:41:44Z",
   "lang": "en",
-  "duration": 996
+  "duration": 996,
+  "excluded": "language"
  },
  "lNi_i-eBTjA": {
   "firstSeen": "2026-11-23",
@@ -657,7 +672,8 @@
   "channelTitle": "Deepak Sinha Classes",
   "publishedAt": "2026-11-20T13:43:00Z",
   "lang": "en",
-  "duration": 1172
+  "duration": 1172,
+  "excluded": "language"
  },
  "1ywhFGF_VtY": {
   "firstSeen": "2026-11-23",
@@ -669,7 +685,8 @@
   "channelTitle": "Shiksha Setu",
   "publishedAt": "2026-11-21T04:41:43Z",
   "lang": "en",
-  "duration": 736
+  "duration": 736,
+  "excluded": "language"
  },
  "YDF4LUn3S7M": {
   "firstSeen": "2026-11-23",
@@ -708,7 +725,8 @@
   "channelTitle": "Paras explains",
   "publishedAt": "2026-11-19T14:00:01Z",
   "lang": "en",
-  "duration": 57
+  "duration": 57,
+  "excluded": "language"
  },
  "nYFiA3qh1qA": {
   "firstSeen": "2026-11-23",
@@ -720,7 +738,8 @@
   "channelTitle": "Es Nota",
   "publishedAt": "2026-11-17T12:26:09Z",
   "lang": "en",
-  "duration": 152
+  "duration": 152,
+  "excluded": "language"
  },
  "UKk_RawKcow": {
   "firstSeen": "2026-11-23",
@@ -733,7 +752,8 @@
   "channelTitle": "Los Presidenciables mx",
   "publishedAt": "2026-11-19T19:32:15Z",
   "lang": "en",
-  "duration": 131
+  "duration": 131,
+  "excluded": "language"
  },
  "HeDqK779fSg": {
   "firstSeen": "2026-11-23",
@@ -745,7 +765,8 @@
   "channelTitle": "Chudalisindhey",
   "publishedAt": "2026-11-20T13:22:45Z",
   "lang": "en",
-  "duration": 60
+  "duration": 60,
+  "excluded": "language"
  },
  "8avz8HrdAIw": {
   "firstSeen": "2026-11-23",
@@ -783,7 +804,8 @@
   "channelTitle": "Bored Panot",
   "publishedAt": "2026-11-20T02:00:39Z",
   "lang": "en",
-  "duration": 95
+  "duration": 95,
+  "excluded": "language"
  },
  "huVg64paoqw": {
   "firstSeen": "2026-11-23",
@@ -795,7 +817,8 @@
   "channelTitle": "Clever Milo",
   "publishedAt": "2026-11-21T08:42:30Z",
   "lang": "en",
-  "duration": 647
+  "duration": 647,
+  "excluded": "language"
  },
  "jLvyXspQRdA": {
   "firstSeen": "2026-11-23",
@@ -834,7 +857,8 @@
   "channelTitle": "Goonj Digital",
   "publishedAt": "2026-11-20T15:00:12Z",
   "lang": "en",
-  "duration": 80
+  "duration": 80,
+  "excluded": "language"
  },
  "H_vHikcDSyo": {
   "firstSeen": "2026-11-23",
@@ -871,7 +895,8 @@
   "channelTitle": "Bored Panot",
   "publishedAt": "2026-11-17T07:00:26Z",
   "lang": "en",
-  "duration": 99
+  "duration": 99,
+  "excluded": "language"
  },
  "3cdqAR557O8": {
   "firstSeen": "2026-11-23",
@@ -884,7 +909,8 @@
   "channelTitle": "Ramesh Paka Official ",
   "publishedAt": "2026-11-22T02:45:04Z",
   "lang": "en",
-  "duration": 43
+  "duration": 43,
+  "excluded": "language"
  },
  "VYupD58xF8s": {
   "firstSeen": "2026-11-23",
@@ -925,7 +951,8 @@
   "channelTitle": "Namazer Kotha",
   "publishedAt": "2026-11-23T03:00:03Z",
   "lang": "en",
-  "duration": 121
+  "duration": 121,
+  "excluded": "language"
  },
  "vm_ExUJkIts": {
   "firstSeen": "2026-11-23",
@@ -938,7 +965,8 @@
   "channelTitle": "Idariya",
   "publishedAt": "2026-11-18T14:00:21Z",
   "lang": "en",
-  "duration": 46
+  "duration": 46,
+  "excluded": "language"
  },
  "O3oXNyzqUzo": {
   "firstSeen": "2026-11-23",
@@ -950,7 +978,8 @@
   "channelTitle": "Biggie B",
   "publishedAt": "2026-11-21T15:41:41Z",
   "lang": "en",
-  "duration": 534
+  "duration": 534,
+  "excluded": "language"
  },
  "tyOHQDtqgG4": {
   "firstSeen": "2026-11-23",
@@ -1117,7 +1146,8 @@
   "channelTitle": "ZETA IAS",
   "publishedAt": "2026-11-18T13:15:10Z",
   "lang": "en",
-  "duration": 82
+  "duration": 82,
+  "excluded": "language"
  },
  "7i8I_4En0-I": {
   "firstSeen": "2026-11-23",
@@ -1470,7 +1500,8 @@
   "channelTitle": "Masik",
   "publishedAt": "2026-11-16T18:19:21Z",
   "lang": "en",
-  "duration": 1762
+  "duration": 1762,
+  "excluded": "language"
  },
  "He4ENfIWqvk": {
   "firstSeen": "2026-11-23",
@@ -1495,7 +1526,8 @@
   "channelTitle": "Sourabh Talks",
   "publishedAt": "2026-11-19T04:07:30Z",
   "lang": "en",
-  "duration": 2786
+  "duration": 2786,
+  "excluded": "language"
  },
  "U7Q1syS27kc": {
   "firstSeen": "2026-11-23",
@@ -1508,7 +1540,8 @@
   "channelTitle": "Sourabh Talks",
   "publishedAt": "2026-11-19T15:01:52Z",
   "lang": "en",
-  "duration": 1038
+  "duration": 1038,
+  "excluded": "language"
  },
  "KdkF0qO6_y8": {
   "firstSeen": "2026-11-23",
@@ -1583,7 +1616,8 @@
   "channelTitle": "Quirky baatein",
   "publishedAt": "2026-11-22T15:02:20Z",
   "lang": "en",
-  "duration": 158
+  "duration": 158,
+  "excluded": "language"
  },
  "Gxo48Ob66I8": {
   "firstSeen": "2026-11-23",
@@ -1696,7 +1730,8 @@
   "channelTitle": "Vipra IAS",
   "publishedAt": "2026-11-18T02:26:04Z",
   "lang": "en",
-  "duration": 2816
+  "duration": 2816,
+  "excluded": "language"
  },
  "gOTvLJvpjaU": {
   "firstSeen": "2026-11-23",
@@ -1751,7 +1786,8 @@
   "channelTitle": "IGNOU WALAY",
   "publishedAt": "2026-11-22T17:56:58Z",
   "lang": "en",
-  "duration": 1630
+  "duration": 1630,
+  "excluded": "language"
  },
  "StPaF_g7Wgo": {
   "firstSeen": "2026-11-23",
@@ -1791,7 +1827,8 @@
   "channelTitle": "Hyper Quest",
   "publishedAt": "2026-11-17T11:18:30Z",
   "lang": "en",
-  "duration": 84
+  "duration": 84,
+  "excluded": "language"
  },
  "pEH0SRDTMWs": {
   "firstSeen": "2026-11-23",
@@ -1804,7 +1841,8 @@
   "channelTitle": "Daniel Arango",
   "publishedAt": "2026-11-17T19:56:51Z",
   "lang": "en",
-  "duration": 180
+  "duration": 180,
+  "excluded": "language"
  },
  "oMorlSFWA-Q": {
   "firstSeen": "2026-11-23",
@@ -1840,7 +1878,8 @@
   "channelTitle": "Cortes Trezoitão",
   "publishedAt": "2026-11-16T23:30:14Z",
   "lang": "en",
-  "duration": 148
+  "duration": 148,
+  "excluded": "language"
  },
  "EE7IsfJKfIU": {
   "firstSeen": "2026-11-23",
@@ -1852,7 +1891,8 @@
   "channelTitle": "Luz Da Mente",
   "publishedAt": "2026-11-16T12:28:14Z",
   "lang": "en",
-  "duration": 170
+  "duration": 170,
+  "excluded": "language"
  },
  "GvYDAD4UA40": {
   "firstSeen": "2026-11-23",
@@ -1906,7 +1946,8 @@
   "channelTitle": "Hot&Takes26",
   "publishedAt": "2026-11-16T19:00:41Z",
   "lang": "en",
-  "duration": 85
+  "duration": 85,
+  "excluded": "language"
  },
  "0zsCKiGWunk": {
   "firstSeen": "2026-11-23",
@@ -1957,7 +1998,8 @@
   "channelTitle": "Couple Comrade ",
   "publishedAt": "2026-11-16T10:04:03Z",
   "lang": "en",
-  "duration": 178
+  "duration": 178,
+  "excluded": "language"
  },
  "hz-YrA_Yy98": {
   "firstSeen": "2026-11-23",
@@ -1998,7 +2040,8 @@
   "channelTitle": "Noorify Bayan",
   "publishedAt": "2026-11-20T13:29:58Z",
   "lang": "en",
-  "duration": 65
+  "duration": 65,
+  "excluded": "language"
  },
  "AzVLsyJog5U": {
   "firstSeen": "2026-11-23",
@@ -2010,7 +2053,8 @@
   "channelTitle": "David Segovia",
   "publishedAt": "2026-11-17T12:00:24Z",
   "lang": "en",
-  "duration": 90
+  "duration": 90,
+  "excluded": "language"
  },
  "PV3f3yorYzM": {
   "firstSeen": "2026-11-23",
@@ -2211,7 +2255,8 @@
   "channelTitle": "더팩트",
   "publishedAt": "2026-11-19T15:00:11Z",
   "lang": "en",
-  "duration": 116
+  "duration": 116,
+  "excluded": "language"
  },
  "j2fwsD-zpzM": {
   "firstSeen": "2026-11-23",
@@ -2266,7 +2311,8 @@
   "channelTitle": "Adda247 Bank Exams",
   "publishedAt": "2026-11-17T03:30:08Z",
   "lang": "en",
-  "duration": 41
+  "duration": 41,
+  "excluded": "language"
  },
  "Gq0SufxvR_I": {
   "firstSeen": "2026-11-23",
@@ -2279,7 +2325,8 @@
   "channelTitle": "Best Of Gaurav Chhabra",
   "publishedAt": "2026-11-16T11:54:27Z",
   "lang": "en",
-  "duration": 20
+  "duration": 20,
+  "excluded": "language"
  },
  "y-0T7-V5Y10": {
   "firstSeen": "2026-11-23",
@@ -2303,7 +2350,8 @@
   "channelTitle": "Meri Duniya",
   "publishedAt": "2026-11-19T07:45:36Z",
   "lang": "en",
-  "duration": 61
+  "duration": 61,
+  "excluded": "language"
  },
  "opA8jyUXCIg": {
   "firstSeen": "2026-11-23",
@@ -2328,7 +2376,8 @@
   "channelTitle": "Naari Narrative Podcast",
   "publishedAt": "2026-11-19T04:16:46Z",
   "lang": "en",
-  "duration": 70
+  "duration": 70,
+  "excluded": "language"
  },
  "CvSjXqbmBDo": {
   "firstSeen": "2026-11-23",
@@ -2354,7 +2403,8 @@
   "channelTitle": "tanu Nursingnotes",
   "publishedAt": "2026-11-19T04:30:08Z",
   "lang": "en",
-  "duration": 41
+  "duration": 41,
+  "excluded": "language"
  },
  "S8aMpMqfJ60": {
   "firstSeen": "2026-11-23",
@@ -2378,7 +2428,8 @@
   "channelTitle": "NIBI SHORTS",
   "publishedAt": "2026-11-21T13:58:19Z",
   "lang": "en",
-  "duration": 40
+  "duration": 40,
+  "excluded": "language"
  },
  "6l4E9xE6WoY": {
   "firstSeen": "2026-11-23",
@@ -2390,7 +2441,8 @@
   "channelTitle": "Telugu Quiz Hub",
   "publishedAt": "2026-11-20T04:30:06Z",
   "lang": "en",
-  "duration": 8
+  "duration": 8,
+  "excluded": "language"
  },
  "oHb5qwb3kqU": {
   "firstSeen": "2026-11-23",
@@ -2415,7 +2467,8 @@
   "channelTitle": "PAYE MEDYA ",
   "publishedAt": "2026-11-21T05:30:59Z",
   "lang": "en",
-  "duration": 49
+  "duration": 49,
+  "excluded": "language"
  },
  "OlC2KKc4Xk4": {
   "firstSeen": "2026-11-23",
@@ -2441,7 +2494,8 @@
   "channelTitle": "Dr. Saba Yunus",
   "publishedAt": "2026-11-19T13:04:24Z",
   "lang": "en",
-  "duration": 775
+  "duration": 775,
+  "excluded": "language"
  },
  "TgJVZCISVQY": {
   "firstSeen": "2026-11-23",
@@ -2453,7 +2507,8 @@
   "channelTitle": "Doğu Tibet | Kripto Rehberi ",
   "publishedAt": "2026-11-20T16:18:55Z",
   "lang": "en",
-  "duration": 266
+  "duration": 266,
+  "excluded": "language"
  },
  "b5SOzEAQpXM": {
   "firstSeen": "2026-11-23",
@@ -2465,7 +2520,8 @@
   "channelTitle": "MR Education ",
   "publishedAt": "2026-11-22T06:09:21Z",
   "lang": "en",
-  "duration": 350
+  "duration": 350,
+  "excluded": "language"
  },
  "MGZlwR2PNNM": {
   "firstSeen": "2026-11-23",
@@ -2477,7 +2533,8 @@
   "channelTitle": "Mentor's walaa",
   "publishedAt": "2026-11-20T03:30:52Z",
   "lang": "en",
-  "duration": 69
+  "duration": 69,
+  "excluded": "language"
  },
  "jnKYjK3wXGY": {
   "firstSeen": "2026-11-23",
@@ -2501,7 +2558,8 @@
   "channelTitle": "El Sabías Que",
   "publishedAt": "2026-11-20T19:52:54Z",
   "lang": "en",
-  "duration": 64
+  "duration": 64,
+  "excluded": "language"
  },
  "rLYufJvnrTE": {
   "firstSeen": "2026-11-23",
@@ -2526,7 +2584,8 @@
   "channelTitle": "Шортсы по каналу Александра Соколовского",
   "publishedAt": "2026-11-21T19:00:29Z",
   "lang": "en",
-  "duration": 16
+  "duration": 16,
+  "excluded": "language"
  },
  "Sn2H5hqRhdg": {
   "firstSeen": "2026-11-23",
@@ -2567,7 +2626,8 @@
   "channelTitle": "Ruslan Gabbasov",
   "publishedAt": "2026-11-20T12:18:43Z",
   "lang": "en",
-  "duration": 61
+  "duration": 61,
+  "excluded": "language"
  },
  "L0GFHImbYcQ": {
   "firstSeen": "2026-11-23",
@@ -2619,7 +2679,8 @@
   "channelTitle": "Nitin Nitro",
   "publishedAt": "2026-11-16T09:16:31Z",
   "lang": "en",
-  "duration": 612
+  "duration": 612,
+  "excluded": "language"
  },
  "SRYRLAk2hNU": {
   "firstSeen": "2026-11-23",
@@ -2631,7 +2692,8 @@
   "channelTitle": "БАЗА ЗА БАЗОЙ",
   "publishedAt": "2026-11-22T16:18:39Z",
   "lang": "en",
-  "duration": 53
+  "duration": 53,
+  "excluded": "language"
  },
  "XpK57z0s40w": {
   "firstSeen": "2026-11-23",
@@ -2643,7 +2705,8 @@
   "channelTitle": "El Poder De La Fe TikTok",
   "publishedAt": "2026-11-21T02:03:40Z",
   "lang": "en",
-  "duration": 27
+  "duration": 27,
+  "excluded": "language"
  },
  "pf62KtG-qVk": {
   "firstSeen": "2026-11-23",
@@ -2706,7 +2769,8 @@
   "channelTitle": "HITACHI SP",
   "publishedAt": "2026-11-19T10:30:38Z",
   "lang": "en",
-  "duration": 55
+  "duration": 55,
+  "excluded": "language"
  },
  "BmhustmdLlw": {
   "firstSeen": "2026-11-23",
@@ -2795,7 +2859,8 @@
   "channelTitle": "Телеканал Астана / Astana TV",
   "publishedAt": "2026-11-19T14:28:05Z",
   "lang": "en",
-  "duration": 200
+  "duration": 200,
+  "excluded": "language"
  },
  "QqQU-09p4ts": {
   "firstSeen": "2026-11-23",
@@ -2807,7 +2872,8 @@
   "channelTitle": "MISESTV",
   "publishedAt": "2026-11-17T17:04:47Z",
   "lang": "en",
-  "duration": 107
+  "duration": 107,
+  "excluded": "language"
  },
  "0achZ_gt7d4": {
   "firstSeen": "2026-11-23",
@@ -3218,7 +3284,8 @@
   "channelTitle": "Shiksha Setu",
   "publishedAt": "2026-11-22T05:36:21Z",
   "lang": "en",
-  "duration": 1087
+  "duration": 1087,
+  "excluded": "language"
  },
  "m6oY7Zs_nzo": {
   "firstSeen": "2026-11-23",
@@ -3230,7 +3297,8 @@
   "channelTitle": "THE CHANAKYA DIALOGUES HINDI",
   "publishedAt": "2026-11-18T08:42:51Z",
   "lang": "en",
-  "duration": 918
+  "duration": 918,
+  "excluded": "language"
  },
  "tfEIFtv2aq8": {
   "firstSeen": "2026-11-23",
@@ -3242,7 +3310,8 @@
   "channelTitle": "경제상담소",
   "publishedAt": "2026-11-17T05:00:28Z",
   "lang": "en",
-  "duration": 1324
+  "duration": 1324,
+  "excluded": "language"
  },
  "3Umbp_iDws0": {
   "firstSeen": "2026-11-23",
@@ -3254,7 +3323,8 @@
   "channelTitle": "Luciani Marcondes",
   "publishedAt": "2026-11-18T16:00:34Z",
   "lang": "en",
-  "duration": 45
+  "duration": 45,
+  "excluded": "language"
  },
  "um9aSCATht4": {
   "firstSeen": "2026-11-23",
@@ -3266,7 +3336,8 @@
   "channelTitle": "БАЗА ЗА БАЗОЙ",
   "publishedAt": "2026-11-18T01:39:32Z",
   "lang": "en",
-  "duration": 76
+  "duration": 76,
+  "excluded": "language"
  },
  "H0FMOFbTqfo": {
   "firstSeen": "2026-11-23",
@@ -3278,7 +3349,8 @@
   "channelTitle": "경제의 시작",
   "publishedAt": "2026-11-18T22:00:28Z",
   "lang": "en",
-  "duration": 1183
+  "duration": 1183,
+  "excluded": "language"
  },
  "iW4-E37Kklw": {
   "firstSeen": "2026-11-23",
@@ -3316,7 +3388,8 @@
   "channelTitle": "România Văzută Din Tractor",
   "publishedAt": "2026-11-22T10:14:14Z",
   "lang": "en",
-  "duration": 41
+  "duration": 41,
+  "excluded": "language"
  },
  "GLw4krYk5Wg": {
   "firstSeen": "2026-11-23",
@@ -3341,7 +3414,8 @@
   "channelTitle": "24 heures Pujadas - LCI",
   "publishedAt": "2026-11-16T17:00:02Z",
   "lang": "en",
-  "duration": 65
+  "duration": 65,
+  "excluded": "language"
  },
  "qTkjrYCz1Gs": {
   "firstSeen": "2026-11-23",
@@ -3390,7 +3464,8 @@
   "channelTitle": "Inversor De Barrio",
   "publishedAt": "2026-11-20T20:02:54Z",
   "lang": "en",
-  "duration": 31
+  "duration": 31,
+  "excluded": "language"
  },
  "S5TC_8dXm-8": {
   "firstSeen": "2026-11-23",
@@ -3426,7 +3501,8 @@
   "channelTitle": "Study Pathshala",
   "publishedAt": "2026-11-19T14:16:52Z",
   "lang": "en",
-  "duration": 59
+  "duration": 59,
+  "excluded": "language"
  },
  "XNMAkkGqr0M": {
   "firstSeen": "2026-11-23",
@@ -3451,7 +3527,8 @@
   "channelTitle": "Rafael Linares Guerrero.",
   "publishedAt": "2026-11-22T14:00:22Z",
   "lang": "en",
-  "duration": 122
+  "duration": 122,
+  "excluded": "language"
  },
  "tcvLMlPqW6U": {
   "firstSeen": "2026-11-23",
@@ -3513,7 +3590,8 @@
   "channelTitle": "Radar Popular",
   "publishedAt": "2026-11-19T19:00:12Z",
   "lang": "en",
-  "duration": 53
+  "duration": 53,
+  "excluded": "language"
  },
  "jOpiDtV6yf8": {
   "firstSeen": "2026-11-23",
@@ -3526,7 +3604,8 @@
   "channelTitle": "Times Today Digital",
   "publishedAt": "2026-11-19T02:40:14Z",
   "lang": "en",
-  "duration": 204
+  "duration": 204,
+  "excluded": "language"
  },
  "xd5iNtg03Eg": {
   "firstSeen": "2026-11-23",
@@ -3994,7 +4073,8 @@
   "channelTitle": "Visual Talks Podcast",
   "publishedAt": "2026-11-21T12:30:02Z",
   "lang": "en",
-  "duration": 53
+  "duration": 53,
+  "excluded": "language"
  },
  "0QQcxoD11VM": {
   "firstSeen": "2026-11-23",
@@ -4006,7 +4086,8 @@
   "channelTitle": "salwaalya",
   "publishedAt": "2026-11-18T13:30:58Z",
   "lang": "en",
-  "duration": 156
+  "duration": 156,
+  "excluded": "language"
  },
  "sHj4sGDTa5I": {
   "firstSeen": "2026-11-23",
@@ -4020,7 +4101,8 @@
   "channelTitle": "Capital 21",
   "publishedAt": "2026-11-16T21:00:11Z",
   "lang": "en",
-  "duration": 3294
+  "duration": 3294,
+  "excluded": "language"
  },
  "I4Vz8OeLP-4": {
   "firstSeen": "2026-11-23",
@@ -4033,7 +4115,8 @@
   "channelTitle": "ALL in One Assamese ",
   "publishedAt": "2026-11-19T02:30:03Z",
   "lang": "en",
-  "duration": 59
+  "duration": 59,
+  "excluded": "language"
  },
  "EJsYVx-wqQg": {
   "firstSeen": "2026-11-23",
@@ -4059,7 +4142,8 @@
   "channelTitle": "Bu Mel | Gen Z",
   "publishedAt": "2026-11-18T04:29:49Z",
   "lang": "en",
-  "duration": 11
+  "duration": 11,
+  "excluded": "language"
  },
  "E1wbJulTY0c": {
   "firstSeen": "2026-11-23",
@@ -4071,7 +4155,8 @@
   "channelTitle": "Friska Andriani",
   "publishedAt": "2026-11-22T07:56:43Z",
   "lang": "en",
-  "duration": 1350
+  "duration": 1350,
+  "excluded": "language"
  },
  "LQc9lw3bnkI": {
   "firstSeen": "2026-11-23",
@@ -4108,7 +4193,8 @@
   "channelTitle": "Pandiyan Natarajan",
   "publishedAt": "2026-11-20T22:57:28Z",
   "lang": "en",
-  "duration": 421
+  "duration": 421,
+  "excluded": "language"
  },
  "qNTEHw27owI": {
   "firstSeen": "2026-11-23",
@@ -4133,7 +4219,8 @@
   "channelTitle": "Bu Mel | Gen Z",
   "publishedAt": "2026-11-19T04:15:43Z",
   "lang": "en",
-  "duration": 55
+  "duration": 55,
+  "excluded": "language"
  },
  "12Kf9Mkv-pU": {
   "firstSeen": "2026-11-23",
@@ -4158,7 +4245,8 @@
   "channelTitle": "Saksham Motwani",
   "publishedAt": "2026-11-17T14:15:28Z",
   "lang": "en",
-  "duration": 29
+  "duration": 29,
+  "excluded": "language"
  },
  "-hlnrmBxAK8": {
   "firstSeen": "2026-11-23",
@@ -4261,7 +4349,8 @@
   "channelTitle": "LIMIT BREAKER ACADEMY ",
   "publishedAt": "2026-11-21T06:01:26Z",
   "lang": "en",
-  "duration": 35
+  "duration": 35,
+  "excluded": "language"
  },
  "-wrwEpj3a4Y": {
   "firstSeen": "2026-11-23",
@@ -4287,7 +4376,8 @@
   "channelTitle": "IndMyst",
   "publishedAt": "2026-11-19T11:30:29Z",
   "lang": "en",
-  "duration": 31
+  "duration": 31,
+  "excluded": "language"
  },
  "lq20-wL3fR4": {
   "firstSeen": "2026-11-23",
@@ -4299,7 +4389,8 @@
   "channelTitle": "Matemáticas con Toxqui",
   "publishedAt": "2026-11-17T00:00:15Z",
   "lang": "en",
-  "duration": 164
+  "duration": 164,
+  "excluded": "language"
  },
  "_VoTzRxswOQ": {
   "firstSeen": "2026-11-23",
@@ -4324,7 +4415,8 @@
   "channelTitle": "NNYR Educations",
   "publishedAt": "2026-11-19T13:00:31Z",
   "lang": "en",
-  "duration": 1615
+  "duration": 1615,
+  "excluded": "language"
  },
  "JbsOCRv9hZo": {
   "firstSeen": "2026-11-23",
@@ -4361,7 +4453,8 @@
   "channelTitle": "PWA Moments",
   "publishedAt": "2026-11-20T14:30:34Z",
   "lang": "en",
-  "duration": 427
+  "duration": 427,
+  "excluded": "language"
  },
  "miwrHRAn5bI": {
   "firstSeen": "2026-11-23",
@@ -4374,7 +4467,8 @@
   "channelTitle": "Sheen Education Alsaif Sir ",
   "publishedAt": "2026-11-22T15:38:32Z",
   "lang": "en",
-  "duration": 3716
+  "duration": 3716,
+  "excluded": "language"
  },
  "V1gQoU4rGME": {
   "firstSeen": "2026-11-23",
@@ -4386,7 +4480,8 @@
   "channelTitle": "abhisquared",
   "publishedAt": "2026-11-20T14:12:42Z",
   "lang": "en",
-  "duration": 104
+  "duration": 104,
+  "excluded": "language"
  },
  "OBGqBE2tyns": {
   "firstSeen": "2026-11-23",
@@ -4424,7 +4519,8 @@
   "channelTitle": "THE PATHSHALA - RAHUL KUMAR",
   "publishedAt": "2026-11-19T12:30:30Z",
   "lang": "en",
-  "duration": 96
+  "duration": 96,
+  "excluded": "language"
  },
  "uceiMJuO5IE": {
   "firstSeen": "2026-11-23",
@@ -4436,7 +4532,8 @@
   "channelTitle": "LearnMath with VS",
   "publishedAt": "2026-11-20T08:28:25Z",
   "lang": "en",
-  "duration": 125
+  "duration": 125,
+  "excluded": "language"
  },
  "2F3-8iTfg64": {
   "firstSeen": "2026-11-23",
@@ -4448,7 +4545,8 @@
   "channelTitle": "My Relief",
   "publishedAt": "2026-11-19T13:00:27Z",
   "lang": "en",
-  "duration": 52
+  "duration": 52,
+  "excluded": "language"
  },
  "G5lJqlUWO2g": {
   "firstSeen": "2026-11-23",
@@ -4619,7 +4717,8 @@
   "channelTitle": "Malanka Media",
   "publishedAt": "2026-11-19T07:00:11Z",
   "lang": "en",
-  "duration": 72
+  "duration": 72,
+  "excluded": "language"
  },
  "Fn3vFI_np68": {
   "firstSeen": "2026-11-23",
@@ -4631,7 +4730,8 @@
   "channelTitle": "연금박사 이영주",
   "publishedAt": "2026-11-20T02:44:49Z",
   "lang": "en",
-  "duration": 1079
+  "duration": 1079,
+  "excluded": "language"
  },
  "SE4KzJI8TgU": {
   "firstSeen": "2026-11-23",
@@ -4658,7 +4758,8 @@
   "channelTitle": "新聞挖挖哇！",
   "publishedAt": "2026-11-22T04:30:19Z",
   "lang": "ja",
-  "duration": 763
+  "duration": 763,
+  "excluded": "language"
  },
  "7u1YswgB0Ao": {
   "firstSeen": "2026-11-23",
@@ -4710,7 +4811,8 @@
   "channelTitle": "新聞幕後 TVBS",
   "publishedAt": "2026-11-16T12:00:12Z",
   "lang": "ja",
-  "duration": 34
+  "duration": 34,
+  "excluded": "language"
  },
  "fw1uFts7BtQ": {
   "firstSeen": "2026-11-23",
@@ -4722,7 +4824,8 @@
   "channelTitle": "종교자유 권익연대",
   "publishedAt": "2026-11-16T11:30:37Z",
   "lang": "en",
-  "duration": 67
+  "duration": 67,
+  "excluded": "language"
  },
  "DQ_0eb0jJDY": {
   "firstSeen": "2026-11-23",
@@ -4734,7 +4837,8 @@
   "channelTitle": "알고있어?",
   "publishedAt": "2026-11-21T21:00:01Z",
   "lang": "en",
-  "duration": 41
+  "duration": 41,
+  "excluded": "language"
  },
  "XQZ47ITC2Sg": {
   "firstSeen": "2026-11-23",
@@ -4774,7 +4878,8 @@
   "channelTitle": "Aby bylo jasno",
   "publishedAt": "2026-11-17T00:30:08Z",
   "lang": "en",
-  "duration": 74
+  "duration": 74,
+  "excluded": "language"
  },
  "ZLE1r_iJiwA": {
   "firstSeen": "2026-11-23",
@@ -4786,7 +4891,8 @@
   "channelTitle": "abrazia contenidos",
   "publishedAt": "2026-11-21T00:19:41Z",
   "lang": "en",
-  "duration": 39
+  "duration": 39,
+  "excluded": "language"
  },
  "_WfXCpGFpAo": {
   "firstSeen": "2026-11-23",
@@ -4798,7 +4904,8 @@
   "channelTitle": "김준일의 시사천국",
   "publishedAt": "2026-11-18T15:05:33Z",
   "lang": "en",
-  "duration": 156
+  "duration": 156,
+  "excluded": "language"
  },
  "F1etttzRXbQ": {
   "firstSeen": "2026-11-23",
@@ -4836,7 +4943,8 @@
   "channelTitle": "TVR - Chaîne de télé bretonne",
   "publishedAt": "2026-11-18T10:30:00Z",
   "lang": "en",
-  "duration": 140
+  "duration": 140,
+  "excluded": "language"
  },
  "Jbh6VXFZbGI": {
   "firstSeen": "2026-11-23",
@@ -4862,7 +4970,8 @@
   "channelTitle": "Okiem Akwinaty",
   "publishedAt": "2026-11-20T13:59:39Z",
   "lang": "en",
-  "duration": 46
+  "duration": 46,
+  "excluded": "language"
  },
  "9huR7KwXrvQ": {
   "firstSeen": "2026-11-23",
@@ -4887,7 +4996,8 @@
   "channelTitle": "大愛新聞DaaiNews",
   "publishedAt": "2026-11-22T04:57:56Z",
   "lang": "ja",
-  "duration": 140
+  "duration": 140,
+  "excluded": "language"
  },
  "UKBCU042cJE": {
   "firstSeen": "2026-11-23",
@@ -4988,7 +5098,8 @@
   "channelTitle": "목포MBC뉴스",
   "publishedAt": "2026-11-22T23:07:59Z",
   "lang": "en",
-  "duration": 166
+  "duration": 166,
+  "excluded": "language"
  },
  "01OGulqgd2A": {
   "firstSeen": "2026-11-23",
@@ -5116,7 +5227,8 @@
   "channelTitle": "56BelowTV 零下56",
   "publishedAt": "2026-11-21T01:00:37Z",
   "lang": "ja",
-  "duration": 2728
+  "duration": 2728,
+  "excluded": "language"
  },
  "U5mOPQGyerc": {
   "firstSeen": "2026-11-23",
@@ -5154,7 +5266,8 @@
   "channelTitle": "鎏金娛記",
   "publishedAt": "2026-11-16T10:19:15Z",
   "lang": "ja",
-  "duration": 958
+  "duration": 958,
+  "excluded": "language"
  },
  "WVdEjdPN0_M": {
   "firstSeen": "2026-11-23",
@@ -5315,7 +5428,8 @@
   "channelTitle": "上海刀哥",
   "publishedAt": "2026-11-17T16:46:15Z",
   "lang": "ja",
-  "duration": 5493
+  "duration": 5493,
+  "excluded": "language"
  },
  "on1p6CAuUIc": {
   "firstSeen": "2026-11-23",
@@ -5654,7 +5768,8 @@
   "channelTitle": "Adem Kaya",
   "publishedAt": "2026-11-19T18:15:07Z",
   "lang": "en",
-  "duration": 46
+  "duration": 46,
+  "excluded": "language"
  },
  "9QdByd_j9hs": {
   "firstSeen": "2026-11-23",
@@ -5680,7 +5795,8 @@
   "channelTitle": "Hémisphère Gauche Le Podcast",
   "publishedAt": "2026-11-22T08:00:05Z",
   "lang": "en",
-  "duration": 47
+  "duration": 47,
+  "excluded": "language"
  },
  "ZRoyGSPWmBs": {
   "firstSeen": "2026-11-23",
@@ -5783,7 +5899,8 @@
   "channelTitle": "스픽스",
   "publishedAt": "2026-11-18T02:20:29Z",
   "lang": "en",
-  "duration": 46
+  "duration": 46,
+  "excluded": "language"
  },
  "ItiUxzDls6I": {
   "firstSeen": "2026-11-23",
@@ -5844,7 +5961,8 @@
   "channelTitle": "시사체크",
   "publishedAt": "2026-11-16T08:00:16Z",
   "lang": "en",
-  "duration": 50
+  "duration": 50,
+  "excluded": "language"
  },
  "B5Wc0ndbdjw": {
   "firstSeen": "2026-11-23",
@@ -5883,7 +6001,8 @@
   "channelTitle": "CryptDec",
   "publishedAt": "2026-11-20T15:00:29Z",
   "lang": "en",
-  "duration": 102
+  "duration": 102,
+  "excluded": "language"
  },
  "U18YrblLvgk": {
   "firstSeen": "2026-11-23",
@@ -5895,7 +6014,8 @@
   "channelTitle": "Fact Vault ",
   "publishedAt": "2026-11-21T14:36:08Z",
   "lang": "en",
-  "duration": 492
+  "duration": 492,
+  "excluded": "language"
  },
  "XS9yaLHU_C4": {
   "firstSeen": "2026-11-23",
@@ -5907,7 +6027,8 @@
   "channelTitle": "PBR Clips",
   "publishedAt": "2026-11-16T15:35:22Z",
   "lang": "en",
-  "duration": 36
+  "duration": 36,
+  "excluded": "language"
  },
  "h-vO1GM5Mpo": {
   "firstSeen": "2026-11-23",
@@ -5970,7 +6091,8 @@
   "channelTitle": "미디어협동조합 국민TV",
   "publishedAt": "2026-11-18T12:00:28Z",
   "lang": "en",
-  "duration": 88
+  "duration": 88,
+  "excluded": "language"
  },
  "ClfAsdp-aao": {
   "firstSeen": "2026-11-23",
@@ -6011,7 +6133,8 @@
   "channelTitle": "KARP대한은퇴자협회              주명룡",
   "publishedAt": "2026-11-19T08:00:19Z",
   "lang": "en",
-  "duration": 129
+  "duration": 129,
+  "excluded": "language"
  },
  "UjfQF5r4ZtU": {
   "firstSeen": "2026-11-23",
@@ -6036,7 +6159,8 @@
   "channelTitle": "뉴브NEWVE",
   "publishedAt": "2026-11-17T10:00:37Z",
   "lang": "en",
-  "duration": 33
+  "duration": 33,
+  "excluded": "language"
  },
  "s0nHyVGIdFQ": {
   "firstSeen": "2026-11-23",
@@ -6073,7 +6197,8 @@
   "channelTitle": "N+ UNIVISION",
   "publishedAt": "2026-11-17T21:00:57Z",
   "lang": "en",
-  "duration": 97
+  "duration": 97,
+  "excluded": "language"
  },
  "L03iRbv-p6I": {
   "firstSeen": "2026-11-23",
@@ -6224,7 +6349,8 @@
   "channelTitle": "TH Network",
   "publishedAt": "2026-11-21T11:23:08Z",
   "lang": "en",
-  "duration": 36
+  "duration": 36,
+  "excluded": "language"
  },
  "YvFSp6_nxhA": {
   "firstSeen": "2026-11-23",
@@ -6358,7 +6484,8 @@
   "channelTitle": "Shuzzit Thought Odia",
   "publishedAt": "2026-11-22T13:15:41Z",
   "lang": "en",
-  "duration": 180
+  "duration": 180,
+  "excluded": "language"
  },
  "jW0K-_mRaKU": {
   "firstSeen": "2026-11-23",
@@ -6480,7 +6607,8 @@
   "channelTitle": "Railway Pointsman Ankush",
   "publishedAt": "2026-11-21T06:40:30Z",
   "lang": "en",
-  "duration": 452
+  "duration": 452,
+  "excluded": "language"
  },
  "tRVQF_-C7o0": {
   "firstSeen": "2026-11-23",
@@ -6492,7 +6620,8 @@
   "channelTitle": "Geo News",
   "publishedAt": "2026-11-18T11:00:13Z",
   "lang": "en",
-  "duration": 46
+  "duration": 46,
+  "excluded": "language"
  },
  "wi58TGZUueE": {
   "firstSeen": "2026-11-23",
@@ -6553,7 +6682,8 @@
   "channelTitle": "Political Panchayat",
   "publishedAt": "2026-11-17T08:03:37Z",
   "lang": "en",
-  "duration": 415
+  "duration": 415,
+  "excluded": "language"
  },
  "k3VV98ItDD0": {
   "firstSeen": "2026-11-23",
@@ -6604,7 +6734,8 @@
   "channelTitle": "Samay ",
   "publishedAt": "2026-11-21T08:30:36Z",
   "lang": "en",
-  "duration": 11
+  "duration": 11,
+  "excluded": "language"
  },
  "z3x5LnrBlLo": {
   "firstSeen": "2026-11-23",
@@ -6703,7 +6834,8 @@
   "channelTitle": "Mayank Starter",
   "publishedAt": "2026-11-21T10:00:14Z",
   "lang": "en",
-  "duration": 28
+  "duration": 28,
+  "excluded": "language"
  },
  "7F4H3UQ3eH4": {
   "firstSeen": "2026-11-23",
@@ -6791,7 +6923,8 @@
   "channelTitle": "FearNation 世界苦茶",
   "publishedAt": "2026-11-18T01:28:15Z",
   "lang": "ja",
-  "duration": 2791
+  "duration": 2791,
+  "excluded": "language"
  },
  "Lu2jYdv9J2U": {
   "firstSeen": "2026-11-23",
@@ -6959,7 +7092,8 @@
   "channelTitle": "TGT PGT By Chandra Institute",
   "publishedAt": "2026-11-17T20:41:00Z",
   "lang": "en",
-  "duration": 2645
+  "duration": 2645,
+  "excluded": "language"
  },
  "X3qkXRnOxaY": {
   "firstSeen": "2026-11-23",
@@ -6996,7 +7130,8 @@
   "channelTitle": "VA Plus",
   "publishedAt": "2026-11-16T14:38:17Z",
   "lang": "en",
-  "duration": 142
+  "duration": 142,
+  "excluded": "language"
  },
  "ueTrxq_xuWs": {
   "firstSeen": "2026-11-23",
@@ -7008,7 +7143,8 @@
   "channelTitle": "Бизнес Идеи и Оскар Хартманн ",
   "publishedAt": "2026-11-20T20:42:01Z",
   "lang": "en",
-  "duration": 62
+  "duration": 62,
+  "excluded": "language"
  },
  "RmIKP_teDbU": {
   "firstSeen": "2026-11-23",
@@ -7032,7 +7168,8 @@
   "channelTitle": "SHUKLA STUDY POINT",
   "publishedAt": "2026-11-16T14:30:09Z",
   "lang": "en",
-  "duration": 4471
+  "duration": 4471,
+  "excluded": "language"
  },
  "cvIbSVqx81w": {
   "firstSeen": "2026-11-23",
@@ -7044,7 +7181,8 @@
   "channelTitle": "Estúdio 5° Elemento ",
   "publishedAt": "2026-11-20T13:30:18Z",
   "lang": "en",
-  "duration": 148
+  "duration": 148,
+  "excluded": "language"
  },
  "agYPyewMCUo": {
   "firstSeen": "2026-11-23",
@@ -7056,7 +7194,8 @@
   "channelTitle": "SHUKLA STUDY POINT",
   "publishedAt": "2026-11-17T15:30:09Z",
   "lang": "en",
-  "duration": 3860
+  "duration": 3860,
+  "excluded": "language"
  },
  "JKszgK8EHWk": {
   "firstSeen": "2026-11-23",
@@ -7068,7 +7207,8 @@
   "channelTitle": "Sociology Dot net",
   "publishedAt": "2026-11-20T14:15:24Z",
   "lang": "en",
-  "duration": 3575
+  "duration": 3575,
+  "excluded": "language"
  },
  "Cw16scyPv30": {
   "firstSeen": "2026-11-23",
@@ -7092,7 +7232,8 @@
   "channelTitle": "Sociology Dot net",
   "publishedAt": "2026-11-21T05:30:08Z",
   "lang": "en",
-  "duration": 729
+  "duration": 729,
+  "excluded": "language"
  },
  "zqZKxhHNcJ4": {
   "firstSeen": "2026-11-23",
@@ -7104,7 +7245,8 @@
   "channelTitle": "Tanu BA Classes",
   "publishedAt": "2026-11-19T23:46:49Z",
   "lang": "en",
-  "duration": 3524
+  "duration": 3524,
+  "excluded": "language"
  },
  "o1T1LYJ2tB8": {
   "firstSeen": "2026-11-23",
@@ -7116,7 +7258,8 @@
   "channelTitle": "Padhai Karo Online",
   "publishedAt": "2026-11-16T12:26:26Z",
   "lang": "en",
-  "duration": 21
+  "duration": 21,
+  "excluded": "language"
  },
  "x2jfEli03Es": {
   "firstSeen": "2026-11-23",
@@ -7129,7 +7272,8 @@
   "channelTitle": "UGC NET Testbook",
   "publishedAt": "2026-11-22T17:05:50Z",
   "lang": "en",
-  "duration": 22605
+  "duration": 22605,
+  "excluded": "language"
  },
  "QMmeQ2r056I": {
   "firstSeen": "2026-11-23",
@@ -7141,7 +7285,8 @@
   "channelTitle": "SocioVibe",
   "publishedAt": "2026-11-21T23:02:35Z",
   "lang": "en",
-  "duration": 3356
+  "duration": 3356,
+  "excluded": "language"
  },
  "gRRxWKWi-Bs": {
   "firstSeen": "2026-11-23",
@@ -7177,7 +7322,8 @@
   "channelTitle": "SocioVibe",
   "publishedAt": "2026-11-17T20:23:01Z",
   "lang": "en",
-  "duration": 9549
+  "duration": 9549,
+  "excluded": "language"
  },
  "8aXE_qD0j5k": {
   "firstSeen": "2026-11-23",
@@ -7190,7 +7336,8 @@
   "channelTitle": "UGC NET Testbook",
   "publishedAt": "2026-11-18T01:59:27Z",
   "lang": "en",
-  "duration": 5141
+  "duration": 5141,
+  "excluded": "language"
  },
  "SDJ1hX0T87Y": {
   "firstSeen": "2026-11-23",
@@ -7202,7 +7349,8 @@
   "channelTitle": "success2u",
   "publishedAt": "2026-11-18T04:15:44Z",
   "lang": "en",
-  "duration": 2565
+  "duration": 2565,
+  "excluded": "language"
  },
  "Ux5VAmBNUGU": {
   "firstSeen": "2026-11-23",
@@ -7215,7 +7363,8 @@
   "channelTitle": "Disha Arts Classes",
   "publishedAt": "2026-11-18T22:20:03Z",
   "lang": "en",
-  "duration": 3151
+  "duration": 3151,
+  "excluded": "language"
  },
  "lAIFqdxk0H8": {
   "firstSeen": "2026-11-23",
@@ -7227,7 +7376,8 @@
   "channelTitle": "UGC NET RWA",
   "publishedAt": "2026-11-21T03:05:42Z",
   "lang": "en",
-  "duration": 3282
+  "duration": 3282,
+  "excluded": "language"
  },
  "ZWYOHdHZPdk": {
   "firstSeen": "2026-11-23",
@@ -7239,6 +7389,173 @@
   "channelTitle": "Sleepy Sociology",
   "publishedAt": "2026-11-18T16:00:40Z",
   "lang": "en",
-  "duration": 82
+  "duration": 82,
+  "excluded": "language"
+ },
+ "G0lY128zmbc": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "family",
+   "media",
+   "work"
+  ],
+  "title": "「早慶卒でも非正規です」・・・就職氷河期・ガソリン代自腹・再雇用で年収ダウン、会社に報われない人に関する口コミを100件紹介します[総集編]",
+  "channelId": "UCck0BkALoKVyLwxzB3IgERw",
+  "channelTitle": "おつかれニッポン",
+  "publishedAt": "2026-11-21T09:30:01Z",
+  "lang": "ja",
+  "duration": 3436
+ },
+ "jRmIUsGussA": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "work"
+  ],
+  "title": "Как зумеры меняют рынок труда #соколовский #фальконфинанс #зумеры #работа",
+  "excluded": "language"
+ },
+ "QtK8o9YHs-Q": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "work"
+  ],
+  "title": "The Real Cost of GTA VI #economics",
+  "channelId": "UCialsmUlTRABKPw31VDx1eQ",
+  "channelTitle": "Foundation for Economic Education",
+  "publishedAt": "2026-11-19T16:00:34Z",
+  "lang": "en",
+  "duration": 20
+ },
+ "2Y_NTknV498": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "youth"
+  ],
+  "title": "ASVAB Math Practice: Can You Solve James and Ryan's Age Problem?",
+  "channelId": "UCHXnuSm6Ri9Ucsb5jVqyTFw",
+  "channelTitle": "Duran Learning",
+  "publishedAt": "2026-11-19T15:00:22Z",
+  "lang": "en",
+  "duration": 523
+ },
+ "tlD5hYcw47s": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "youth"
+  ],
+  "title": "Solving System of Equations by Graphing Day 1 Practice | Word Problems Practice 5 Solved | FBISD",
+  "channelId": "UCzneWj06UkcJRID3UbbfhaQ",
+  "channelTitle": "Your Tutor M",
+  "publishedAt": "2026-11-17T13:52:19Z",
+  "lang": "en",
+  "duration": 101
+ },
+ "zQ0_2qzTAUM": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "aging",
+   "family"
+  ],
+  "title": "Why Nobody Is Being Born in China #china #culture #demographics",
+  "channelId": "UC8OoKifLlaC5oHrC3C8_EGQ",
+  "channelTitle": "The Combrix",
+  "publishedAt": "2026-11-22T11:09:20Z",
+  "lang": "en",
+  "duration": 61
+ },
+ "YDfkuHnV_mM": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "migration"
+  ],
+  "title": "La lucha multicultural de Alemania",
+  "excluded": "language"
+ },
+ "j2Z_O4Of4Nw": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "media"
+  ],
+  "title": "SOCIAL MEDIA CONTROVERSY WHY.....?",
+  "excluded": "language"
+ },
+ "lPZjFMdVsXw": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "media"
+  ],
+  "title": "Social Media Campaigns & Mufti Tariq Masood Joke Controversy",
+  "excluded": "language"
+ },
+ "ix7G194JlPk": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "media"
+  ],
+  "title": "Do you know Oprah Winfrey..about Social media !!",
+  "channelId": "UC1LAbuyyipCFZaXSHE5joUg",
+  "channelTitle": "School Nation Official",
+  "publishedAt": "2026-11-20T17:32:35Z",
+  "lang": "en",
+  "duration": 4
+ },
+ "MHaPB7CAIxY": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "media"
+  ],
+  "title": "Eisha Singh का छलका दर्द, Social Media पर Cryptic Post कर दी खुली चुनौती?",
+  "excluded": "language"
+ },
+ "sMYgQ0kHI8I": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "family",
+   "media"
+  ],
+  "title": "STAGED — Meghan \"Quits\" Social Media, Then \"Hours Of Talks\" Produce The PERFECT Paparazzi Shots",
+  "channelId": "UCCsl5Ph5f3WVVKauDPfmI1A",
+  "channelTitle": "Crown Dossier",
+  "publishedAt": "2026-11-20T13:48:17Z",
+  "lang": "en",
+  "duration": 861
+ },
+ "HN-cJfNhMi4": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "media"
+  ],
+  "title": "The Growing Mess In Society",
+  "channelId": "UCpT_RsfFzQAhad2ZR2TZeyg",
+  "channelTitle": "5WH Media",
+  "publishedAt": "2026-11-17T13:00:55Z",
+  "lang": "en",
+  "duration": 99
+ },
+ "ahcgMJ7vdcs": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "media",
+   "work",
+   "youth"
+  ],
+  "title": "Viral Video: Congress Workers Stage Protest Over Suspended Social Media Accounts #shorts #viral",
+  "channelId": "UCYPvAwZP8pZhSMW8qs7cVCw",
+  "channelTitle": "India Today",
+  "publishedAt": "2026-11-21T04:00:21Z",
+  "lang": "en",
+  "duration": 15
+ },
+ "4HzeeQELqAs": {
+  "firstSeen": "2026-11-23",
+  "categories": [
+   "other"
+  ],
+  "title": "Entering Politics for a woman is very difficult!",
+  "channelId": "UCn7lUEF9AzgF_BJaRMsHRjQ",
+  "channelTitle": "Shubhra Ranjan IAS Study",
+  "publishedAt": "2026-11-21T13:30:17Z",
+  "lang": "en",
+  "duration": 69
  }
 }
